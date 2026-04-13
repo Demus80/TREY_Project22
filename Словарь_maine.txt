@@ -1,0 +1,2448 @@
+Name	Type	ADDR_MOD	Library	Length	Value	Attribute	FRD	Save	Access	MOD_BUS	EDU	Cold_start	Index	Ar_count	Ar_period	Ar_filter	Comment
+GVL_QUANTITY_DI_CH	I				64	Constant	0	FALSE	B	0		0	12				Количество дискр-ых каналов Dinput
+GVL_QUANTITY_DO_CH	I				64	Constant	0	FALSE	B	0		0	13				Количество дискр-ых каналов Doutput
+GVL_QUANTITY_AI_CH	I				96	Constant	0	FALSE	B	0		0	14				Количество аналоговых каналов Ainput
+GVL_Ai|ch_change	A	1..96	I			Internal		FALSE	RW								Редактируем на др. канал
+GVL_Ai|ch_change[1]	I				0	Internal	0	FALSE	RW	7000		0	15				
+GVL_Ai|ch_change[2]	I				0	Internal	0	FALSE	RW	7018		0	16				
+GVL_Ai|ch_change[3]	I				0	Internal	0	FALSE	RW	7036		0	17				
+GVL_Ai|ch_change[4]	I				0	Internal	0	FALSE	RW	7054		0	18				
+GVL_Ai|ch_change[5]	I				0	Internal	0	FALSE	RW	7072		0	19				
+GVL_Ai|ch_change[6]	I				0	Internal	0	FALSE	RW	7090		0	20				
+GVL_Ai|ch_change[7]	I				0	Internal	0	FALSE	RW	7108		0	21				
+GVL_Ai|ch_change[8]	I				0	Internal	0	FALSE	RW	7126		0	22				
+GVL_Ai|ch_change[9]	I				0	Internal	0	FALSE	RW	7144		0	23				
+GVL_Ai|ch_change[10]	I				0	Internal	0	FALSE	RW	7162		0	24				
+GVL_Ai|ch_change[11]	I				0	Internal	0	FALSE	RW	7180		0	25				
+GVL_Ai|ch_change[12]	I				0	Internal	0	FALSE	RW	7198		0	26				
+GVL_Ai|ch_change[13]	I				0	Internal	0	FALSE	RW	7216		0	27				
+GVL_Ai|ch_change[14]	I				0	Internal	0	FALSE	RW	7234		0	28				
+GVL_Ai|ch_change[15]	I				0	Internal	0	FALSE	RW	7252		0	29				
+GVL_Ai|ch_change[16]	I				0	Internal	0	FALSE	RW	7270		0	30				
+GVL_Ai|ch_change[17]	I				0	Internal	0	FALSE	RW	7288		0	31				
+GVL_Ai|ch_change[18]	I				0	Internal	0	FALSE	RW	7306		0	32				
+GVL_Ai|ch_change[19]	I				0	Internal	0	FALSE	RW	7324		0	33				
+GVL_Ai|ch_change[20]	I				0	Internal	0	FALSE	RW	7342		0	34				
+GVL_Ai|ch_change[21]	I				0	Internal	0	FALSE	RW	7360		0	35				
+GVL_Ai|ch_change[22]	I				0	Internal	0	FALSE	RW	7378		0	36				
+GVL_Ai|ch_change[23]	I				0	Internal	0	FALSE	RW	7396		0	37				
+GVL_Ai|ch_change[24]	I				0	Internal	0	FALSE	RW	7414		0	38				
+GVL_Ai|ch_change[25]	I				0	Internal	0	FALSE	RW	7432		0	39				
+GVL_Ai|ch_change[26]	I				0	Internal	0	FALSE	RW	7450		0	40				
+GVL_Ai|ch_change[27]	I				0	Internal	0	FALSE	RW	7468		0	41				
+GVL_Ai|ch_change[28]	I				0	Internal	0	FALSE	RW	7486		0	42				
+GVL_Ai|ch_change[29]	I				0	Internal	0	FALSE	RW	7504		0	43				
+GVL_Ai|ch_change[30]	I				0	Internal	0	FALSE	RW	7522		0	44				
+GVL_Ai|ch_change[31]	I				0	Internal	0	FALSE	RW	7540		0	45				
+GVL_Ai|ch_change[32]	I				0	Internal	0	FALSE	RW	7558		0	46				
+GVL_Ai|ch_change[33]	I				0	Internal	0	FALSE	RW	7576		0	47				
+GVL_Ai|ch_change[34]	I				0	Internal	0	FALSE	RW	7594		0	48				
+GVL_Ai|ch_change[35]	I				0	Internal	0	FALSE	RW	7612		0	49				
+GVL_Ai|ch_change[36]	I				0	Internal	0	FALSE	RW	7630		0	50				
+GVL_Ai|ch_change[37]	I				0	Internal	0	FALSE	RW	7648		0	51				
+GVL_Ai|ch_change[38]	I				0	Internal	0	FALSE	RW	7666		0	52				
+GVL_Ai|ch_change[39]	I				0	Internal	0	FALSE	RW	7684		0	53				
+GVL_Ai|ch_change[40]	I				0	Internal	0	FALSE	RW	7702		0	54				
+GVL_Ai|ch_change[41]	I				0	Internal	0	FALSE	RW	7720		0	55				
+GVL_Ai|ch_change[42]	I				0	Internal	0	FALSE	RW	7738		0	56				
+GVL_Ai|ch_change[43]	I				0	Internal	0	FALSE	RW	7756		0	57				
+GVL_Ai|ch_change[44]	I				0	Internal	0	FALSE	RW	7774		0	58				
+GVL_Ai|ch_change[45]	I				0	Internal	0	FALSE	RW	7792		0	59				
+GVL_Ai|ch_change[46]	I				0	Internal	0	FALSE	RW	7810		0	60				
+GVL_Ai|ch_change[47]	I				0	Internal	0	FALSE	RW	7828		0	61				
+GVL_Ai|ch_change[48]	I				0	Internal	0	FALSE	RW	7846		0	62				
+GVL_Ai|ch_change[49]	I				0	Internal	0	FALSE	RW	7864		0	63				
+GVL_Ai|ch_change[50]	I				0	Internal	0	FALSE	RW	7882		0	64				
+GVL_Ai|ch_change[51]	I				0	Internal	0	FALSE	RW	7900		0	65				
+GVL_Ai|ch_change[52]	I				0	Internal	0	FALSE	RW	7918		0	66				
+GVL_Ai|ch_change[53]	I				0	Internal	0	FALSE	RW	7936		0	67				
+GVL_Ai|ch_change[54]	I				0	Internal	0	FALSE	RW	7954		0	68				
+GVL_Ai|ch_change[55]	I				0	Internal	0	FALSE	RW	7972		0	69				
+GVL_Ai|ch_change[56]	I				0	Internal	0	FALSE	RW	7990		0	70				
+GVL_Ai|ch_change[57]	I				0	Internal	0	FALSE	RW	8008		0	71				
+GVL_Ai|ch_change[58]	I				0	Internal	0	FALSE	RW	8026		0	72				
+GVL_Ai|ch_change[59]	I				0	Internal	0	FALSE	RW	8044		0	73				
+GVL_Ai|ch_change[60]	I				0	Internal	0	FALSE	RW	8062		0	74				
+GVL_Ai|ch_change[61]	I				0	Internal	0	FALSE	RW	8080		0	75				
+GVL_Ai|ch_change[62]	I				0	Internal	0	FALSE	RW	8098		0	76				
+GVL_Ai|ch_change[63]	I				0	Internal	0	FALSE	RW	8116		0	77				
+GVL_Ai|ch_change[64]	I				0	Internal	0	FALSE	RW	8134		0	78				
+GVL_Ai|ch_change[65]	I				0	Internal	0	FALSE	RW	8152		0	79				
+GVL_Ai|ch_change[66]	I				0	Internal	0	FALSE	RW	8170		0	80				
+GVL_Ai|ch_change[67]	I				0	Internal	0	FALSE	RW	8188		0	81				
+GVL_Ai|ch_change[68]	I				0	Internal	0	FALSE	RW	8206		0	82				
+GVL_Ai|ch_change[69]	I				0	Internal	0	FALSE	RW	8224		0	83				
+GVL_Ai|ch_change[70]	I				0	Internal	0	FALSE	RW	8242		0	84				
+GVL_Ai|ch_change[71]	I				0	Internal	0	FALSE	RW	8260		0	85				
+GVL_Ai|ch_change[72]	I				0	Internal	0	FALSE	RW	8278		0	86				
+GVL_Ai|ch_change[73]	I				0	Internal	0	FALSE	RW	8296		0	87				
+GVL_Ai|ch_change[74]	I				0	Internal	0	FALSE	RW	8314		0	88				
+GVL_Ai|ch_change[75]	I				0	Internal	0	FALSE	RW	8332		0	89				
+GVL_Ai|ch_change[76]	I				0	Internal	0	FALSE	RW	8350		0	90				
+GVL_Ai|ch_change[77]	I				0	Internal	0	FALSE	RW	8368		0	91				
+GVL_Ai|ch_change[78]	I				0	Internal	0	FALSE	RW	8386		0	92				
+GVL_Ai|ch_change[79]	I				0	Internal	0	FALSE	RW	8404		0	93				
+GVL_Ai|ch_change[80]	I				0	Internal	0	FALSE	RW	8422		0	94				
+GVL_Ai|ch_change[81]	I				0	Internal	0	FALSE	RW	8440		0	95				
+GVL_Ai|ch_change[82]	I				0	Internal	0	FALSE	RW	8458		0	96				
+GVL_Ai|ch_change[83]	I				0	Internal	0	FALSE	RW	8476		0	97				
+GVL_Ai|ch_change[84]	I				0	Internal	0	FALSE	RW	8494		0	98				
+GVL_Ai|ch_change[85]	I				0	Internal	0	FALSE	RW	8512		0	99				
+GVL_Ai|ch_change[86]	I				0	Internal	0	FALSE	RW	8530		0	100				
+GVL_Ai|ch_change[87]	I				0	Internal	0	FALSE	RW	8548		0	101				
+GVL_Ai|ch_change[88]	I				0	Internal	0	FALSE	RW	8566		0	102				
+GVL_Ai|ch_change[89]	I				0	Internal	0	FALSE	RW	8584		0	103				
+GVL_Ai|ch_change[90]	I				0	Internal	0	FALSE	RW	8602		0	104				
+GVL_Ai|ch_change[91]	I				0	Internal	0	FALSE	RW	8620		0	105				
+GVL_Ai|ch_change[92]	I				0	Internal	0	FALSE	RW	8638		0	106				
+GVL_Ai|ch_change[93]	I				0	Internal	0	FALSE	RW	8656		0	107				
+GVL_Ai|ch_change[94]	I				0	Internal	0	FALSE	RW	8674		0	108				
+GVL_Ai|ch_change[95]	I				0	Internal	0	FALSE	RW	8692		0	109				
+GVL_Ai|ch_change[96]	I				0	Internal	0	FALSE	RW	8710		0	110				
+GVL|REG_1	I				0	Internal	0	FALSE	RW	1		0	111				REG_1. Идентификатор (ID_), который позволяет считать/записать данные с выбранного канала.
+GVL|REG_2	I				0	Internal	0	FALSE	RW	2		0	112				REG_2. Физический номер канала на ПЛК. Only Read
+GVL|REG_3	I				0	Internal	0	FALSE	RW	3		0	113				REG_3. Активация симуляции ( = 1 Симуляция вкл.).
+GVL|REG_4	I				0	Internal	0	FALSE	RW	4		0	114				REG_4. Уставка верхняя аварийная.
+GVL|REG_6	I				0	Internal	0	FALSE	RW	6		0	115				REG_6. Уставка верхняя предупредительная.
+GVL|REG_8	I				0	Internal	0	FALSE	RW	8		0	116				REG_8. Уставка нижняя предупредительная.
+GVL|REG_10	I				0	Internal	0	FALSE	RW	10		0	117				REG_10. Уставка нижняя аварийная.
+GVL|REG_12	I				0	Internal	0	FALSE	RW	12		0	118				REG_12. Значение, заданное при симуляции.
+GVL|REG_14	I				0	Internal	0	FALSE	RW	14		0	119				REG_14. Команды управления с ТМ.
+GVL|REG_15	I				0	Internal	0	FALSE	RW	15		0	120				REG_15. ПЧ1_ Состояние ПЧ общий (Битовое слово см. ниже продолжение)
+GVL|REG_16	I				0	Internal	0	FALSE	RW	16		0	121				REG_16. ПЧ1_Заданная частота (Только индикация)
+GVL|REG_18	I				0	Internal	0	FALSE	RW	18		0	122				REG_18. ПЧ1_Факт.Выходная частота
+GVL|REG_20	I				0	Internal	0	FALSE	RW	20		0	123				REG_20. ПЧ1_Выходной ток
+GVL|REG_22	I				0	Internal	0	FALSE	RW	22		0	124				REG_22. ПЧ1_Напряжение на шине DC
+GVL|REG_24	I				0	Internal	0	FALSE	RW	24		0	125				REG_24. ПЧ1_Выходное напряжение
+GVL|REG_26	I				0	Internal	0	FALSE	RW	26		0	126				REG_26. ПЧ1_температура igbt
+GVL|REG_28	I				0	Internal	0	FALSE	RW	28		0	127				REG_28. ПЧ1_температура радиатора
+GVL|REG_30	I				0	Internal	0	FALSE	RW	30		0	128				REG_30. ПЧ1_Управление частотой
+GVL|REG_32	I				0	Internal	0	FALSE	RW	32		0	129				REG_32. ПЧ2_ Состояние ПЧ2 общий (Битовое слово см. ниже продолжение)
+GVL|REG_33	I				0	Internal	0	FALSE	RW	33		0	130				REG_33. ПЧ2_Заданная частота (Только индикация)
+GVL|REG_35	I				0	Internal	0	FALSE	RW	35		0	131				REG_35. ПЧ2_Факт.Выходная частота
+GVL|REG_37	I				0	Internal	0	FALSE	RW	37		0	132				REG_37. ПЧ2_Выходной ток
+GVL|REG_39	I				0	Internal	0	FALSE	RW	39		0	133				REG_39. ПЧ2_Напряжение на шине DC
+GVL|REG_41	I				0	Internal	0	FALSE	RW	41		0	134				REG_41. ПЧ2_Выходное напряжение
+GVL|REG_43	I				0	Internal	0	FALSE	RW	43		0	135				REG_43. ПЧ2_температура igbt
+GVL|REG_45	I				0	Internal	0	FALSE	RW	45		0	136				REG_45. ПЧ2_температура радиатора
+GVL|REG_47	I				0	Internal	0	FALSE	RW	47		0	137				REG_47. ПЧ2_Управление частотой
+GVL|REG_66	I				0	Internal	0	FALSE	RW	66		0	138				REG_66. Управления блокировками насосов
+GVL|REG_72	I				0	Internal	0	FALSE	RW	72		0	139				REG_72. Моточасы, минуты от ввода в эксплуатацию H1
+GVL|REG_74	I				0	Internal	0	FALSE	RW	74		0	140				REG_74. Моточасы, минуты после последнего ремонта H1
+GVL|REG_76	I				0	Internal	0	FALSE	RW	76		0	141				REG_76. Моточасы, минуты после последнего пуска H1
+GVL|REG_78	I				0	Internal	0	FALSE	RW	78		0	142				REG_78. Моточасы, минуты от ввода в эксплуатацию H2
+GVL|REG_80	I				0	Internal	0	FALSE	RW	80		0	143				REG_80. Моточасы, минуты после последнего ремонта H2
+GVL|REG_82	I				0	Internal	0	FALSE	RW	82		0	144				REG_82. Моточасы, минуты после последнего пуска H2
+GVL|REG_90	I				0	Internal	0	FALSE	RW	90		0	145				REG_90. Задаём позицию для перехода задвижки 2112, %
+GVL|REG_91	I				0	Internal	0	FALSE	RW	91		0	146				REG_91. Задаём позицию для перехода задвижки 2122, %
+GVL|REG_163	I				0	Internal	0	FALSE	RW	163		0	147				REG_163. Регистры кода аварий(блокировок) насоса1 для тм
+GVL|REG_164	I				0	Internal	0	FALSE	RW	164		0	148				REG_164. Регистры кода аварий насоса2 для тм
+GVL|REG_166	I				0	Internal	0	FALSE	RW	166		0	149				REG_166. Регистр сост. техн. режим насосов для тм (ремонт/активен)
+GVL|REG_1001	I				0	Internal	0	FALSE	RW	1001		0	150				REG_1001. Значение на выходе (МПа, С и т.д.)
+GVL|REG_1099	I				0	Internal	0	FALSE	RW	1099		0	151				REG_1099. Значение тока, мА
+GVL|REG_1199	I				0	Internal	0	FALSE	RW	1199		0	152				REG_1199. Состояние (в норме, авария, преупр.)
+GVL|REG_1247	I				0	Internal	0	FALSE	RW	1247		0	153				REG_1247. Сигнал общ.,
+GVL|REG_1249	I				0	Internal	0	FALSE	RW	1249		0	154				REG_1249. Cигнал общ.,
+GVL|REG_1251	I				0	Internal	0	FALSE	RW	1251		0	155				REG_1251. Код аварии вентилятор 1
+GVL|REG_1252	I				0	Internal	0	FALSE	RW	1252		0	156				REG_1252. Код аварии вентилятор 2
+GVL|REG_1253	I				0	Internal	0	FALSE	RW	1253		0	157				REG_1253. Код аварии вентилятор 3
+GVL|REG_1254	I				0	Internal	0	FALSE	RW	1254		0	158				REG_1254. Код аварии вентилятор 4
+GVL|REG_1255	I				0	Internal	0	FALSE	RW	1255		0	159				REG_1255. Код аварии насосa 1
+GVL|REG_1256	I				0	Internal	0	FALSE	RW	1256		0	160				REG_1256. Код аварии насосa 2
+GVL|REG_1258	I				0	Internal	0	FALSE	RW	1258		0	161				REG_1258. Код аварии насоса Н-1/1
+GVL|REG_1259	I				0	Internal	0	FALSE	RW	1259		0	162				REG_1259. Код аварии насоса Н-1/2
+GVL|REG_1261	I				0	Internal	0	FALSE	RW	1261		0	163				REG_1261. Статус аварии задвижек 2112 и 2212
+GVL|REG_1262	I				0	Internal	0	FALSE	RW	1262		0	164				REG_1262. Слово сост. техн. режима насосов
+GVL|REG_1263	I				0	Internal	0	FALSE	RW	1263		0	165				REG_1263. Индикация задвижки 2112
+GVL|REG_1264	I				0	Internal	0	FALSE	RW	1264		0	166				REG_1264. Индикация задвижки 2212
+GVL|REG_1265	I				0	Internal	0	FALSE	RW	1265		0	167				REG_1265. Режим управление задвижкой 2112 через панель или АРМ
+GVL|REG_1266	I				0	Internal	0	FALSE	RW	1266		0	168				REG_1266. Режим управление задвижкой 2212 через панель или АРМ
+GVL|_Status_device	I				0	Internal	0	FALSE	RW	1267		0	169				REG_1267. Связь приборов и модулей ПЛК, общее слово.
+GVL|REG_1268	I				0	Internal	0	FALSE	RW	1268		0	170				REG_1268. Линия_1. ПИД. Коэффициент P_kp
+GVL|REG_1270	I				0	Internal	0	FALSE	RW	1270		0	171				REG_1270. Линия_1. ПИД. Коэффициент I_tn
+GVL|REG_1272	I				0	Internal	0	FALSE	RW	1272		0	172				REG_1272. Линия_1. ПИД. Коэффициент D_tv
+GVL|REG_1274	I				0	Internal	0	FALSE	RW	1274		0	173				REG_1274. Линия_2. ПИД. Коэффициент P_kp
+GVL|REG_1276	I				0	Internal	0	FALSE	RW	1276		0	174				REG_1276. Линия_2. ПИД. Коэффициент I_tn
+GVL|REG_1278	I				0	Internal	0	FALSE	RW	1278		0	175				REG_1278. Линия_2. ПИД. Коэффициент D_tv
+GVL|REG_5000	I				0	Internal	0	FALSE	RW	5000		0	176				REG_5000. Идентификатор сигнала общ., 5001, 5002-5003 резерв
+GVL|REG_5004	I				0	Internal	0	FALSE	RW	5004		0	177				REG_5004. Идентификатор инверсии общ., 5005, 5006-5007 резерв
+GVL|REG_5006	I				0	Internal	0	FALSE	RW	5006		0	178				REG_5006. Идентификатор инверсии общ., 5005, 5006-5007 резерв
+GVL|REG_5008	I				0	Internal	0	FALSE	RW	5008		0	179				REG_5008. Физический номер канала, 5040, 5041-5097 резерв
+GVL|REG_5098	I				0	Internal	0	FALSE	RW	5098		0	180				REG_5098. Связь с модулями Di общ., 5099
+GVL|REG_5100	I				0	Internal	0	FALSE	RW	5100		0	181				REG_5100. Сигнал общ., 5101, 5102-5103 резерв
+GVL|REG_5104	I				0	Internal	0	FALSE	RW	5104		0	182				REG_5104. Инверсия общ., 5105, 5106-5107 резерв
+GVL|REG_5106	I				0	Internal	0	FALSE	RW	5106		0	183				REG_5106. Инверсия общ., 5105, 5106-5107 резерв
+GVL|REG_5108	I				0	Internal	0	FALSE	RW	5108		0	184				REG_5108. Физический номер канала, 5140, 5141-5197 резерв
+GVL|REG_5198	I				0	Internal	0	FALSE	RW	5198		0	185				REG_5198. Связь с модулями Do общ., 5199
+GVL|REG_6020	I				0	Internal	0	FALSE	RW	6020		0	186				REG_6020. Управления блокировками насосов, 6020-6024
+GVL|REG_6028	I				0	Internal	0	FALSE	RW	6028		0	187				REG_6028. Код аварии вентилятора 1
+GVL|REG_6029	I				0	Internal	0	FALSE	RW	6029		0	188				REG_6029. Код аварии вентилятора 2
+GVL|REG_6030	I				0	Internal	0	FALSE	RW	6030		0	189				REG_6030. Код аварии вентилятора 3
+GVL|REG_6031	I				0	Internal	0	FALSE	RW	6031		0	190				REG_6031. Код аварии вентилятора 4
+GVL|REG_6056	I				0	Internal	0	FALSE	RW	6056		0	191				REG_6056. Команды управления с HMI
+GVL|REG_6070	I				0	Internal	0	FALSE	RW	6070		0	192				REG_6070. Управление насосом 1 местн/дист.
+GVL|REG_6071	I				0	Internal	0	FALSE	RW	6071		0	193				REG_6071. Управление насосом 2 местн/дист.
+GVL|REG_6072	I				0	Internal	0	FALSE	RW	6072		0	194				REG_6072. Управление насосом 3 местн/дист.
+GVL|REG_6075	I				0	Internal	0	FALSE	RW	6075		0	195				REG_6075. Режим насоса H1 (0 акт / 1 ремонт) для HMI
+GVL|REG_6076	I				0	Internal	0	FALSE	RW	6076		0	196				REG_6076. Режим насоса H2 (акт/ремонт) для HMI
+GVL|REG_6080	I				0	Internal	0	FALSE	RW	6080		0	197				REG_6080. Код аварии MOTOR насоса 1
+GVL|REG_6081	I				0	Internal	0	FALSE	RW	6081		0	198				REG_6081. Код аварии MOTOR насоса 2
+GVL|REG_6083	I				0	Internal	0	FALSE	RW	6083		0	201				REG_6083. Насос 1. Авария общая
+GVL|REG_6084	I				0	Internal	0	FALSE	RW	6084		0	213				REG_6084. Насос 2. Авария общая
+GVL|REG_6090	I				0	Internal	0	FALSE	RW	6090		0	214				REG_6090. Команды от ТМ, состояние, для журнала событий панели
+GVL|REG_6104	I				0	Internal	0	FALSE	RW	6104		0	215				REG_6104. Версия программы
+GVL|REG_6110	I				0	Internal	0	FALSE	RW	6110		0	216				REG_6110. Моточасы, секунды, для панели H1
+GVL|REG_6111	I				0	Internal	0	FALSE	RW	6111		0	217				REG_6111. Моточасы, секунды, для панели H1
+GVL|REG_6112	I				0	Internal	0	FALSE	RW	6112		0	218				REG_6112. Моточасы, секунды, для панели H1
+GVL|REG_6113	I				0	Internal	0	FALSE	RW	6113		0	219				REG_6113. Моточасы, секунды, для панели H2
+GVL|REG_6114	I				0	Internal	0	FALSE	RW	6114		0	220				REG_6114. Моточасы, секунды, для панели H2
+GVL|REG_6115	I				0	Internal	0	FALSE	RW	6115		0	221				REG_6115. Моточасы, секунды, для панели H2, резерв для Н-3
+GVL|REG_6119	I				0	Internal	0	FALSE	RW	6119		0	222				REG_6119. Моточасы, минуты от ввода в эксплуатацию
+GVL|REG_6121	I				0	Internal	0	FALSE	RW	6121		0	223				REG_6121. Моточасы, минуты после последнего ремонта
+GVL|REG_6123	I				0	Internal	0	FALSE	RW	6123		0	224				REG_6123. Моточасы, минуты после последнего пуска
+GVL|REG_6125	I				0	Internal	0	FALSE	RW	6125		0	225				REG_6125. Моточасы, минуты от ввода в эксплуатацию
+GVL|REG_6127	I				0	Internal	0	FALSE	RW	6127		0	226				REG_6127. Моточасы, минуты после последнего ремонта
+GVL|REG_6129	I				0	Internal	0	FALSE	RW	6129		0	227				REG_6129. Моточасы, минуты после последнего пуска, резерв для Н-3
+GVL|REG_6164	I				0	Internal	0	FALSE	RW	6164		0	228				REG_6164. Тип управления частотником 1 с панели
+GVL|REG_6165	I				0	Internal	0	FALSE	RW	6165		0	229				REG_6165. Тип управления частотником 2 с панели
+GVL|REG_6169	I				0	Internal	0	FALSE	RW	6169		0	230				REG_6169. Задаём задержку на вкл/откл. для H2
+GVL|REG_6190	I				0	Internal	0	FALSE	RW	6190		0	231				REG_6190. Связь с ПЧ1
+GVL|REG_6191	I				0	Internal	0	FALSE	RW	6191		0	232				REG_6191. ПЧ1_ Состояние ПЧ общий (Битовое слово см. ниже продолжение)
+GVL|REG_6192	I				0	Internal	0	FALSE	RW	6192		0	233				REG_6192. ПЧ1_Заданная частота (Только индикация)
+GVL|REG_6194	I				0	Internal	0	FALSE	RW	6194		0	234				REG_6194. ПЧ1_Факт.Выходная частота
+GVL|REG_6196	I				0	Internal	0	FALSE	RW	6196		0	235				REG_6196. ПЧ1_Выходной ток
+GVL|REG_6198	I				0	Internal	0	FALSE	RW	6198		0	236				REG_6198. ПЧ1_Напряжение на шине DC
+GVL|REG_6200	I				0	Internal	0	FALSE	RW	6200		0	237				REG_6200. ПЧ1_Выходное напряжение
+GVL|REG_6202	I				0	Internal	0	FALSE	RW	6202		0	238				REG_6202. ПЧ1_температура igbt
+GVL|REG_6204	I				0	Internal	0	FALSE	RW	6204		0	239				REG_6204. ПЧ1_температура радиатора
+GVL|REG_6206	I				0	Internal	0	FALSE	RW	6206		0	240				REG_6206. ПЧ1_Фактическая скорость двигателя
+GVL|REG_6208	I				0	Internal	0	FALSE	RW	6208		0	241				REG_6208. ПЧ1_Управление частотой
+GVL|REG_6210	I				0	Internal	0	FALSE	RW	6210		0	242				REG_6210. ПЧ1_Тип управления частотой (1 -цифровой, 2 - аналоговый)
+GVL|REG_6212	I				0	Internal	0	FALSE	RW	6212		0	243				REG_6212. ПЧ1_Резерв до 6217
+GVL|REG_6218	I				0	Internal	0	FALSE	RW	6218		0	244				REG_6218. Связь с ПЧ2
+GVL|REG_6219	I				0	Internal	0	FALSE	RW	6219		0	245				REG_6219. ПЧ2_ Состояние ПЧ общий (Битовое слово см. ниже продолжение)
+GVL|REG_6220	I				0	Internal	0	FALSE	RW	6220		0	246				REG_6220. ПЧ2_Заданная частота (Только индикация)
+GVL|REG_6222	I				0	Internal	0	FALSE	RW	6222		0	247				REG_6222. ПЧ2_Факт.Выходная частота
+GVL|REG_6224	I				0	Internal	0	FALSE	RW	6224		0	248				REG_6224. ПЧ2_Выходной ток
+GVL|REG_6226	I				0	Internal	0	FALSE	RW	6226		0	249				REG_6226. ПЧ2_Напряжение на шине DC
+GVL|REG_6228	I				0	Internal	0	FALSE	RW	6228		0	250				REG_6228. ПЧ2_Выходное напряжение
+GVL|REG_6230	I				0	Internal	0	FALSE	RW	6230		0	251				REG_6230. ПЧ2_температура igbt
+GVL|REG_6232	I				0	Internal	0	FALSE	RW	6232		0	252				REG_6232. ПЧ2_температура радиатора
+GVL|REG_6234	I				0	Internal	0	FALSE	RW	6234		0	253				REG_6234. ПЧ2_Фактическая скорость двигателя
+GVL|REG_6236	I				0	Internal	0	FALSE	RW	6236		0	254				REG_6236. ПЧ2_Управление частотой
+GVL|REG_6238	I				0	Internal	0	FALSE	RW	6238		0	255				REG_6238. ПЧ2_Тип управления частотой (1 -цифровой, 2 - аналоговый)
+GVL|REG_6240	I				0	Internal	0	FALSE	RW	6240		0	256				REG_6240. ПЧ2_Резерв до 6245
+GVL|REG_6246	I				0	Internal	0	FALSE	RW	6246		0	257				REG_6246. Задаём позицию для перехода задвижки 2112, %
+GVL|REG_6247	I				0	Internal	0	FALSE	RW	6247		0	258				REG_6247. Статус аварии задвижки 2112
+GVL|REG_6248	I				0	Internal	0	FALSE	RW	6248		0	259				REG_6248. Индикация задвижки (открывается, закрывается, авария, стоп, открыта, закрыта)
+GVL|REG_6249	I				0	Internal	0	FALSE	RW	6249		0	260				REG_6249. Задвижка 2112. Задаём задержку до выхода в аварию на откр./закр.
+GVL|REG_6250	I				0	Internal	0	FALSE	RW	6250		0	261				REG_6250. Задаём позицию для перехода задвижки 2122, %
+GVL|REG_6251	I				0	Internal	0	FALSE	RW	6251		0	262				REG_6251. Статус аварии задвижки 2122
+GVL|REG_6252	I				0	Internal	0	FALSE	RW	6252		0	263				REG_6252. Индикация задвижки (открывается, закрывается, авария, стоп, открыта, закрыта)
+GVL|REG_6253	I				0	Internal	0	FALSE	RW	6253		0	264				REG_6253. Задвижка 2122. Задаём задержку на откр./закр.
+GVL|REG_6254	I				0	Internal	0	FALSE	RW	6254		0	265				REG_6254. Разрешить управление задвижкой 2112 через панель HMI (1 - ручной режим)
+GVL|REG_6255	I				0	Internal	0	FALSE	RW	6255		0	266				REG_6255. Разрешить управление задвижкой 2122 через панель HMI (1 - ручной режим)
+GVL|REG_6261	I				0	Internal	0	FALSE	RW	6261		0	267				REG_6261. Линия_1. ПИД. Коэффициент P_kp .REAL
+GVL|REG_6263	I				0	Internal	0	FALSE	RW	6263		0	268				REG_6263. Линия_1. ПИД. Коэффициент I_tn .REAL
+GVL|REG_6265	I				0	Internal	0	FALSE	RW	6265		0	269				REG_6265. Линия_1. ПИД. Коэффициент D_tv .REAL
+GVL|REG_6267	I				0	Internal	0	FALSE	RW	6267		0	270				REG_6267. Линия_2. ПИД. Коэффициент P_kp .REAL
+GVL|REG_6269	I				0	Internal	0	FALSE	RW	6269		0	271				REG_6269. Линия_2. ПИД. Коэффициент I_tn .REAL
+GVL|REG_6271	I				0	Internal	0	FALSE	RW	6271		0	272				REG_6271. Линия_2. ПИД. Коэффициент D_tv .REAL
+GVL|REG_6274	I				0	Internal	0	FALSE	RW	6274		0	273				REG_6274. Газоанализатор1. Индикация порог 1
+GVL|REG_6275	I				0	Internal	0	FALSE	RW	6275		0	274				REG_6275. Газоанализатор1. Индикация порог 2
+GVL|REG_6285	I				0	Internal	0	FALSE	RW	6285		0	275				REG_6285. Газоанализатор2. Индикация порог 1
+GVL|REG_6286	I				0	Internal	0	FALSE	RW	6286		0	276				REG_6286. Газоанализатор2. Индикация порог 2
+GVL|REG_6306	I				0	Internal	0	FALSE	RW	6306		0	277				REG_6306. Fan1_Задаём задержку на вкл/откл.
+GVL|REG_6308	I				0	Internal	0	FALSE	RW	6308		0	278				REG_6308. Fan1_Время работы после снижения загазованности ниже порога 1
+GVL|REG_6311	I				0	Internal	0	FALSE	RW	6311		0	279				REG_6311. Fan2_Задаём задержку на вкл/откл.
+GVL|REG_6313	I				0	Internal	0	FALSE	RW	6313		0	280				REG_6313. Fan2_Время работы после снижения загазованности ниже порога 1
+GVL|REG_6316	I				0	Internal	0	FALSE	RW	6316		0	281				REG_6316. Fan3_Задаём задержку на вкл/откл.
+GVL|REG_6319	I				0	Internal	0	FALSE	RW	6319		0	282				REG_6319. Fan3_Температура включения вентилятора, °С.
+GVL|REG_6320	I				0	Internal	0	FALSE	RW	6320		0	283				REG_6320. Fan3_Температура отключения вентилятора, °С.
+GVL|REG_6321	I				0	Internal	0	FALSE	RW	6321		0	284				REG_6321. Fan4_Задаём задержку на вкл/откл.
+GVL|REG_6323	I				0	Internal	0	FALSE	RW	6323		0	285				REG_6323. Fan4_Температура включения вентилятора, °С.
+GVL|REG_6324	I				0	Internal	0	FALSE	RW	6324		0	286				REG_6324. Fan4_Температура отключения вентилятора, °С.
+GVL|REG_6350	I				0	Internal	0	FALSE	RW	6350		0	287				REG_6350. Значение на выходе (МПа, С и т.д.) 6350-6444
+GVL|REG_6500	I				0	Internal	0	FALSE	RW	6500		0	288				REG_6500. Значение тока, мА 6500-6594
+GVL|REG_6600	I				0	Internal	0	FALSE	RW	6600		0	289				REG_6600. Состояние (в норме, авария, преупр.) 6600-6647
+GVL|REG_6695	I				0	Internal	0	FALSE	RW	6695		0	290				REG_6695. Флаг аварии Ai(<3.6 > 21.0) канала для HMi 6695-6697
+GVL_DI|_P1_BodyFill_Sect1	B				FALSE	Internal	0	FALSE	RW	0		0	1				Блок насосной (блок Н-1) Сигнализатор заполнения корпуса насоса Н-1 (секция 1)
+GVL_DI|_P1_BodyFill_Sect2	B				FALSE	Internal	0	FALSE	RW	0		0	2				Блок насосной (блок Н-1) Сигнализатор заполнения корпуса насоса Н-1 (секция 2)
+GVL_DI|_DRY_RUNNING_ALARM_P1	B				FALSE	Internal	0	FALSE	RW	0		0	3				Блок насосной (блок Н-1) Сигнализатор контроля сухого хода насоса Н-1
+GVL_DI|_PUMP1_LOCAL_BUTTON_START	B				FALSE	Internal	0	FALSE	RW	0		0	4				Блок насосной (блок Н-1) Пост местного управления Пуск — Но безфикс.
+GVL_DI|_PUMP1_LOCAL_BUTTON_STOP	B				FALSE	Internal	0	FALSE	RW	0		0	5				Блок насосной (блок Н-1) Пост местного управления Стоп — Но безфикс.
+GVL_DI|_P2_BodyFill_Sect1	B				FALSE	Internal	0	FALSE	RW	0		0	6				Резерв Блок насосной (блок Н-2) Сигнализатор заполнения корпуса насоса Н-2 (секция 1)
+GVL_DI|_P2_BodyFill_Sect2	B				FALSE	Internal	0	FALSE	RW	0		0	7				Блок насосной (блок Н-2) Сигнализатор заполнения корпуса насоса Н-2 (секция 2)
+GVL_DI|_DRY_RUNNING_ALARM_P2	B				FALSE	Internal	0	FALSE	RW	0		0	8				Блок насосной (блок Н-2) Сигнализатор контроля сухого хода насоса Н-2
+GVL_DI|_PUMP2_LOCAL_BUTTON_START	B				FALSE	Internal	0	FALSE	RW	0		0	9				Блок насосной (блок Н-2) Посточного управления Пуск — НОбезфикс.
+GVL_DI|_PUMP2_LOCAL_BUTTON_STOP	B				FALSE	Internal	0	FALSE	RW	0		0	10				Блок насосной (блок Н-2) Посточного управления Стоп — НЗбезфикс.
+GVL_DI|_Tank100E_Level_UpperAlarm	B				FALSE	Internal	0	FALSE	RW	0		0	11				Емкость 100Е-3. Сигнализатор уровня в емкости (верхний аварийный)
+GVL_DI|_PUMP1_ON_WORKING	B				FALSE	Internal	0	FALSE	RW	0		0	12				Насос Н-1 — Работа
+GVL_DI|_SHUN1_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	13				Насос Н-1 — Неисправность
+GVL_DI|_PUMP2_ON_WORKING	B				FALSE	Internal	0	FALSE	RW	0		0	14				Насос Н-2 — Работа
+GVL_DI|_SHUN2_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	15				Насос Н-2 — Неисправность
+GVL_DI|_POWER_IN1_NORME	B				FALSE	Internal	0	FALSE	RW	0		0	16				ВРУ. Ввод 1 включен
+GVL_DI|_POWER_IN2_NORME	B				FALSE	Internal	0	FALSE	RW	0		0	17				ВРУ. Ввод 2 включен
+GVL_DI|_SECTION_SWITCH_ON	B				FALSE	Internal	0	FALSE	RW	0		0	18				ВРУ. Межсекционный ввод включен
+GVL_DI2|_VALVE_XV_101_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	19				ЭлектроприводXV-101 Открыт
+GVL_DI2|_VALVE_XV_101_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	20				ЭлектроприводXV-101 Закрыт
+GVL_DI2|_VALVE_XV_101_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	21				ЭлектроприводXV-101 Неисправность
+GVL_DI2|_VALVE_XV_102_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	22				ЭлектроприводXV-102 Открыт
+GVL_DI2|_VALVE_XV_102_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	23				ЭлектроприводXV-102 Закрыт
+GVL_DI2|_VALVE_XV_102_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	24				ЭлектроприводXV-102 Неисправность
+GVL_DI2|_VALVE_XV_103_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	25				ЭлектроприводXV-103 Открыт
+GVL_DI2|_VALVE_XV_103_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	26				ЭлектроприводXV-103 Закрыт
+GVL_DI2|_VALVE_XV_103_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	27				ЭлектроприводXV-103 Неисправность
+GVL_DI2|_VALVE_XV_104_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	28				ЭлектроприводXV-104 Открыт
+GVL_DI2|_VALVE_XV_104_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	29				ЭлектроприводXV-104 Закрыт
+GVL_DI2|_VALVE_XV_104_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	30				ЭлектроприводXV-104 Неисправность
+GVL_DI2|_VALVE_XV_106_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	31				ЭлектроприводXV-106 Открыт
+GVL_DI2|_VALVE_XV_106_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	32				ЭлектроприводXV-106 Закрыт
+GVL_DI2|_VALVE_XV_106_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	33				ЭлектроприводXV-106 Неисправность
+GVL_DI2|_VALVE_XV_107_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	34				ЭлектроприводXV-107 Открыт
+GVL_DI2|_VALVE_XV_107_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	35				ЭлектроприводXV-107 Закрыт
+GVL_DI2|_VALVE_XV_107_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	36				ЭлектроприводXV-107 Неисправность
+GVL_DI2|_VALVE_XV_108_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	37				ЭлектроприводXV-108 Открыт
+GVL_DI2|_VALVE_XV_108_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	38				ЭлектроприводXV-108 Закрыт
+GVL_DI2|_VALVE_XV_108_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	39				ЭлектроприводXV-108 Неисправность
+GVL_DI2|_VALVE_XV_109_OPENED	B				FALSE	Internal	0	FALSE	RW	0		0	40				ЭлектроприводXV-109 Открыт
+GVL_DI2|_VALVE_XV_109_CLOSED	B				FALSE	Internal	0	FALSE	RW	0		0	41				ЭлектроприводXV-109 Закрыт
+GVL_DI2|_VALVE_XV_109_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	42				ЭлектроприводXV-109 Неисправность
+GVL_DI2|_VALVE_PCV101_READY	B				FALSE	Internal	0	FALSE	RW	0		0	43				ЭлектроприводPCV101 Готовность
+GVL_DI2|_VALVE_PCV101_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	44				ЭлектроприводPCV101 Неисправность
+GVL_DI2|_VALVE_PCV102_READY	B				FALSE	Internal	0	FALSE	RW	0		0	45				ЭлектроприводPCV102 Готовность
+GVL_DI2|_VALVE_PCV102_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	46				ЭлектроприводPCV102 Неисправность
+GVL_DI2|_VALVE_PCV103_READY	B				FALSE	Internal	0	FALSE	RW	0		0	47				ЭлектроприводPCV103 Готовность
+GVL_DI2|_VALVE_PCV103_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	48				ЭлектроприводPCV103 Неисправность
+GVL_DI2|_FIRE_FAULT	B				FALSE	Internal	0	FALSE	RW	0		0	49				"Сигнал с АСПС, КЗиПТ ""Пожар"", ""Неисправность"""
+GVL_DO|_INDICATION_PUMP2	B				FALSE	Internal	0	FALSE	RW	0		0	50				"Блок насосной Пост местного управления Лампа- ""Н-1 работа""."
+GVL_DO|_INDICATION_PUMP1	B				FALSE	Internal	0	FALSE	RW	0		0	51				"Блок насосной Пост местного управления Лампа- ""Н-1 работа""."
+GVL_DO|_PUMP1_ON	B				FALSE	Internal	0	FALSE	RW	0		0	52				ШУН-1 НасосН-1 - включить (фикс положение) 17
+GVL_DO|_PUMP2_ON	B				FALSE	Internal	0	FALSE	RW	0		0	53				ШУН-2 НасосН-2 - включить (фикс положение) 19
+GVL_DO|_VALVE_XV_101_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	54				Электропривод XV-101 Открыть
+GVL_DO|_VALVE_XV_101_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	55				Электропривод XV-101 Закрыть
+GVL_DO|_VALVE_XV_102_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	56				Электропривод XV-102 Открыть
+GVL_DO|_VALVE_XV_102_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	57				Электропривод XV-102 Закрыть
+GVL_DO|_VALVE_XV_103_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	58				Электропривод XV-103 Открыть
+GVL_DO|_VALVE_XV_103_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	59				Электропривод XV-103 Закрыть
+GVL_DO|_VALVE_XV_104_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	60				Электропривод XV-104 Открыть
+GVL_DO|_VALVE_XV_104_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	61				Электропривод XV-104 Закрыть
+GVL_DO|_VALVE_XV_106_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	62				Электропривод XV-106 Открыть
+GVL_DO|_VALVE_XV_106_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	63				Электропривод XV-106 Закрыть
+GVL_DO|_VALVE_XV_107_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	64				Электропривод XV-107 Открыть
+GVL_DO|_VALVE_XV_107_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	65				Электропривод XV-107 Закрыть
+GVL_DO|_VALVE_XV_108_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	66				Электропривод XV-108 Открыть
+GVL_DO|_VALVE_XV_108_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	67				Электропривод XV-108 Закрыть
+GVL_DO|_VALVE_XV_109_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	68				Электропривод XV-109 Открыть
+GVL_DO|_VALVE_XV_109_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	69				Электропривод XV-109 Закрыть
+GVL_DO2|_VALVE_XV_101_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	70				Электропривод XV-101 Открыть
+GVL_DO2|_VALVE_XV_101_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	71				Электропривод XV-101 Закрыть
+GVL_DO2|_VALVE_XV_102_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	72				Электропривод XV-102 Открыть
+GVL_DO2|_VALVE_XV_102_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	73				Электропривод XV-102 Закрыть
+GVL_DO2|_VALVE_XV_103_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	74				Электропривод XV-103 Открыть
+GVL_DO2|_VALVE_XV_103_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	75				Электропривод XV-103 Закрыть
+GVL_DO2|_VALVE_XV_104_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	76				Электропривод XV-104 Открыть
+GVL_DO2|_VALVE_XV_104_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	77				Электропривод XV-104 Закрыть
+GVL_DO2|_VALVE_XV_106_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	78				Электропривод XV-106 Открыть
+GVL_DO2|_VALVE_XV_106_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	79				Электропривод XV-106 Закрыть
+GVL_DO2|_VALVE_XV_107_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	80				Электропривод XV-107 Открыть
+GVL_DO2|_VALVE_XV_107_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	81				Электропривод XV-107 Закрыть
+GVL_DO2|_VALVE_XV_108_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	82				Электропривод XV-108 Открыть
+GVL_DO2|_VALVE_XV_108_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	83				Электропривод XV-108 Закрыть
+GVL_DO2|_VALVE_XV_109_OPEN	B				FALSE	Internal	0	FALSE	RW	0		0	84				Электропривод XV-109 Открыть
+GVL_DO2|_VALVE_XV_109_CLOSE	B				FALSE	Internal	0	FALSE	RW	0		0	85				Электропривод XV-109 Закрыть
+GVL_Ai|masking	A	1..96	I			Internal		FALSE	RW								Активация симуляции ( = 1  Симуляция вкл.).
+GVL_Ai|masking[1]	I				0	Internal	0	FALSE	RW	7001		0	302				
+GVL_Ai|masking[2]	I				0	Internal	0	FALSE	RW	7019		0	303				
+GVL_Ai|masking[3]	I				0	Internal	0	FALSE	RW	7037		0	304				
+GVL_Ai|masking[4]	I				0	Internal	0	FALSE	RW	7055		0	305				
+GVL_Ai|masking[5]	I				0	Internal	0	FALSE	RW	7073		0	306				
+GVL_Ai|masking[6]	I				0	Internal	0	FALSE	RW	7091		0	307				
+GVL_Ai|masking[7]	I				0	Internal	0	FALSE	RW	7109		0	308				
+GVL_Ai|masking[8]	I				0	Internal	0	FALSE	RW	7127		0	309				
+GVL_Ai|masking[9]	I				0	Internal	0	FALSE	RW	7145		0	310				
+GVL_Ai|masking[10]	I				0	Internal	0	FALSE	RW	7163		0	311				
+GVL_Ai|masking[11]	I				0	Internal	0	FALSE	RW	7181		0	312				
+GVL_Ai|masking[12]	I				0	Internal	0	FALSE	RW	7199		0	313				
+GVL_Ai|masking[13]	I				0	Internal	0	FALSE	RW	7217		0	314				
+GVL_Ai|masking[14]	I				0	Internal	0	FALSE	RW	7235		0	315				
+GVL_Ai|masking[15]	I				0	Internal	0	FALSE	RW	7253		0	316				
+GVL_Ai|masking[16]	I				0	Internal	0	FALSE	RW	7271		0	317				
+GVL_Ai|masking[17]	I				0	Internal	0	FALSE	RW	7289		0	318				
+GVL_Ai|masking[18]	I				0	Internal	0	FALSE	RW	7307		0	319				
+GVL_Ai|masking[19]	I				0	Internal	0	FALSE	RW	7325		0	320				
+GVL_Ai|masking[20]	I				0	Internal	0	FALSE	RW	7343		0	321				
+GVL_Ai|masking[21]	I				0	Internal	0	FALSE	RW	7361		0	322				
+GVL_Ai|masking[22]	I				0	Internal	0	FALSE	RW	7379		0	323				
+GVL_Ai|masking[23]	I				0	Internal	0	FALSE	RW	7397		0	324				
+GVL_Ai|masking[24]	I				0	Internal	0	FALSE	RW	7415		0	325				
+GVL_Ai|masking[25]	I				0	Internal	0	FALSE	RW	7433		0	326				
+GVL_Ai|masking[26]	I				0	Internal	0	FALSE	RW	7451		0	327				
+GVL_Ai|masking[27]	I				0	Internal	0	FALSE	RW	7469		0	328				
+GVL_Ai|masking[28]	I				0	Internal	0	FALSE	RW	7487		0	329				
+GVL_Ai|masking[29]	I				0	Internal	0	FALSE	RW	7505		0	330				
+GVL_Ai|masking[30]	I				0	Internal	0	FALSE	RW	7523		0	331				
+GVL_Ai|masking[31]	I				0	Internal	0	FALSE	RW	7541		0	332				
+GVL_Ai|masking[32]	I				0	Internal	0	FALSE	RW	7559		0	333				
+GVL_Ai|masking[33]	I				0	Internal	0	FALSE	RW	7577		0	334				
+GVL_Ai|masking[34]	I				0	Internal	0	FALSE	RW	7595		0	335				
+GVL_Ai|masking[35]	I				0	Internal	0	FALSE	RW	7613		0	336				
+GVL_Ai|masking[36]	I				0	Internal	0	FALSE	RW	7631		0	337				
+GVL_Ai|masking[37]	I				0	Internal	0	FALSE	RW	7649		0	338				
+GVL_Ai|masking[38]	I				0	Internal	0	FALSE	RW	7667		0	339				
+GVL_Ai|masking[39]	I				0	Internal	0	FALSE	RW	7685		0	340				
+GVL_Ai|masking[40]	I				0	Internal	0	FALSE	RW	7703		0	341				
+GVL_Ai|masking[41]	I				0	Internal	0	FALSE	RW	7721		0	342				
+GVL_Ai|masking[42]	I				0	Internal	0	FALSE	RW	7739		0	343				
+GVL_Ai|masking[43]	I				0	Internal	0	FALSE	RW	7757		0	344				
+GVL_Ai|masking[44]	I				0	Internal	0	FALSE	RW	7775		0	345				
+GVL_Ai|masking[45]	I				0	Internal	0	FALSE	RW	7793		0	346				
+GVL_Ai|masking[46]	I				0	Internal	0	FALSE	RW	7811		0	347				
+GVL_Ai|masking[47]	I				0	Internal	0	FALSE	RW	7829		0	348				
+GVL_Ai|masking[48]	I				0	Internal	0	FALSE	RW	7847		0	349				
+GVL_Ai|masking[49]	I				0	Internal	0	FALSE	RW	7865		0	350				
+GVL_Ai|masking[50]	I				0	Internal	0	FALSE	RW	7883		0	351				
+GVL_Ai|masking[51]	I				0	Internal	0	FALSE	RW	7901		0	352				
+GVL_Ai|masking[52]	I				0	Internal	0	FALSE	RW	7919		0	353				
+GVL_Ai|masking[53]	I				0	Internal	0	FALSE	RW	7937		0	354				
+GVL_Ai|masking[54]	I				0	Internal	0	FALSE	RW	7955		0	355				
+GVL_Ai|masking[55]	I				0	Internal	0	FALSE	RW	7973		0	356				
+GVL_Ai|masking[56]	I				0	Internal	0	FALSE	RW	7991		0	357				
+GVL_Ai|masking[57]	I				0	Internal	0	FALSE	RW	8009		0	358				
+GVL_Ai|masking[58]	I				0	Internal	0	FALSE	RW	8027		0	359				
+GVL_Ai|masking[59]	I				0	Internal	0	FALSE	RW	8045		0	360				
+GVL_Ai|masking[60]	I				0	Internal	0	FALSE	RW	8063		0	361				
+GVL_Ai|masking[61]	I				0	Internal	0	FALSE	RW	8081		0	362				
+GVL_Ai|masking[62]	I				0	Internal	0	FALSE	RW	8099		0	363				
+GVL_Ai|masking[63]	I				0	Internal	0	FALSE	RW	8117		0	364				
+GVL_Ai|masking[64]	I				0	Internal	0	FALSE	RW	8135		0	365				
+GVL_Ai|masking[65]	I				0	Internal	0	FALSE	RW	8153		0	366				
+GVL_Ai|masking[66]	I				0	Internal	0	FALSE	RW	8171		0	367				
+GVL_Ai|masking[67]	I				0	Internal	0	FALSE	RW	8189		0	368				
+GVL_Ai|masking[68]	I				0	Internal	0	FALSE	RW	8207		0	369				
+GVL_Ai|masking[69]	I				0	Internal	0	FALSE	RW	8225		0	370				
+GVL_Ai|masking[70]	I				0	Internal	0	FALSE	RW	8243		0	371				
+GVL_Ai|masking[71]	I				0	Internal	0	FALSE	RW	8261		0	372				
+GVL_Ai|masking[72]	I				0	Internal	0	FALSE	RW	8279		0	373				
+GVL_Ai|masking[73]	I				0	Internal	0	FALSE	RW	8297		0	374				
+GVL_Ai|masking[74]	I				0	Internal	0	FALSE	RW	8315		0	375				
+GVL_Ai|masking[75]	I				0	Internal	0	FALSE	RW	8333		0	376				
+GVL_Ai|masking[76]	I				0	Internal	0	FALSE	RW	8351		0	377				
+GVL_Ai|masking[77]	I				0	Internal	0	FALSE	RW	8369		0	378				
+GVL_Ai|masking[78]	I				0	Internal	0	FALSE	RW	8387		0	379				
+GVL_Ai|masking[79]	I				0	Internal	0	FALSE	RW	8405		0	380				
+GVL_Ai|masking[80]	I				0	Internal	0	FALSE	RW	8423		0	381				
+GVL_Ai|masking[81]	I				0	Internal	0	FALSE	RW	8441		0	382				
+GVL_Ai|masking[82]	I				0	Internal	0	FALSE	RW	8459		0	383				
+GVL_Ai|masking[83]	I				0	Internal	0	FALSE	RW	8477		0	384				
+GVL_Ai|masking[84]	I				0	Internal	0	FALSE	RW	8495		0	385				
+GVL_Ai|masking[85]	I				0	Internal	0	FALSE	RW	8513		0	386				
+GVL_Ai|masking[86]	I				0	Internal	0	FALSE	RW	8531		0	387				
+GVL_Ai|masking[87]	I				0	Internal	0	FALSE	RW	8549		0	388				
+GVL_Ai|masking[88]	I				0	Internal	0	FALSE	RW	8567		0	389				
+GVL_Ai|masking[89]	I				0	Internal	0	FALSE	RW	8585		0	390				
+GVL_Ai|masking[90]	I				0	Internal	0	FALSE	RW	8603		0	391				
+GVL_Ai|masking[91]	I				0	Internal	0	FALSE	RW	8621		0	392				
+GVL_Ai|masking[92]	I				0	Internal	0	FALSE	RW	8639		0	393				
+GVL_Ai|masking[93]	I				0	Internal	0	FALSE	RW	8657		0	394				
+GVL_Ai|masking[94]	I				0	Internal	0	FALSE	RW	8675		0	395				
+GVL_Ai|masking[95]	I				0	Internal	0	FALSE	RW	8693		0	396				
+GVL_Ai|masking[96]	I				0	Internal	0	FALSE	RW	8711		0	397				
+GVL_Ai|HEm	A	1..96	R			Internal		FALSE	RW								уставка верхнего изм. прибора
+GVL_Ai|HEm[1]	R				0.000000	Internal	0	FALSE	RW	7002		0	398				
+GVL_Ai|HEm[2]	R				0.000000	Internal	0	FALSE	RW	7020		0	399				
+GVL_Ai|HEm[3]	R				0.000000	Internal	0	FALSE	RW	7038		0	400				
+GVL_Ai|HEm[4]	R				0.000000	Internal	0	FALSE	RW	7056		0	401				
+GVL_Ai|HEm[5]	R				0.000000	Internal	0	FALSE	RW	7074		0	402				
+GVL_Ai|HEm[6]	R				0.000000	Internal	0	FALSE	RW	7092		0	403				
+GVL_Ai|HEm[7]	R				0.000000	Internal	0	FALSE	RW	7110		0	404				
+GVL_Ai|HEm[8]	R				0.000000	Internal	0	FALSE	RW	7128		0	405				
+GVL_Ai|HEm[9]	R				0.000000	Internal	0	FALSE	RW	7146		0	406				
+GVL_Ai|HEm[10]	R				0.000000	Internal	0	FALSE	RW	7164		0	407				
+GVL_Ai|HEm[11]	R				0.000000	Internal	0	FALSE	RW	7182		0	408				
+GVL_Ai|HEm[12]	R				0.000000	Internal	0	FALSE	RW	7200		0	409				
+GVL_Ai|HEm[13]	R				0.000000	Internal	0	FALSE	RW	7218		0	410				
+GVL_Ai|HEm[14]	R				0.000000	Internal	0	FALSE	RW	7236		0	411				
+GVL_Ai|HEm[15]	R				0.000000	Internal	0	FALSE	RW	7254		0	412				
+GVL_Ai|HEm[16]	R				0.000000	Internal	0	FALSE	RW	7272		0	413				
+GVL_Ai|HEm[17]	R				0.000000	Internal	0	FALSE	RW	7290		0	414				
+GVL_Ai|HEm[18]	R				0.000000	Internal	0	FALSE	RW	7308		0	415				
+GVL_Ai|HEm[19]	R				0.000000	Internal	0	FALSE	RW	7326		0	416				
+GVL_Ai|HEm[20]	R				0.000000	Internal	0	FALSE	RW	7344		0	417				
+GVL_Ai|HEm[21]	R				0.000000	Internal	0	FALSE	RW	7362		0	418				
+GVL_Ai|HEm[22]	R				0.000000	Internal	0	FALSE	RW	7380		0	419				
+GVL_Ai|HEm[23]	R				0.000000	Internal	0	FALSE	RW	7398		0	420				
+GVL_Ai|HEm[24]	R				0.000000	Internal	0	FALSE	RW	7416		0	421				
+GVL_Ai|HEm[25]	R				0.000000	Internal	0	FALSE	RW	7434		0	422				
+GVL_Ai|HEm[26]	R				0.000000	Internal	0	FALSE	RW	7452		0	423				
+GVL_Ai|HEm[27]	R				0.000000	Internal	0	FALSE	RW	7470		0	424				
+GVL_Ai|HEm[28]	R				0.000000	Internal	0	FALSE	RW	7488		0	425				
+GVL_Ai|HEm[29]	R				0.000000	Internal	0	FALSE	RW	7506		0	426				
+GVL_Ai|HEm[30]	R				0.000000	Internal	0	FALSE	RW	7524		0	427				
+GVL_Ai|HEm[31]	R				0.000000	Internal	0	FALSE	RW	7542		0	428				
+GVL_Ai|HEm[32]	R				0.000000	Internal	0	FALSE	RW	7560		0	429				
+GVL_Ai|HEm[33]	R				0.000000	Internal	0	FALSE	RW	7578		0	430				
+GVL_Ai|HEm[34]	R				0.000000	Internal	0	FALSE	RW	7596		0	431				
+GVL_Ai|HEm[35]	R				0.000000	Internal	0	FALSE	RW	7614		0	432				
+GVL_Ai|HEm[36]	R				0.000000	Internal	0	FALSE	RW	7632		0	433				
+GVL_Ai|HEm[37]	R				0.000000	Internal	0	FALSE	RW	7650		0	434				
+GVL_Ai|HEm[38]	R				0.000000	Internal	0	FALSE	RW	7668		0	435				
+GVL_Ai|HEm[39]	R				0.000000	Internal	0	FALSE	RW	7686		0	436				
+GVL_Ai|HEm[40]	R				0.000000	Internal	0	FALSE	RW	7704		0	437				
+GVL_Ai|HEm[41]	R				0.000000	Internal	0	FALSE	RW	7722		0	438				
+GVL_Ai|HEm[42]	R				0.000000	Internal	0	FALSE	RW	7740		0	439				
+GVL_Ai|HEm[43]	R				0.000000	Internal	0	FALSE	RW	7758		0	440				
+GVL_Ai|HEm[44]	R				0.000000	Internal	0	FALSE	RW	7776		0	441				
+GVL_Ai|HEm[45]	R				0.000000	Internal	0	FALSE	RW	7794		0	442				
+GVL_Ai|HEm[46]	R				0.000000	Internal	0	FALSE	RW	7812		0	443				
+GVL_Ai|HEm[47]	R				0.000000	Internal	0	FALSE	RW	7830		0	444				
+GVL_Ai|HEm[48]	R				0.000000	Internal	0	FALSE	RW	7848		0	445				
+GVL_Ai|HEm[49]	R				0.000000	Internal	0	FALSE	RW	7866		0	446				
+GVL_Ai|HEm[50]	R				0.000000	Internal	0	FALSE	RW	7884		0	447				
+GVL_Ai|HEm[51]	R				0.000000	Internal	0	FALSE	RW	7902		0	448				
+GVL_Ai|HEm[52]	R				0.000000	Internal	0	FALSE	RW	7920		0	449				
+GVL_Ai|HEm[53]	R				0.000000	Internal	0	FALSE	RW	7938		0	450				
+GVL_Ai|HEm[54]	R				0.000000	Internal	0	FALSE	RW	7956		0	451				
+GVL_Ai|HEm[55]	R				0.000000	Internal	0	FALSE	RW	7974		0	452				
+GVL_Ai|HEm[56]	R				0.000000	Internal	0	FALSE	RW	7992		0	453				
+GVL_Ai|HEm[57]	R				0.000000	Internal	0	FALSE	RW	8010		0	454				
+GVL_Ai|HEm[58]	R				0.000000	Internal	0	FALSE	RW	8028		0	455				
+GVL_Ai|HEm[59]	R				0.000000	Internal	0	FALSE	RW	8046		0	456				
+GVL_Ai|HEm[60]	R				0.000000	Internal	0	FALSE	RW	8064		0	457				
+GVL_Ai|HEm[61]	R				0.000000	Internal	0	FALSE	RW	8082		0	458				
+GVL_Ai|HEm[62]	R				0.000000	Internal	0	FALSE	RW	8100		0	459				
+GVL_Ai|HEm[63]	R				0.000000	Internal	0	FALSE	RW	8118		0	460				
+GVL_Ai|HEm[64]	R				0.000000	Internal	0	FALSE	RW	8136		0	461				
+GVL_Ai|HEm[65]	R				0.000000	Internal	0	FALSE	RW	8154		0	462				
+GVL_Ai|HEm[66]	R				0.000000	Internal	0	FALSE	RW	8172		0	463				
+GVL_Ai|HEm[67]	R				0.000000	Internal	0	FALSE	RW	8190		0	464				
+GVL_Ai|HEm[68]	R				0.000000	Internal	0	FALSE	RW	8208		0	465				
+GVL_Ai|HEm[69]	R				0.000000	Internal	0	FALSE	RW	8226		0	466				
+GVL_Ai|HEm[70]	R				0.000000	Internal	0	FALSE	RW	8244		0	467				
+GVL_Ai|HEm[71]	R				0.000000	Internal	0	FALSE	RW	8262		0	468				
+GVL_Ai|HEm[72]	R				0.000000	Internal	0	FALSE	RW	8280		0	469				
+GVL_Ai|HEm[73]	R				0.000000	Internal	0	FALSE	RW	8298		0	470				
+GVL_Ai|HEm[74]	R				0.000000	Internal	0	FALSE	RW	8316		0	471				
+GVL_Ai|HEm[75]	R				0.000000	Internal	0	FALSE	RW	8334		0	472				
+GVL_Ai|HEm[76]	R				0.000000	Internal	0	FALSE	RW	8352		0	473				
+GVL_Ai|HEm[77]	R				0.000000	Internal	0	FALSE	RW	8370		0	474				
+GVL_Ai|HEm[78]	R				0.000000	Internal	0	FALSE	RW	8388		0	475				
+GVL_Ai|HEm[79]	R				0.000000	Internal	0	FALSE	RW	8406		0	476				
+GVL_Ai|HEm[80]	R				0.000000	Internal	0	FALSE	RW	8424		0	477				
+GVL_Ai|HEm[81]	R				0.000000	Internal	0	FALSE	RW	8442		0	478				
+GVL_Ai|HEm[82]	R				0.000000	Internal	0	FALSE	RW	8460		0	479				
+GVL_Ai|HEm[83]	R				0.000000	Internal	0	FALSE	RW	8478		0	480				
+GVL_Ai|HEm[84]	R				0.000000	Internal	0	FALSE	RW	8496		0	481				
+GVL_Ai|HEm[85]	R				0.000000	Internal	0	FALSE	RW	8514		0	482				
+GVL_Ai|HEm[86]	R				0.000000	Internal	0	FALSE	RW	8532		0	483				
+GVL_Ai|HEm[87]	R				0.000000	Internal	0	FALSE	RW	8550		0	484				
+GVL_Ai|HEm[88]	R				0.000000	Internal	0	FALSE	RW	8568		0	485				
+GVL_Ai|HEm[89]	R				0.000000	Internal	0	FALSE	RW	8586		0	486				
+GVL_Ai|HEm[90]	R				0.000000	Internal	0	FALSE	RW	8604		0	487				
+GVL_Ai|HEm[91]	R				0.000000	Internal	0	FALSE	RW	8622		0	488				
+GVL_Ai|HEm[92]	R				0.000000	Internal	0	FALSE	RW	8640		0	489				
+GVL_Ai|HEm[93]	R				0.000000	Internal	0	FALSE	RW	8658		0	490				
+GVL_Ai|HEm[94]	R				0.000000	Internal	0	FALSE	RW	8676		0	491				
+GVL_Ai|HEm[95]	R				0.000000	Internal	0	FALSE	RW	8694		0	492				
+GVL_Ai|HEm[96]	R				0.000000	Internal	0	FALSE	RW	8712		0	493				
+GVL_Ai|HH	A	1..96	R			Internal		FALSE	RW								уставка верхн. аварийная
+GVL_Ai|HH[1]	R				0.000000	Internal	0	FALSE	RW	7004		0	494				
+GVL_Ai|HH[2]	R				0.000000	Internal	0	FALSE	RW	7022		0	495				
+GVL_Ai|HH[3]	R				0.000000	Internal	0	FALSE	RW	7040		0	496				
+GVL_Ai|HH[4]	R				0.000000	Internal	0	FALSE	RW	7058		0	497				
+GVL_Ai|HH[5]	R				0.000000	Internal	0	FALSE	RW	7076		0	498				
+GVL_Ai|HH[6]	R				0.000000	Internal	0	FALSE	RW	7094		0	499				
+GVL_Ai|HH[7]	R				0.000000	Internal	0	FALSE	RW	7112		0	500				
+GVL_Ai|HH[8]	R				0.000000	Internal	0	FALSE	RW	7130		0	501				
+GVL_Ai|HH[9]	R				0.000000	Internal	0	FALSE	RW	7148		0	502				
+GVL_Ai|HH[10]	R				0.000000	Internal	0	FALSE	RW	7166		0	503				
+GVL_Ai|HH[11]	R				0.000000	Internal	0	FALSE	RW	7184		0	504				
+GVL_Ai|HH[12]	R				0.000000	Internal	0	FALSE	RW	7202		0	505				
+GVL_Ai|HH[13]	R				0.000000	Internal	0	FALSE	RW	7220		0	506				
+GVL_Ai|HH[14]	R				0.000000	Internal	0	FALSE	RW	7238		0	507				
+GVL_Ai|HH[15]	R				0.000000	Internal	0	FALSE	RW	7256		0	508				
+GVL_Ai|HH[16]	R				0.000000	Internal	0	FALSE	RW	7274		0	509				
+GVL_Ai|HH[17]	R				0.000000	Internal	0	FALSE	RW	7292		0	510				
+GVL_Ai|HH[18]	R				0.000000	Internal	0	FALSE	RW	7310		0	511				
+GVL_Ai|HH[19]	R				0.000000	Internal	0	FALSE	RW	7328		0	512				
+GVL_Ai|HH[20]	R				0.000000	Internal	0	FALSE	RW	7346		0	513				
+GVL_Ai|HH[21]	R				0.000000	Internal	0	FALSE	RW	7364		0	514				
+GVL_Ai|HH[22]	R				0.000000	Internal	0	FALSE	RW	7382		0	515				
+GVL_Ai|HH[23]	R				0.000000	Internal	0	FALSE	RW	7400		0	516				
+GVL_Ai|HH[24]	R				0.000000	Internal	0	FALSE	RW	7418		0	517				
+GVL_Ai|HH[25]	R				0.000000	Internal	0	FALSE	RW	7436		0	518				
+GVL_Ai|HH[26]	R				0.000000	Internal	0	FALSE	RW	7454		0	519				
+GVL_Ai|HH[27]	R				0.000000	Internal	0	FALSE	RW	7472		0	520				
+GVL_Ai|HH[28]	R				0.000000	Internal	0	FALSE	RW	7490		0	521				
+GVL_Ai|HH[29]	R				0.000000	Internal	0	FALSE	RW	7508		0	522				
+GVL_Ai|HH[30]	R				0.000000	Internal	0	FALSE	RW	7526		0	523				
+GVL_Ai|HH[31]	R				0.000000	Internal	0	FALSE	RW	7544		0	524				
+GVL_Ai|HH[32]	R				0.000000	Internal	0	FALSE	RW	7562		0	525				
+GVL_Ai|HH[33]	R				0.000000	Internal	0	FALSE	RW	7580		0	526				
+GVL_Ai|HH[34]	R				0.000000	Internal	0	FALSE	RW	7598		0	527				
+GVL_Ai|HH[35]	R				0.000000	Internal	0	FALSE	RW	7616		0	528				
+GVL_Ai|HH[36]	R				0.000000	Internal	0	FALSE	RW	7634		0	529				
+GVL_Ai|HH[37]	R				0.000000	Internal	0	FALSE	RW	7652		0	530				
+GVL_Ai|HH[38]	R				0.000000	Internal	0	FALSE	RW	7670		0	531				
+GVL_Ai|HH[39]	R				0.000000	Internal	0	FALSE	RW	7688		0	532				
+GVL_Ai|HH[40]	R				0.000000	Internal	0	FALSE	RW	7706		0	533				
+GVL_Ai|HH[41]	R				0.000000	Internal	0	FALSE	RW	7724		0	534				
+GVL_Ai|HH[42]	R				0.000000	Internal	0	FALSE	RW	7742		0	535				
+GVL_Ai|HH[43]	R				0.000000	Internal	0	FALSE	RW	7760		0	536				
+GVL_Ai|HH[44]	R				0.000000	Internal	0	FALSE	RW	7778		0	537				
+GVL_Ai|HH[45]	R				0.000000	Internal	0	FALSE	RW	7796		0	538				
+GVL_Ai|HH[46]	R				0.000000	Internal	0	FALSE	RW	7814		0	539				
+GVL_Ai|HH[47]	R				0.000000	Internal	0	FALSE	RW	7832		0	540				
+GVL_Ai|HH[48]	R				0.000000	Internal	0	FALSE	RW	7850		0	541				
+GVL_Ai|HH[49]	R				0.000000	Internal	0	FALSE	RW	7868		0	542				
+GVL_Ai|HH[50]	R				0.000000	Internal	0	FALSE	RW	7886		0	543				
+GVL_Ai|HH[51]	R				0.000000	Internal	0	FALSE	RW	7904		0	544				
+GVL_Ai|HH[52]	R				0.000000	Internal	0	FALSE	RW	7922		0	545				
+GVL_Ai|HH[53]	R				0.000000	Internal	0	FALSE	RW	7940		0	546				
+GVL_Ai|HH[54]	R				0.000000	Internal	0	FALSE	RW	7958		0	547				
+GVL_Ai|HH[55]	R				0.000000	Internal	0	FALSE	RW	7976		0	548				
+GVL_Ai|HH[56]	R				0.000000	Internal	0	FALSE	RW	7994		0	549				
+GVL_Ai|HH[57]	R				0.000000	Internal	0	FALSE	RW	8012		0	550				
+GVL_Ai|HH[58]	R				0.000000	Internal	0	FALSE	RW	8030		0	551				
+GVL_Ai|HH[59]	R				0.000000	Internal	0	FALSE	RW	8048		0	552				
+GVL_Ai|HH[60]	R				0.000000	Internal	0	FALSE	RW	8066		0	553				
+GVL_Ai|HH[61]	R				0.000000	Internal	0	FALSE	RW	8084		0	554				
+GVL_Ai|HH[62]	R				0.000000	Internal	0	FALSE	RW	8102		0	555				
+GVL_Ai|HH[63]	R				0.000000	Internal	0	FALSE	RW	8120		0	556				
+GVL_Ai|HH[64]	R				0.000000	Internal	0	FALSE	RW	8138		0	557				
+GVL_Ai|HH[65]	R				0.000000	Internal	0	FALSE	RW	8156		0	558				
+GVL_Ai|HH[66]	R				0.000000	Internal	0	FALSE	RW	8174		0	559				
+GVL_Ai|HH[67]	R				0.000000	Internal	0	FALSE	RW	8192		0	560				
+GVL_Ai|HH[68]	R				0.000000	Internal	0	FALSE	RW	8210		0	561				
+GVL_Ai|HH[69]	R				0.000000	Internal	0	FALSE	RW	8228		0	562				
+GVL_Ai|HH[70]	R				0.000000	Internal	0	FALSE	RW	8246		0	563				
+GVL_Ai|HH[71]	R				0.000000	Internal	0	FALSE	RW	8264		0	564				
+GVL_Ai|HH[72]	R				0.000000	Internal	0	FALSE	RW	8282		0	565				
+GVL_Ai|HH[73]	R				0.000000	Internal	0	FALSE	RW	8300		0	566				
+GVL_Ai|HH[74]	R				0.000000	Internal	0	FALSE	RW	8318		0	567				
+GVL_Ai|HH[75]	R				0.000000	Internal	0	FALSE	RW	8336		0	568				
+GVL_Ai|HH[76]	R				0.000000	Internal	0	FALSE	RW	8354		0	569				
+GVL_Ai|HH[77]	R				0.000000	Internal	0	FALSE	RW	8372		0	570				
+GVL_Ai|HH[78]	R				0.000000	Internal	0	FALSE	RW	8390		0	571				
+GVL_Ai|HH[79]	R				0.000000	Internal	0	FALSE	RW	8408		0	572				
+GVL_Ai|HH[80]	R				0.000000	Internal	0	FALSE	RW	8426		0	573				
+GVL_Ai|HH[81]	R				0.000000	Internal	0	FALSE	RW	8444		0	574				
+GVL_Ai|HH[82]	R				0.000000	Internal	0	FALSE	RW	8462		0	575				
+GVL_Ai|HH[83]	R				0.000000	Internal	0	FALSE	RW	8480		0	576				
+GVL_Ai|HH[84]	R				0.000000	Internal	0	FALSE	RW	8498		0	577				
+GVL_Ai|HH[85]	R				0.000000	Internal	0	FALSE	RW	8516		0	578				
+GVL_Ai|HH[86]	R				0.000000	Internal	0	FALSE	RW	8534		0	579				
+GVL_Ai|HH[87]	R				0.000000	Internal	0	FALSE	RW	8552		0	580				
+GVL_Ai|HH[88]	R				0.000000	Internal	0	FALSE	RW	8570		0	581				
+GVL_Ai|HH[89]	R				0.000000	Internal	0	FALSE	RW	8588		0	582				
+GVL_Ai|HH[90]	R				0.000000	Internal	0	FALSE	RW	8606		0	583				
+GVL_Ai|HH[91]	R				0.000000	Internal	0	FALSE	RW	8624		0	584				
+GVL_Ai|HH[92]	R				0.000000	Internal	0	FALSE	RW	8642		0	585				
+GVL_Ai|HH[93]	R				0.000000	Internal	0	FALSE	RW	8660		0	586				
+GVL_Ai|HH[94]	R				0.000000	Internal	0	FALSE	RW	8678		0	587				
+GVL_Ai|HH[95]	R				0.000000	Internal	0	FALSE	RW	8696		0	588				
+GVL_Ai|HH[96]	R				0.000000	Internal	0	FALSE	RW	8714		0	589				
+GVL_Ai|H	A	1..96	R			Internal		FALSE	RW								Уставка верхняя предупредительная.
+GVL_Ai|H[1]	R				0.000000	Internal	0	FALSE	RW	7006		0	590				
+GVL_Ai|H[2]	R				0.000000	Internal	0	FALSE	RW	7024		0	591				
+GVL_Ai|H[3]	R				0.000000	Internal	0	FALSE	RW	7042		0	592				
+GVL_Ai|H[4]	R				0.000000	Internal	0	FALSE	RW	7060		0	593				
+GVL_Ai|H[5]	R				0.000000	Internal	0	FALSE	RW	7078		0	594				
+GVL_Ai|H[6]	R				0.000000	Internal	0	FALSE	RW	7096		0	595				
+GVL_Ai|H[7]	R				0.000000	Internal	0	FALSE	RW	7114		0	596				
+GVL_Ai|H[8]	R				0.000000	Internal	0	FALSE	RW	7132		0	597				
+GVL_Ai|H[9]	R				0.000000	Internal	0	FALSE	RW	7150		0	598				
+GVL_Ai|H[10]	R				0.000000	Internal	0	FALSE	RW	7168		0	599				
+GVL_Ai|H[11]	R				0.000000	Internal	0	FALSE	RW	7186		0	600				
+GVL_Ai|H[12]	R				0.000000	Internal	0	FALSE	RW	7204		0	601				
+GVL_Ai|H[13]	R				0.000000	Internal	0	FALSE	RW	7222		0	602				
+GVL_Ai|H[14]	R				0.000000	Internal	0	FALSE	RW	7240		0	603				
+GVL_Ai|H[15]	R				0.000000	Internal	0	FALSE	RW	7258		0	604				
+GVL_Ai|H[16]	R				0.000000	Internal	0	FALSE	RW	7276		0	605				
+GVL_Ai|H[17]	R				0.000000	Internal	0	FALSE	RW	7294		0	606				
+GVL_Ai|H[18]	R				0.000000	Internal	0	FALSE	RW	7312		0	607				
+GVL_Ai|H[19]	R				0.000000	Internal	0	FALSE	RW	7330		0	608				
+GVL_Ai|H[20]	R				0.000000	Internal	0	FALSE	RW	7348		0	609				
+GVL_Ai|H[21]	R				0.000000	Internal	0	FALSE	RW	7366		0	610				
+GVL_Ai|H[22]	R				0.000000	Internal	0	FALSE	RW	7384		0	611				
+GVL_Ai|H[23]	R				0.000000	Internal	0	FALSE	RW	7402		0	612				
+GVL_Ai|H[24]	R				0.000000	Internal	0	FALSE	RW	7420		0	613				
+GVL_Ai|H[25]	R				0.000000	Internal	0	FALSE	RW	7438		0	614				
+GVL_Ai|H[26]	R				0.000000	Internal	0	FALSE	RW	7456		0	615				
+GVL_Ai|H[27]	R				0.000000	Internal	0	FALSE	RW	7474		0	616				
+GVL_Ai|H[28]	R				0.000000	Internal	0	FALSE	RW	7492		0	617				
+GVL_Ai|H[29]	R				0.000000	Internal	0	FALSE	RW	7510		0	618				
+GVL_Ai|H[30]	R				0.000000	Internal	0	FALSE	RW	7528		0	619				
+GVL_Ai|H[31]	R				0.000000	Internal	0	FALSE	RW	7546		0	620				
+GVL_Ai|H[32]	R				0.000000	Internal	0	FALSE	RW	7564		0	621				
+GVL_Ai|H[33]	R				0.000000	Internal	0	FALSE	RW	7582		0	622				
+GVL_Ai|H[34]	R				0.000000	Internal	0	FALSE	RW	7600		0	623				
+GVL_Ai|H[35]	R				0.000000	Internal	0	FALSE	RW	7618		0	624				
+GVL_Ai|H[36]	R				0.000000	Internal	0	FALSE	RW	7636		0	625				
+GVL_Ai|H[37]	R				0.000000	Internal	0	FALSE	RW	7654		0	626				
+GVL_Ai|H[38]	R				0.000000	Internal	0	FALSE	RW	7672		0	627				
+GVL_Ai|H[39]	R				0.000000	Internal	0	FALSE	RW	7690		0	628				
+GVL_Ai|H[40]	R				0.000000	Internal	0	FALSE	RW	7708		0	629				
+GVL_Ai|H[41]	R				0.000000	Internal	0	FALSE	RW	7726		0	630				
+GVL_Ai|H[42]	R				0.000000	Internal	0	FALSE	RW	7744		0	631				
+GVL_Ai|H[43]	R				0.000000	Internal	0	FALSE	RW	7762		0	632				
+GVL_Ai|H[44]	R				0.000000	Internal	0	FALSE	RW	7780		0	633				
+GVL_Ai|H[45]	R				0.000000	Internal	0	FALSE	RW	7798		0	634				
+GVL_Ai|H[46]	R				0.000000	Internal	0	FALSE	RW	7816		0	635				
+GVL_Ai|H[47]	R				0.000000	Internal	0	FALSE	RW	7834		0	636				
+GVL_Ai|H[48]	R				0.000000	Internal	0	FALSE	RW	7852		0	637				
+GVL_Ai|H[49]	R				0.000000	Internal	0	FALSE	RW	7870		0	638				
+GVL_Ai|H[50]	R				0.000000	Internal	0	FALSE	RW	7888		0	639				
+GVL_Ai|H[51]	R				0.000000	Internal	0	FALSE	RW	7906		0	640				
+GVL_Ai|H[52]	R				0.000000	Internal	0	FALSE	RW	7924		0	641				
+GVL_Ai|H[53]	R				0.000000	Internal	0	FALSE	RW	7942		0	642				
+GVL_Ai|H[54]	R				0.000000	Internal	0	FALSE	RW	7960		0	643				
+GVL_Ai|H[55]	R				0.000000	Internal	0	FALSE	RW	7978		0	644				
+GVL_Ai|H[56]	R				0.000000	Internal	0	FALSE	RW	7996		0	645				
+GVL_Ai|H[57]	R				0.000000	Internal	0	FALSE	RW	8014		0	646				
+GVL_Ai|H[58]	R				0.000000	Internal	0	FALSE	RW	8032		0	647				
+GVL_Ai|H[59]	R				0.000000	Internal	0	FALSE	RW	8050		0	648				
+GVL_Ai|H[60]	R				0.000000	Internal	0	FALSE	RW	8068		0	649				
+GVL_Ai|H[61]	R				0.000000	Internal	0	FALSE	RW	8086		0	650				
+GVL_Ai|H[62]	R				0.000000	Internal	0	FALSE	RW	8104		0	651				
+GVL_Ai|H[63]	R				0.000000	Internal	0	FALSE	RW	8122		0	652				
+GVL_Ai|H[64]	R				0.000000	Internal	0	FALSE	RW	8140		0	653				
+GVL_Ai|H[65]	R				0.000000	Internal	0	FALSE	RW	8158		0	654				
+GVL_Ai|H[66]	R				0.000000	Internal	0	FALSE	RW	8176		0	655				
+GVL_Ai|H[67]	R				0.000000	Internal	0	FALSE	RW	8194		0	656				
+GVL_Ai|H[68]	R				0.000000	Internal	0	FALSE	RW	8212		0	657				
+GVL_Ai|H[69]	R				0.000000	Internal	0	FALSE	RW	8230		0	658				
+GVL_Ai|H[70]	R				0.000000	Internal	0	FALSE	RW	8248		0	659				
+GVL_Ai|H[71]	R				0.000000	Internal	0	FALSE	RW	8266		0	660				
+GVL_Ai|H[72]	R				0.000000	Internal	0	FALSE	RW	8284		0	661				
+GVL_Ai|H[73]	R				0.000000	Internal	0	FALSE	RW	8302		0	662				
+GVL_Ai|H[74]	R				0.000000	Internal	0	FALSE	RW	8320		0	663				
+GVL_Ai|H[75]	R				0.000000	Internal	0	FALSE	RW	8338		0	664				
+GVL_Ai|H[76]	R				0.000000	Internal	0	FALSE	RW	8356		0	665				
+GVL_Ai|H[77]	R				0.000000	Internal	0	FALSE	RW	8374		0	666				
+GVL_Ai|H[78]	R				0.000000	Internal	0	FALSE	RW	8392		0	667				
+GVL_Ai|H[79]	R				0.000000	Internal	0	FALSE	RW	8410		0	668				
+GVL_Ai|H[80]	R				0.000000	Internal	0	FALSE	RW	8428		0	669				
+GVL_Ai|H[81]	R				0.000000	Internal	0	FALSE	RW	8446		0	670				
+GVL_Ai|H[82]	R				0.000000	Internal	0	FALSE	RW	8464		0	671				
+GVL_Ai|H[83]	R				0.000000	Internal	0	FALSE	RW	8482		0	672				
+GVL_Ai|H[84]	R				0.000000	Internal	0	FALSE	RW	8500		0	673				
+GVL_Ai|H[85]	R				0.000000	Internal	0	FALSE	RW	8518		0	674				
+GVL_Ai|H[86]	R				0.000000	Internal	0	FALSE	RW	8536		0	675				
+GVL_Ai|H[87]	R				0.000000	Internal	0	FALSE	RW	8554		0	676				
+GVL_Ai|H[88]	R				0.000000	Internal	0	FALSE	RW	8572		0	677				
+GVL_Ai|H[89]	R				0.000000	Internal	0	FALSE	RW	8590		0	678				
+GVL_Ai|H[90]	R				0.000000	Internal	0	FALSE	RW	8608		0	679				
+GVL_Ai|H[91]	R				0.000000	Internal	0	FALSE	RW	8626		0	680				
+GVL_Ai|H[92]	R				0.000000	Internal	0	FALSE	RW	8644		0	681				
+GVL_Ai|H[93]	R				0.000000	Internal	0	FALSE	RW	8662		0	682				
+GVL_Ai|H[94]	R				0.000000	Internal	0	FALSE	RW	8680		0	683				
+GVL_Ai|H[95]	R				0.000000	Internal	0	FALSE	RW	8698		0	684				
+GVL_Ai|H[96]	R				0.000000	Internal	0	FALSE	RW	8716		0	685				
+GVL_Ai|L	A	1..96	R			Internal		FALSE	RW								Уставка нижняя предупредительная.
+GVL_Ai|L[1]	R				0.000000	Internal	0	FALSE	RW	7008		0	686				
+GVL_Ai|L[2]	R				0.000000	Internal	0	FALSE	RW	7026		0	687				
+GVL_Ai|L[3]	R				0.000000	Internal	0	FALSE	RW	7044		0	688				
+GVL_Ai|L[4]	R				0.000000	Internal	0	FALSE	RW	7062		0	689				
+GVL_Ai|L[5]	R				0.000000	Internal	0	FALSE	RW	7080		0	690				
+GVL_Ai|L[6]	R				0.000000	Internal	0	FALSE	RW	7098		0	691				
+GVL_Ai|L[7]	R				0.000000	Internal	0	FALSE	RW	7116		0	692				
+GVL_Ai|L[8]	R				0.000000	Internal	0	FALSE	RW	7134		0	693				
+GVL_Ai|L[9]	R				0.000000	Internal	0	FALSE	RW	7152		0	694				
+GVL_Ai|L[10]	R				0.000000	Internal	0	FALSE	RW	7170		0	695				
+GVL_Ai|L[11]	R				0.000000	Internal	0	FALSE	RW	7188		0	696				
+GVL_Ai|L[12]	R				0.000000	Internal	0	FALSE	RW	7206		0	697				
+GVL_Ai|L[13]	R				0.000000	Internal	0	FALSE	RW	7224		0	698				
+GVL_Ai|L[14]	R				0.000000	Internal	0	FALSE	RW	7242		0	699				
+GVL_Ai|L[15]	R				0.000000	Internal	0	FALSE	RW	7260		0	700				
+GVL_Ai|L[16]	R				0.000000	Internal	0	FALSE	RW	7278		0	701				
+GVL_Ai|L[17]	R				0.000000	Internal	0	FALSE	RW	7296		0	702				
+GVL_Ai|L[18]	R				0.000000	Internal	0	FALSE	RW	7314		0	703				
+GVL_Ai|L[19]	R				0.000000	Internal	0	FALSE	RW	7332		0	704				
+GVL_Ai|L[20]	R				0.000000	Internal	0	FALSE	RW	7350		0	705				
+GVL_Ai|L[21]	R				0.000000	Internal	0	FALSE	RW	7368		0	706				
+GVL_Ai|L[22]	R				0.000000	Internal	0	FALSE	RW	7386		0	707				
+GVL_Ai|L[23]	R				0.000000	Internal	0	FALSE	RW	7404		0	708				
+GVL_Ai|L[24]	R				0.000000	Internal	0	FALSE	RW	7422		0	709				
+GVL_Ai|L[25]	R				0.000000	Internal	0	FALSE	RW	7440		0	710				
+GVL_Ai|L[26]	R				0.000000	Internal	0	FALSE	RW	7458		0	711				
+GVL_Ai|L[27]	R				0.000000	Internal	0	FALSE	RW	7476		0	712				
+GVL_Ai|L[28]	R				0.000000	Internal	0	FALSE	RW	7494		0	713				
+GVL_Ai|L[29]	R				0.000000	Internal	0	FALSE	RW	7512		0	714				
+GVL_Ai|L[30]	R				0.000000	Internal	0	FALSE	RW	7530		0	715				
+GVL_Ai|L[31]	R				0.000000	Internal	0	FALSE	RW	7548		0	716				
+GVL_Ai|L[32]	R				0.000000	Internal	0	FALSE	RW	7566		0	717				
+GVL_Ai|L[33]	R				0.000000	Internal	0	FALSE	RW	7584		0	718				
+GVL_Ai|L[34]	R				0.000000	Internal	0	FALSE	RW	7602		0	719				
+GVL_Ai|L[35]	R				0.000000	Internal	0	FALSE	RW	7620		0	720				
+GVL_Ai|L[36]	R				0.000000	Internal	0	FALSE	RW	7638		0	721				
+GVL_Ai|L[37]	R				0.000000	Internal	0	FALSE	RW	7656		0	722				
+GVL_Ai|L[38]	R				0.000000	Internal	0	FALSE	RW	7674		0	723				
+GVL_Ai|L[39]	R				0.000000	Internal	0	FALSE	RW	7692		0	724				
+GVL_Ai|L[40]	R				0.000000	Internal	0	FALSE	RW	7710		0	725				
+GVL_Ai|L[41]	R				0.000000	Internal	0	FALSE	RW	7728		0	726				
+GVL_Ai|L[42]	R				0.000000	Internal	0	FALSE	RW	7746		0	727				
+GVL_Ai|L[43]	R				0.000000	Internal	0	FALSE	RW	7764		0	728				
+GVL_Ai|L[44]	R				0.000000	Internal	0	FALSE	RW	7782		0	729				
+GVL_Ai|L[45]	R				0.000000	Internal	0	FALSE	RW	7800		0	730				
+GVL_Ai|L[46]	R				0.000000	Internal	0	FALSE	RW	7818		0	731				
+GVL_Ai|L[47]	R				0.000000	Internal	0	FALSE	RW	7836		0	732				
+GVL_Ai|L[48]	R				0.000000	Internal	0	FALSE	RW	7854		0	733				
+GVL_Ai|L[49]	R				0.000000	Internal	0	FALSE	RW	7872		0	734				
+GVL_Ai|L[50]	R				0.000000	Internal	0	FALSE	RW	7890		0	735				
+GVL_Ai|L[51]	R				0.000000	Internal	0	FALSE	RW	7908		0	736				
+GVL_Ai|L[52]	R				0.000000	Internal	0	FALSE	RW	7926		0	737				
+GVL_Ai|L[53]	R				0.000000	Internal	0	FALSE	RW	7944		0	738				
+GVL_Ai|L[54]	R				0.000000	Internal	0	FALSE	RW	7962		0	739				
+GVL_Ai|L[55]	R				0.000000	Internal	0	FALSE	RW	7980		0	740				
+GVL_Ai|L[56]	R				0.000000	Internal	0	FALSE	RW	7998		0	741				
+GVL_Ai|L[57]	R				0.000000	Internal	0	FALSE	RW	8016		0	742				
+GVL_Ai|L[58]	R				0.000000	Internal	0	FALSE	RW	8034		0	743				
+GVL_Ai|L[59]	R				0.000000	Internal	0	FALSE	RW	8052		0	744				
+GVL_Ai|L[60]	R				0.000000	Internal	0	FALSE	RW	8070		0	745				
+GVL_Ai|L[61]	R				0.000000	Internal	0	FALSE	RW	8088		0	746				
+GVL_Ai|L[62]	R				0.000000	Internal	0	FALSE	RW	8106		0	747				
+GVL_Ai|L[63]	R				0.000000	Internal	0	FALSE	RW	8124		0	748				
+GVL_Ai|L[64]	R				0.000000	Internal	0	FALSE	RW	8142		0	749				
+GVL_Ai|L[65]	R				0.000000	Internal	0	FALSE	RW	8160		0	750				
+GVL_Ai|L[66]	R				0.000000	Internal	0	FALSE	RW	8178		0	751				
+GVL_Ai|L[67]	R				0.000000	Internal	0	FALSE	RW	8196		0	752				
+GVL_Ai|L[68]	R				0.000000	Internal	0	FALSE	RW	8214		0	753				
+GVL_Ai|L[69]	R				0.000000	Internal	0	FALSE	RW	8232		0	754				
+GVL_Ai|L[70]	R				0.000000	Internal	0	FALSE	RW	8250		0	755				
+GVL_Ai|L[71]	R				0.000000	Internal	0	FALSE	RW	8268		0	756				
+GVL_Ai|L[72]	R				0.000000	Internal	0	FALSE	RW	8286		0	757				
+GVL_Ai|L[73]	R				0.000000	Internal	0	FALSE	RW	8304		0	758				
+GVL_Ai|L[74]	R				0.000000	Internal	0	FALSE	RW	8322		0	759				
+GVL_Ai|L[75]	R				0.000000	Internal	0	FALSE	RW	8340		0	760				
+GVL_Ai|L[76]	R				0.000000	Internal	0	FALSE	RW	8358		0	761				
+GVL_Ai|L[77]	R				0.000000	Internal	0	FALSE	RW	8376		0	762				
+GVL_Ai|L[78]	R				0.000000	Internal	0	FALSE	RW	8394		0	763				
+GVL_Ai|L[79]	R				0.000000	Internal	0	FALSE	RW	8412		0	764				
+GVL_Ai|L[80]	R				0.000000	Internal	0	FALSE	RW	8430		0	765				
+GVL_Ai|L[81]	R				0.000000	Internal	0	FALSE	RW	8448		0	766				
+GVL_Ai|L[82]	R				0.000000	Internal	0	FALSE	RW	8466		0	767				
+GVL_Ai|L[83]	R				0.000000	Internal	0	FALSE	RW	8484		0	768				
+GVL_Ai|L[84]	R				0.000000	Internal	0	FALSE	RW	8502		0	769				
+GVL_Ai|L[85]	R				0.000000	Internal	0	FALSE	RW	8520		0	770				
+GVL_Ai|L[86]	R				0.000000	Internal	0	FALSE	RW	8538		0	771				
+GVL_Ai|L[87]	R				0.000000	Internal	0	FALSE	RW	8556		0	772				
+GVL_Ai|L[88]	R				0.000000	Internal	0	FALSE	RW	8574		0	773				
+GVL_Ai|L[89]	R				0.000000	Internal	0	FALSE	RW	8592		0	774				
+GVL_Ai|L[90]	R				0.000000	Internal	0	FALSE	RW	8610		0	775				
+GVL_Ai|L[91]	R				0.000000	Internal	0	FALSE	RW	8628		0	776				
+GVL_Ai|L[92]	R				0.000000	Internal	0	FALSE	RW	8646		0	777				
+GVL_Ai|L[93]	R				0.000000	Internal	0	FALSE	RW	8664		0	778				
+GVL_Ai|L[94]	R				0.000000	Internal	0	FALSE	RW	8682		0	779				
+GVL_Ai|L[95]	R				0.000000	Internal	0	FALSE	RW	8700		0	780				
+GVL_Ai|L[96]	R				0.000000	Internal	0	FALSE	RW	8718		0	781				
+GVL_Ai|LL	A	1..96	R			Internal		FALSE	RW								Уставка нижняя аварийная.
+GVL_Ai|LL[1]	R				0.000000	Internal	0	FALSE	RW	7010		0	782				
+GVL_Ai|LL[2]	R				0.000000	Internal	0	FALSE	RW	7028		0	783				
+GVL_Ai|LL[3]	R				0.000000	Internal	0	FALSE	RW	7046		0	784				
+GVL_Ai|LL[4]	R				0.000000	Internal	0	FALSE	RW	7064		0	785				
+GVL_Ai|LL[5]	R				0.000000	Internal	0	FALSE	RW	7082		0	786				
+GVL_Ai|LL[6]	R				0.000000	Internal	0	FALSE	RW	7100		0	787				
+GVL_Ai|LL[7]	R				0.000000	Internal	0	FALSE	RW	7118		0	788				
+GVL_Ai|LL[8]	R				0.000000	Internal	0	FALSE	RW	7136		0	789				
+GVL_Ai|LL[9]	R				0.000000	Internal	0	FALSE	RW	7154		0	790				
+GVL_Ai|LL[10]	R				0.000000	Internal	0	FALSE	RW	7172		0	791				
+GVL_Ai|LL[11]	R				0.000000	Internal	0	FALSE	RW	7190		0	792				
+GVL_Ai|LL[12]	R				0.000000	Internal	0	FALSE	RW	7208		0	793				
+GVL_Ai|LL[13]	R				0.000000	Internal	0	FALSE	RW	7226		0	794				
+GVL_Ai|LL[14]	R				0.000000	Internal	0	FALSE	RW	7244		0	795				
+GVL_Ai|LL[15]	R				0.000000	Internal	0	FALSE	RW	7262		0	796				
+GVL_Ai|LL[16]	R				0.000000	Internal	0	FALSE	RW	7280		0	797				
+GVL_Ai|LL[17]	R				0.000000	Internal	0	FALSE	RW	7298		0	798				
+GVL_Ai|LL[18]	R				0.000000	Internal	0	FALSE	RW	7316		0	799				
+GVL_Ai|LL[19]	R				0.000000	Internal	0	FALSE	RW	7334		0	800				
+GVL_Ai|LL[20]	R				0.000000	Internal	0	FALSE	RW	7352		0	801				
+GVL_Ai|LL[21]	R				0.000000	Internal	0	FALSE	RW	7370		0	802				
+GVL_Ai|LL[22]	R				0.000000	Internal	0	FALSE	RW	7388		0	803				
+GVL_Ai|LL[23]	R				0.000000	Internal	0	FALSE	RW	7406		0	804				
+GVL_Ai|LL[24]	R				0.000000	Internal	0	FALSE	RW	7424		0	805				
+GVL_Ai|LL[25]	R				0.000000	Internal	0	FALSE	RW	7442		0	806				
+GVL_Ai|LL[26]	R				0.000000	Internal	0	FALSE	RW	7460		0	807				
+GVL_Ai|LL[27]	R				0.000000	Internal	0	FALSE	RW	7478		0	808				
+GVL_Ai|LL[28]	R				0.000000	Internal	0	FALSE	RW	7496		0	809				
+GVL_Ai|LL[29]	R				0.000000	Internal	0	FALSE	RW	7514		0	810				
+GVL_Ai|LL[30]	R				0.000000	Internal	0	FALSE	RW	7532		0	811				
+GVL_Ai|LL[31]	R				0.000000	Internal	0	FALSE	RW	7550		0	812				
+GVL_Ai|LL[32]	R				0.000000	Internal	0	FALSE	RW	7568		0	813				
+GVL_Ai|LL[33]	R				0.000000	Internal	0	FALSE	RW	7586		0	814				
+GVL_Ai|LL[34]	R				0.000000	Internal	0	FALSE	RW	7604		0	815				
+GVL_Ai|LL[35]	R				0.000000	Internal	0	FALSE	RW	7622		0	816				
+GVL_Ai|LL[36]	R				0.000000	Internal	0	FALSE	RW	7640		0	817				
+GVL_Ai|LL[37]	R				0.000000	Internal	0	FALSE	RW	7658		0	818				
+GVL_Ai|LL[38]	R				0.000000	Internal	0	FALSE	RW	7676		0	819				
+GVL_Ai|LL[39]	R				0.000000	Internal	0	FALSE	RW	7694		0	820				
+GVL_Ai|LL[40]	R				0.000000	Internal	0	FALSE	RW	7712		0	821				
+GVL_Ai|LL[41]	R				0.000000	Internal	0	FALSE	RW	7730		0	822				
+GVL_Ai|LL[42]	R				0.000000	Internal	0	FALSE	RW	7748		0	823				
+GVL_Ai|LL[43]	R				0.000000	Internal	0	FALSE	RW	7766		0	824				
+GVL_Ai|LL[44]	R				0.000000	Internal	0	FALSE	RW	7784		0	825				
+GVL_Ai|LL[45]	R				0.000000	Internal	0	FALSE	RW	7802		0	826				
+GVL_Ai|LL[46]	R				0.000000	Internal	0	FALSE	RW	7820		0	827				
+GVL_Ai|LL[47]	R				0.000000	Internal	0	FALSE	RW	7838		0	828				
+GVL_Ai|LL[48]	R				0.000000	Internal	0	FALSE	RW	7856		0	829				
+GVL_Ai|LL[49]	R				0.000000	Internal	0	FALSE	RW	7874		0	830				
+GVL_Ai|LL[50]	R				0.000000	Internal	0	FALSE	RW	7892		0	831				
+GVL_Ai|LL[51]	R				0.000000	Internal	0	FALSE	RW	7910		0	832				
+GVL_Ai|LL[52]	R				0.000000	Internal	0	FALSE	RW	7928		0	833				
+GVL_Ai|LL[53]	R				0.000000	Internal	0	FALSE	RW	7946		0	834				
+GVL_Ai|LL[54]	R				0.000000	Internal	0	FALSE	RW	7964		0	835				
+GVL_Ai|LL[55]	R				0.000000	Internal	0	FALSE	RW	7982		0	836				
+GVL_Ai|LL[56]	R				0.000000	Internal	0	FALSE	RW	8000		0	837				
+GVL_Ai|LL[57]	R				0.000000	Internal	0	FALSE	RW	8018		0	838				
+GVL_Ai|LL[58]	R				0.000000	Internal	0	FALSE	RW	8036		0	839				
+GVL_Ai|LL[59]	R				0.000000	Internal	0	FALSE	RW	8054		0	840				
+GVL_Ai|LL[60]	R				0.000000	Internal	0	FALSE	RW	8072		0	841				
+GVL_Ai|LL[61]	R				0.000000	Internal	0	FALSE	RW	8090		0	842				
+GVL_Ai|LL[62]	R				0.000000	Internal	0	FALSE	RW	8108		0	843				
+GVL_Ai|LL[63]	R				0.000000	Internal	0	FALSE	RW	8126		0	844				
+GVL_Ai|LL[64]	R				0.000000	Internal	0	FALSE	RW	8144		0	845				
+GVL_Ai|LL[65]	R				0.000000	Internal	0	FALSE	RW	8162		0	846				
+GVL_Ai|LL[66]	R				0.000000	Internal	0	FALSE	RW	8180		0	847				
+GVL_Ai|LL[67]	R				0.000000	Internal	0	FALSE	RW	8198		0	848				
+GVL_Ai|LL[68]	R				0.000000	Internal	0	FALSE	RW	8216		0	849				
+GVL_Ai|LL[69]	R				0.000000	Internal	0	FALSE	RW	8234		0	850				
+GVL_Ai|LL[70]	R				0.000000	Internal	0	FALSE	RW	8252		0	851				
+GVL_Ai|LL[71]	R				0.000000	Internal	0	FALSE	RW	8270		0	852				
+GVL_Ai|LL[72]	R				0.000000	Internal	0	FALSE	RW	8288		0	853				
+GVL_Ai|LL[73]	R				0.000000	Internal	0	FALSE	RW	8306		0	854				
+GVL_Ai|LL[74]	R				0.000000	Internal	0	FALSE	RW	8324		0	855				
+GVL_Ai|LL[75]	R				0.000000	Internal	0	FALSE	RW	8342		0	856				
+GVL_Ai|LL[76]	R				0.000000	Internal	0	FALSE	RW	8360		0	857				
+GVL_Ai|LL[77]	R				0.000000	Internal	0	FALSE	RW	8378		0	858				
+GVL_Ai|LL[78]	R				0.000000	Internal	0	FALSE	RW	8396		0	859				
+GVL_Ai|LL[79]	R				0.000000	Internal	0	FALSE	RW	8414		0	860				
+GVL_Ai|LL[80]	R				0.000000	Internal	0	FALSE	RW	8432		0	861				
+GVL_Ai|LL[81]	R				0.000000	Internal	0	FALSE	RW	8450		0	862				
+GVL_Ai|LL[82]	R				0.000000	Internal	0	FALSE	RW	8468		0	863				
+GVL_Ai|LL[83]	R				0.000000	Internal	0	FALSE	RW	8486		0	864				
+GVL_Ai|LL[84]	R				0.000000	Internal	0	FALSE	RW	8504		0	865				
+GVL_Ai|LL[85]	R				0.000000	Internal	0	FALSE	RW	8522		0	866				
+GVL_Ai|LL[86]	R				0.000000	Internal	0	FALSE	RW	8540		0	867				
+GVL_Ai|LL[87]	R				0.000000	Internal	0	FALSE	RW	8558		0	868				
+GVL_Ai|LL[88]	R				0.000000	Internal	0	FALSE	RW	8576		0	869				
+GVL_Ai|LL[89]	R				0.000000	Internal	0	FALSE	RW	8594		0	870				
+GVL_Ai|LL[90]	R				0.000000	Internal	0	FALSE	RW	8612		0	871				
+GVL_Ai|LL[91]	R				0.000000	Internal	0	FALSE	RW	8630		0	872				
+GVL_Ai|LL[92]	R				0.000000	Internal	0	FALSE	RW	8648		0	873				
+GVL_Ai|LL[93]	R				0.000000	Internal	0	FALSE	RW	8666		0	874				
+GVL_Ai|LL[94]	R				0.000000	Internal	0	FALSE	RW	8684		0	875				
+GVL_Ai|LL[95]	R				0.000000	Internal	0	FALSE	RW	8702		0	876				
+GVL_Ai|LL[96]	R				0.000000	Internal	0	FALSE	RW	8720		0	877				
+GVL_Ai|LEm	A	1..96	R			Internal		FALSE	RW								Уставка нижний предел измерения прибора.
+GVL_Ai|LEm[1]	R				0.000000	Internal	0	FALSE	RW	7012		0	878				
+GVL_Ai|LEm[2]	R				0.000000	Internal	0	FALSE	RW	7030		0	879				
+GVL_Ai|LEm[3]	R				0.000000	Internal	0	FALSE	RW	7048		0	880				
+GVL_Ai|LEm[4]	R				0.000000	Internal	0	FALSE	RW	7066		0	881				
+GVL_Ai|LEm[5]	R				0.000000	Internal	0	FALSE	RW	7084		0	882				
+GVL_Ai|LEm[6]	R				0.000000	Internal	0	FALSE	RW	7102		0	883				
+GVL_Ai|LEm[7]	R				0.000000	Internal	0	FALSE	RW	7120		0	884				
+GVL_Ai|LEm[8]	R				0.000000	Internal	0	FALSE	RW	7138		0	885				
+GVL_Ai|LEm[9]	R				0.000000	Internal	0	FALSE	RW	7156		0	886				
+GVL_Ai|LEm[10]	R				0.000000	Internal	0	FALSE	RW	7174		0	887				
+GVL_Ai|LEm[11]	R				0.000000	Internal	0	FALSE	RW	7192		0	888				
+GVL_Ai|LEm[12]	R				0.000000	Internal	0	FALSE	RW	7210		0	889				
+GVL_Ai|LEm[13]	R				0.000000	Internal	0	FALSE	RW	7228		0	890				
+GVL_Ai|LEm[14]	R				0.000000	Internal	0	FALSE	RW	7246		0	891				
+GVL_Ai|LEm[15]	R				0.000000	Internal	0	FALSE	RW	7264		0	892				
+GVL_Ai|LEm[16]	R				0.000000	Internal	0	FALSE	RW	7282		0	893				
+GVL_Ai|LEm[17]	R				0.000000	Internal	0	FALSE	RW	7300		0	894				
+GVL_Ai|LEm[18]	R				0.000000	Internal	0	FALSE	RW	7318		0	895				
+GVL_Ai|LEm[19]	R				0.000000	Internal	0	FALSE	RW	7336		0	896				
+GVL_Ai|LEm[20]	R				0.000000	Internal	0	FALSE	RW	7354		0	897				
+GVL_Ai|LEm[21]	R				0.000000	Internal	0	FALSE	RW	7372		0	898				
+GVL_Ai|LEm[22]	R				0.000000	Internal	0	FALSE	RW	7390		0	899				
+GVL_Ai|LEm[23]	R				0.000000	Internal	0	FALSE	RW	7408		0	900				
+GVL_Ai|LEm[24]	R				0.000000	Internal	0	FALSE	RW	7426		0	901				
+GVL_Ai|LEm[25]	R				0.000000	Internal	0	FALSE	RW	7444		0	902				
+GVL_Ai|LEm[26]	R				0.000000	Internal	0	FALSE	RW	7462		0	903				
+GVL_Ai|LEm[27]	R				0.000000	Internal	0	FALSE	RW	7480		0	904				
+GVL_Ai|LEm[28]	R				0.000000	Internal	0	FALSE	RW	7498		0	905				
+GVL_Ai|LEm[29]	R				0.000000	Internal	0	FALSE	RW	7516		0	906				
+GVL_Ai|LEm[30]	R				0.000000	Internal	0	FALSE	RW	7534		0	907				
+GVL_Ai|LEm[31]	R				0.000000	Internal	0	FALSE	RW	7552		0	908				
+GVL_Ai|LEm[32]	R				0.000000	Internal	0	FALSE	RW	7570		0	909				
+GVL_Ai|LEm[33]	R				0.000000	Internal	0	FALSE	RW	7588		0	910				
+GVL_Ai|LEm[34]	R				0.000000	Internal	0	FALSE	RW	7606		0	911				
+GVL_Ai|LEm[35]	R				0.000000	Internal	0	FALSE	RW	7624		0	912				
+GVL_Ai|LEm[36]	R				0.000000	Internal	0	FALSE	RW	7642		0	913				
+GVL_Ai|LEm[37]	R				0.000000	Internal	0	FALSE	RW	7660		0	914				
+GVL_Ai|LEm[38]	R				0.000000	Internal	0	FALSE	RW	7678		0	915				
+GVL_Ai|LEm[39]	R				0.000000	Internal	0	FALSE	RW	7696		0	916				
+GVL_Ai|LEm[40]	R				0.000000	Internal	0	FALSE	RW	7714		0	917				
+GVL_Ai|LEm[41]	R				0.000000	Internal	0	FALSE	RW	7732		0	918				
+GVL_Ai|LEm[42]	R				0.000000	Internal	0	FALSE	RW	7750		0	919				
+GVL_Ai|LEm[43]	R				0.000000	Internal	0	FALSE	RW	7768		0	920				
+GVL_Ai|LEm[44]	R				0.000000	Internal	0	FALSE	RW	7786		0	921				
+GVL_Ai|LEm[45]	R				0.000000	Internal	0	FALSE	RW	7804		0	922				
+GVL_Ai|LEm[46]	R				0.000000	Internal	0	FALSE	RW	7822		0	923				
+GVL_Ai|LEm[47]	R				0.000000	Internal	0	FALSE	RW	7840		0	924				
+GVL_Ai|LEm[48]	R				0.000000	Internal	0	FALSE	RW	7858		0	925				
+GVL_Ai|LEm[49]	R				0.000000	Internal	0	FALSE	RW	7876		0	926				
+GVL_Ai|LEm[50]	R				0.000000	Internal	0	FALSE	RW	7894		0	927				
+GVL_Ai|LEm[51]	R				0.000000	Internal	0	FALSE	RW	7912		0	928				
+GVL_Ai|LEm[52]	R				0.000000	Internal	0	FALSE	RW	7930		0	929				
+GVL_Ai|LEm[53]	R				0.000000	Internal	0	FALSE	RW	7948		0	930				
+GVL_Ai|LEm[54]	R				0.000000	Internal	0	FALSE	RW	7966		0	931				
+GVL_Ai|LEm[55]	R				0.000000	Internal	0	FALSE	RW	7984		0	932				
+GVL_Ai|LEm[56]	R				0.000000	Internal	0	FALSE	RW	8002		0	933				
+GVL_Ai|LEm[57]	R				0.000000	Internal	0	FALSE	RW	8020		0	934				
+GVL_Ai|LEm[58]	R				0.000000	Internal	0	FALSE	RW	8038		0	935				
+GVL_Ai|LEm[59]	R				0.000000	Internal	0	FALSE	RW	8056		0	936				
+GVL_Ai|LEm[60]	R				0.000000	Internal	0	FALSE	RW	8074		0	937				
+GVL_Ai|LEm[61]	R				0.000000	Internal	0	FALSE	RW	8092		0	938				
+GVL_Ai|LEm[62]	R				0.000000	Internal	0	FALSE	RW	8110		0	939				
+GVL_Ai|LEm[63]	R				0.000000	Internal	0	FALSE	RW	8128		0	940				
+GVL_Ai|LEm[64]	R				0.000000	Internal	0	FALSE	RW	8146		0	941				
+GVL_Ai|LEm[65]	R				0.000000	Internal	0	FALSE	RW	8164		0	942				
+GVL_Ai|LEm[66]	R				0.000000	Internal	0	FALSE	RW	8182		0	943				
+GVL_Ai|LEm[67]	R				0.000000	Internal	0	FALSE	RW	8200		0	944				
+GVL_Ai|LEm[68]	R				0.000000	Internal	0	FALSE	RW	8218		0	945				
+GVL_Ai|LEm[69]	R				0.000000	Internal	0	FALSE	RW	8236		0	946				
+GVL_Ai|LEm[70]	R				0.000000	Internal	0	FALSE	RW	8254		0	947				
+GVL_Ai|LEm[71]	R				0.000000	Internal	0	FALSE	RW	8272		0	948				
+GVL_Ai|LEm[72]	R				0.000000	Internal	0	FALSE	RW	8290		0	949				
+GVL_Ai|LEm[73]	R				0.000000	Internal	0	FALSE	RW	8308		0	950				
+GVL_Ai|LEm[74]	R				0.000000	Internal	0	FALSE	RW	8326		0	951				
+GVL_Ai|LEm[75]	R				0.000000	Internal	0	FALSE	RW	8344		0	952				
+GVL_Ai|LEm[76]	R				0.000000	Internal	0	FALSE	RW	8362		0	953				
+GVL_Ai|LEm[77]	R				0.000000	Internal	0	FALSE	RW	8380		0	954				
+GVL_Ai|LEm[78]	R				0.000000	Internal	0	FALSE	RW	8398		0	955				
+GVL_Ai|LEm[79]	R				0.000000	Internal	0	FALSE	RW	8416		0	956				
+GVL_Ai|LEm[80]	R				0.000000	Internal	0	FALSE	RW	8434		0	957				
+GVL_Ai|LEm[81]	R				0.000000	Internal	0	FALSE	RW	8452		0	958				
+GVL_Ai|LEm[82]	R				0.000000	Internal	0	FALSE	RW	8470		0	959				
+GVL_Ai|LEm[83]	R				0.000000	Internal	0	FALSE	RW	8488		0	960				
+GVL_Ai|LEm[84]	R				0.000000	Internal	0	FALSE	RW	8506		0	961				
+GVL_Ai|LEm[85]	R				0.000000	Internal	0	FALSE	RW	8524		0	962				
+GVL_Ai|LEm[86]	R				0.000000	Internal	0	FALSE	RW	8542		0	963				
+GVL_Ai|LEm[87]	R				0.000000	Internal	0	FALSE	RW	8560		0	964				
+GVL_Ai|LEm[88]	R				0.000000	Internal	0	FALSE	RW	8578		0	965				
+GVL_Ai|LEm[89]	R				0.000000	Internal	0	FALSE	RW	8596		0	966				
+GVL_Ai|LEm[90]	R				0.000000	Internal	0	FALSE	RW	8614		0	967				
+GVL_Ai|LEm[91]	R				0.000000	Internal	0	FALSE	RW	8632		0	968				
+GVL_Ai|LEm[92]	R				0.000000	Internal	0	FALSE	RW	8650		0	969				
+GVL_Ai|LEm[93]	R				0.000000	Internal	0	FALSE	RW	8668		0	970				
+GVL_Ai|LEm[94]	R				0.000000	Internal	0	FALSE	RW	8686		0	971				
+GVL_Ai|LEm[95]	R				0.000000	Internal	0	FALSE	RW	8704		0	972				
+GVL_Ai|LEm[96]	R				0.000000	Internal	0	FALSE	RW	8722		0	973				
+GVL_Ai|masking_value	A	1..96	R			Internal		FALSE	RW								Симуляция аналоговых параметров. Значение
+GVL_Ai|masking_value[1]	R				0.000000	Internal	0	FALSE	RW	7014		0	974				
+GVL_Ai|masking_value[2]	R				0.000000	Internal	0	FALSE	RW	7032		0	975				
+GVL_Ai|masking_value[3]	R				0.000000	Internal	0	FALSE	RW	7050		0	976				
+GVL_Ai|masking_value[4]	R				0.000000	Internal	0	FALSE	RW	7068		0	977				
+GVL_Ai|masking_value[5]	R				0.000000	Internal	0	FALSE	RW	7086		0	978				
+GVL_Ai|masking_value[6]	R				0.000000	Internal	0	FALSE	RW	7104		0	979				
+GVL_Ai|masking_value[7]	R				0.000000	Internal	0	FALSE	RW	7122		0	980				
+GVL_Ai|masking_value[8]	R				0.000000	Internal	0	FALSE	RW	7140		0	981				
+GVL_Ai|masking_value[9]	R				0.000000	Internal	0	FALSE	RW	7158		0	982				
+GVL_Ai|masking_value[10]	R				0.000000	Internal	0	FALSE	RW	7176		0	983				
+GVL_Ai|masking_value[11]	R				0.000000	Internal	0	FALSE	RW	7194		0	984				
+GVL_Ai|masking_value[12]	R				0.000000	Internal	0	FALSE	RW	7212		0	985				
+GVL_Ai|masking_value[13]	R				0.000000	Internal	0	FALSE	RW	7230		0	986				
+GVL_Ai|masking_value[14]	R				0.000000	Internal	0	FALSE	RW	7248		0	987				
+GVL_Ai|masking_value[15]	R				0.000000	Internal	0	FALSE	RW	7266		0	988				
+GVL_Ai|masking_value[16]	R				0.000000	Internal	0	FALSE	RW	7284		0	989				
+GVL_Ai|masking_value[17]	R				0.000000	Internal	0	FALSE	RW	7302		0	990				
+GVL_Ai|masking_value[18]	R				0.000000	Internal	0	FALSE	RW	7320		0	991				
+GVL_Ai|masking_value[19]	R				0.000000	Internal	0	FALSE	RW	7338		0	992				
+GVL_Ai|masking_value[20]	R				0.000000	Internal	0	FALSE	RW	7356		0	993				
+GVL_Ai|masking_value[21]	R				0.000000	Internal	0	FALSE	RW	7374		0	994				
+GVL_Ai|masking_value[22]	R				0.000000	Internal	0	FALSE	RW	7392		0	995				
+GVL_Ai|masking_value[23]	R				0.000000	Internal	0	FALSE	RW	7410		0	996				
+GVL_Ai|masking_value[24]	R				0.000000	Internal	0	FALSE	RW	7428		0	997				
+GVL_Ai|masking_value[25]	R				0.000000	Internal	0	FALSE	RW	7446		0	998				
+GVL_Ai|masking_value[26]	R				0.000000	Internal	0	FALSE	RW	7464		0	999				
+GVL_Ai|masking_value[27]	R				0.000000	Internal	0	FALSE	RW	7482		0	1000				
+GVL_Ai|masking_value[28]	R				0.000000	Internal	0	FALSE	RW	7500		0	1001				
+GVL_Ai|masking_value[29]	R				0.000000	Internal	0	FALSE	RW	7518		0	1002				
+GVL_Ai|masking_value[30]	R				0.000000	Internal	0	FALSE	RW	7536		0	1003				
+GVL_Ai|masking_value[31]	R				0.000000	Internal	0	FALSE	RW	7554		0	1004				
+GVL_Ai|masking_value[32]	R				0.000000	Internal	0	FALSE	RW	7572		0	1005				
+GVL_Ai|masking_value[33]	R				0.000000	Internal	0	FALSE	RW	7590		0	1006				
+GVL_Ai|masking_value[34]	R				0.000000	Internal	0	FALSE	RW	7608		0	1007				
+GVL_Ai|masking_value[35]	R				0.000000	Internal	0	FALSE	RW	7626		0	1008				
+GVL_Ai|masking_value[36]	R				0.000000	Internal	0	FALSE	RW	7644		0	1009				
+GVL_Ai|masking_value[37]	R				0.000000	Internal	0	FALSE	RW	7662		0	1010				
+GVL_Ai|masking_value[38]	R				0.000000	Internal	0	FALSE	RW	7680		0	1011				
+GVL_Ai|masking_value[39]	R				0.000000	Internal	0	FALSE	RW	7698		0	1012				
+GVL_Ai|masking_value[40]	R				0.000000	Internal	0	FALSE	RW	7716		0	1013				
+GVL_Ai|masking_value[41]	R				0.000000	Internal	0	FALSE	RW	7734		0	1014				
+GVL_Ai|masking_value[42]	R				0.000000	Internal	0	FALSE	RW	7752		0	1015				
+GVL_Ai|masking_value[43]	R				0.000000	Internal	0	FALSE	RW	7770		0	1016				
+GVL_Ai|masking_value[44]	R				0.000000	Internal	0	FALSE	RW	7788		0	1017				
+GVL_Ai|masking_value[45]	R				0.000000	Internal	0	FALSE	RW	7806		0	1018				
+GVL_Ai|masking_value[46]	R				0.000000	Internal	0	FALSE	RW	7824		0	1019				
+GVL_Ai|masking_value[47]	R				0.000000	Internal	0	FALSE	RW	7842		0	1020				
+GVL_Ai|masking_value[48]	R				0.000000	Internal	0	FALSE	RW	7860		0	1021				
+GVL_Ai|masking_value[49]	R				0.000000	Internal	0	FALSE	RW	7878		0	1022				
+GVL_Ai|masking_value[50]	R				0.000000	Internal	0	FALSE	RW	7896		0	1023				
+GVL_Ai|masking_value[51]	R				0.000000	Internal	0	FALSE	RW	7914		0	1024				
+GVL_Ai|masking_value[52]	R				0.000000	Internal	0	FALSE	RW	7932		0	1025				
+GVL_Ai|masking_value[53]	R				0.000000	Internal	0	FALSE	RW	7950		0	1026				
+GVL_Ai|masking_value[54]	R				0.000000	Internal	0	FALSE	RW	7968		0	1027				
+GVL_Ai|masking_value[55]	R				0.000000	Internal	0	FALSE	RW	7986		0	1028				
+GVL_Ai|masking_value[56]	R				0.000000	Internal	0	FALSE	RW	8004		0	1029				
+GVL_Ai|masking_value[57]	R				0.000000	Internal	0	FALSE	RW	8022		0	1030				
+GVL_Ai|masking_value[58]	R				0.000000	Internal	0	FALSE	RW	8040		0	1031				
+GVL_Ai|masking_value[59]	R				0.000000	Internal	0	FALSE	RW	8058		0	1032				
+GVL_Ai|masking_value[60]	R				0.000000	Internal	0	FALSE	RW	8076		0	1033				
+GVL_Ai|masking_value[61]	R				0.000000	Internal	0	FALSE	RW	8094		0	1034				
+GVL_Ai|masking_value[62]	R				0.000000	Internal	0	FALSE	RW	8112		0	1035				
+GVL_Ai|masking_value[63]	R				0.000000	Internal	0	FALSE	RW	8130		0	1036				
+GVL_Ai|masking_value[64]	R				0.000000	Internal	0	FALSE	RW	8148		0	1037				
+GVL_Ai|masking_value[65]	R				0.000000	Internal	0	FALSE	RW	8166		0	1038				
+GVL_Ai|masking_value[66]	R				0.000000	Internal	0	FALSE	RW	8184		0	1039				
+GVL_Ai|masking_value[67]	R				0.000000	Internal	0	FALSE	RW	8202		0	1040				
+GVL_Ai|masking_value[68]	R				0.000000	Internal	0	FALSE	RW	8220		0	1041				
+GVL_Ai|masking_value[69]	R				0.000000	Internal	0	FALSE	RW	8238		0	1042				
+GVL_Ai|masking_value[70]	R				0.000000	Internal	0	FALSE	RW	8256		0	1043				
+GVL_Ai|masking_value[71]	R				0.000000	Internal	0	FALSE	RW	8274		0	1044				
+GVL_Ai|masking_value[72]	R				0.000000	Internal	0	FALSE	RW	8292		0	1045				
+GVL_Ai|masking_value[73]	R				0.000000	Internal	0	FALSE	RW	8310		0	1046				
+GVL_Ai|masking_value[74]	R				0.000000	Internal	0	FALSE	RW	8328		0	1047				
+GVL_Ai|masking_value[75]	R				0.000000	Internal	0	FALSE	RW	8346		0	1048				
+GVL_Ai|masking_value[76]	R				0.000000	Internal	0	FALSE	RW	8364		0	1049				
+GVL_Ai|masking_value[77]	R				0.000000	Internal	0	FALSE	RW	8382		0	1050				
+GVL_Ai|masking_value[78]	R				0.000000	Internal	0	FALSE	RW	8400		0	1051				
+GVL_Ai|masking_value[79]	R				0.000000	Internal	0	FALSE	RW	8418		0	1052				
+GVL_Ai|masking_value[80]	R				0.000000	Internal	0	FALSE	RW	8436		0	1053				
+GVL_Ai|masking_value[81]	R				0.000000	Internal	0	FALSE	RW	8454		0	1054				
+GVL_Ai|masking_value[82]	R				0.000000	Internal	0	FALSE	RW	8472		0	1055				
+GVL_Ai|masking_value[83]	R				0.000000	Internal	0	FALSE	RW	8490		0	1056				
+GVL_Ai|masking_value[84]	R				0.000000	Internal	0	FALSE	RW	8508		0	1057				
+GVL_Ai|masking_value[85]	R				0.000000	Internal	0	FALSE	RW	8526		0	1058				
+GVL_Ai|masking_value[86]	R				0.000000	Internal	0	FALSE	RW	8544		0	1059				
+GVL_Ai|masking_value[87]	R				0.000000	Internal	0	FALSE	RW	8562		0	1060				
+GVL_Ai|masking_value[88]	R				0.000000	Internal	0	FALSE	RW	8580		0	1061				
+GVL_Ai|masking_value[89]	R				0.000000	Internal	0	FALSE	RW	8598		0	1062				
+GVL_Ai|masking_value[90]	R				0.000000	Internal	0	FALSE	RW	8616		0	1063				
+GVL_Ai|masking_value[91]	R				0.000000	Internal	0	FALSE	RW	8634		0	1064				
+GVL_Ai|masking_value[92]	R				0.000000	Internal	0	FALSE	RW	8652		0	1065				
+GVL_Ai|masking_value[93]	R				0.000000	Internal	0	FALSE	RW	8670		0	1066				
+GVL_Ai|masking_value[94]	R				0.000000	Internal	0	FALSE	RW	8688		0	1067				
+GVL_Ai|masking_value[95]	R				0.000000	Internal	0	FALSE	RW	8706		0	1068				
+GVL_Ai|masking_value[96]	R				0.000000	Internal	0	FALSE	RW	8724		0	1069				
+GVL_Ai|correction_offset	A	1..96	R			Internal		FALSE	RW								Поправочное смещение. Значение
+GVL_Ai|correction_offset[1]	R				0.000000	Internal	0	FALSE	RW	7016		0	1070				
+GVL_Ai|correction_offset[2]	R				0.000000	Internal	0	FALSE	RW	7034		0	1071				
+GVL_Ai|correction_offset[3]	R				0.000000	Internal	0	FALSE	RW	7052		0	1072				
+GVL_Ai|correction_offset[4]	R				0.000000	Internal	0	FALSE	RW	7070		0	1073				
+GVL_Ai|correction_offset[5]	R				0.000000	Internal	0	FALSE	RW	7088		0	1074				
+GVL_Ai|correction_offset[6]	R				0.000000	Internal	0	FALSE	RW	7106		0	1075				
+GVL_Ai|correction_offset[7]	R				0.000000	Internal	0	FALSE	RW	7124		0	1076				
+GVL_Ai|correction_offset[8]	R				0.000000	Internal	0	FALSE	RW	7142		0	1077				
+GVL_Ai|correction_offset[9]	R				0.000000	Internal	0	FALSE	RW	7160		0	1078				
+GVL_Ai|correction_offset[10]	R				0.000000	Internal	0	FALSE	RW	7178		0	1079				
+GVL_Ai|correction_offset[11]	R				0.000000	Internal	0	FALSE	RW	7196		0	1080				
+GVL_Ai|correction_offset[12]	R				0.000000	Internal	0	FALSE	RW	7214		0	1081				
+GVL_Ai|correction_offset[13]	R				0.000000	Internal	0	FALSE	RW	7232		0	1082				
+GVL_Ai|correction_offset[14]	R				0.000000	Internal	0	FALSE	RW	7250		0	1083				
+GVL_Ai|correction_offset[15]	R				0.000000	Internal	0	FALSE	RW	7268		0	1084				
+GVL_Ai|correction_offset[16]	R				0.000000	Internal	0	FALSE	RW	7286		0	1085				
+GVL_Ai|correction_offset[17]	R				0.000000	Internal	0	FALSE	RW	7304		0	1086				
+GVL_Ai|correction_offset[18]	R				0.000000	Internal	0	FALSE	RW	7322		0	1087				
+GVL_Ai|correction_offset[19]	R				0.000000	Internal	0	FALSE	RW	7340		0	1088				
+GVL_Ai|correction_offset[20]	R				0.000000	Internal	0	FALSE	RW	7358		0	1089				
+GVL_Ai|correction_offset[21]	R				0.000000	Internal	0	FALSE	RW	7376		0	1090				
+GVL_Ai|correction_offset[22]	R				0.000000	Internal	0	FALSE	RW	7394		0	1091				
+GVL_Ai|correction_offset[23]	R				0.000000	Internal	0	FALSE	RW	7412		0	1092				
+GVL_Ai|correction_offset[24]	R				0.000000	Internal	0	FALSE	RW	7430		0	1093				
+GVL_Ai|correction_offset[25]	R				0.000000	Internal	0	FALSE	RW	7448		0	1094				
+GVL_Ai|correction_offset[26]	R				0.000000	Internal	0	FALSE	RW	7466		0	1095				
+GVL_Ai|correction_offset[27]	R				0.000000	Internal	0	FALSE	RW	7484		0	1096				
+GVL_Ai|correction_offset[28]	R				0.000000	Internal	0	FALSE	RW	7502		0	1097				
+GVL_Ai|correction_offset[29]	R				0.000000	Internal	0	FALSE	RW	7520		0	1098				
+GVL_Ai|correction_offset[30]	R				0.000000	Internal	0	FALSE	RW	7538		0	1099				
+GVL_Ai|correction_offset[31]	R				0.000000	Internal	0	FALSE	RW	7556		0	1100				
+GVL_Ai|correction_offset[32]	R				0.000000	Internal	0	FALSE	RW	7574		0	1101				
+GVL_Ai|correction_offset[33]	R				0.000000	Internal	0	FALSE	RW	7592		0	1102				
+GVL_Ai|correction_offset[34]	R				0.000000	Internal	0	FALSE	RW	7610		0	1103				
+GVL_Ai|correction_offset[35]	R				0.000000	Internal	0	FALSE	RW	7628		0	1104				
+GVL_Ai|correction_offset[36]	R				0.000000	Internal	0	FALSE	RW	7646		0	1105				
+GVL_Ai|correction_offset[37]	R				0.000000	Internal	0	FALSE	RW	7664		0	1106				
+GVL_Ai|correction_offset[38]	R				0.000000	Internal	0	FALSE	RW	7682		0	1107				
+GVL_Ai|correction_offset[39]	R				0.000000	Internal	0	FALSE	RW	7700		0	1108				
+GVL_Ai|correction_offset[40]	R				0.000000	Internal	0	FALSE	RW	7718		0	1109				
+GVL_Ai|correction_offset[41]	R				0.000000	Internal	0	FALSE	RW	7736		0	1110				
+GVL_Ai|correction_offset[42]	R				0.000000	Internal	0	FALSE	RW	7754		0	1111				
+GVL_Ai|correction_offset[43]	R				0.000000	Internal	0	FALSE	RW	7772		0	1112				
+GVL_Ai|correction_offset[44]	R				0.000000	Internal	0	FALSE	RW	7790		0	1113				
+GVL_Ai|correction_offset[45]	R				0.000000	Internal	0	FALSE	RW	7808		0	1114				
+GVL_Ai|correction_offset[46]	R				0.000000	Internal	0	FALSE	RW	7826		0	1115				
+GVL_Ai|correction_offset[47]	R				0.000000	Internal	0	FALSE	RW	7844		0	1116				
+GVL_Ai|correction_offset[48]	R				0.000000	Internal	0	FALSE	RW	7862		0	1117				
+GVL_Ai|correction_offset[49]	R				0.000000	Internal	0	FALSE	RW	7880		0	1118				
+GVL_Ai|correction_offset[50]	R				0.000000	Internal	0	FALSE	RW	7898		0	1119				
+GVL_Ai|correction_offset[51]	R				0.000000	Internal	0	FALSE	RW	7916		0	1120				
+GVL_Ai|correction_offset[52]	R				0.000000	Internal	0	FALSE	RW	7934		0	1121				
+GVL_Ai|correction_offset[53]	R				0.000000	Internal	0	FALSE	RW	7952		0	1122				
+GVL_Ai|correction_offset[54]	R				0.000000	Internal	0	FALSE	RW	7970		0	1123				
+GVL_Ai|correction_offset[55]	R				0.000000	Internal	0	FALSE	RW	7988		0	1124				
+GVL_Ai|correction_offset[56]	R				0.000000	Internal	0	FALSE	RW	8006		0	1125				
+GVL_Ai|correction_offset[57]	R				0.000000	Internal	0	FALSE	RW	8024		0	1126				
+GVL_Ai|correction_offset[58]	R				0.000000	Internal	0	FALSE	RW	8042		0	1127				
+GVL_Ai|correction_offset[59]	R				0.000000	Internal	0	FALSE	RW	8060		0	1128				
+GVL_Ai|correction_offset[60]	R				0.000000	Internal	0	FALSE	RW	8078		0	1129				
+GVL_Ai|correction_offset[61]	R				0.000000	Internal	0	FALSE	RW	8096		0	1130				
+GVL_Ai|correction_offset[62]	R				0.000000	Internal	0	FALSE	RW	8114		0	1131				
+GVL_Ai|correction_offset[63]	R				0.000000	Internal	0	FALSE	RW	8132		0	1132				
+GVL_Ai|correction_offset[64]	R				0.000000	Internal	0	FALSE	RW	8150		0	1133				
+GVL_Ai|correction_offset[65]	R				0.000000	Internal	0	FALSE	RW	8168		0	1134				
+GVL_Ai|correction_offset[66]	R				0.000000	Internal	0	FALSE	RW	8186		0	1135				
+GVL_Ai|correction_offset[67]	R				0.000000	Internal	0	FALSE	RW	8204		0	1136				
+GVL_Ai|correction_offset[68]	R				0.000000	Internal	0	FALSE	RW	8222		0	1137				
+GVL_Ai|correction_offset[69]	R				0.000000	Internal	0	FALSE	RW	8240		0	1138				
+GVL_Ai|correction_offset[70]	R				0.000000	Internal	0	FALSE	RW	8258		0	1139				
+GVL_Ai|correction_offset[71]	R				0.000000	Internal	0	FALSE	RW	8276		0	1140				
+GVL_Ai|correction_offset[72]	R				0.000000	Internal	0	FALSE	RW	8294		0	1141				
+GVL_Ai|correction_offset[73]	R				0.000000	Internal	0	FALSE	RW	8312		0	1142				
+GVL_Ai|correction_offset[74]	R				0.000000	Internal	0	FALSE	RW	8330		0	1143				
+GVL_Ai|correction_offset[75]	R				0.000000	Internal	0	FALSE	RW	8348		0	1144				
+GVL_Ai|correction_offset[76]	R				0.000000	Internal	0	FALSE	RW	8366		0	1145				
+GVL_Ai|correction_offset[77]	R				0.000000	Internal	0	FALSE	RW	8384		0	1146				
+GVL_Ai|correction_offset[78]	R				0.000000	Internal	0	FALSE	RW	8402		0	1147				
+GVL_Ai|correction_offset[79]	R				0.000000	Internal	0	FALSE	RW	8420		0	1148				
+GVL_Ai|correction_offset[80]	R				0.000000	Internal	0	FALSE	RW	8438		0	1149				
+GVL_Ai|correction_offset[81]	R				0.000000	Internal	0	FALSE	RW	8456		0	1150				
+GVL_Ai|correction_offset[82]	R				0.000000	Internal	0	FALSE	RW	8474		0	1151				
+GVL_Ai|correction_offset[83]	R				0.000000	Internal	0	FALSE	RW	8492		0	1152				
+GVL_Ai|correction_offset[84]	R				0.000000	Internal	0	FALSE	RW	8510		0	1153				
+GVL_Ai|correction_offset[85]	R				0.000000	Internal	0	FALSE	RW	8528		0	1154				
+GVL_Ai|correction_offset[86]	R				0.000000	Internal	0	FALSE	RW	8546		0	1155				
+GVL_Ai|correction_offset[87]	R				0.000000	Internal	0	FALSE	RW	8564		0	1156				
+GVL_Ai|correction_offset[88]	R				0.000000	Internal	0	FALSE	RW	8582		0	1157				
+GVL_Ai|correction_offset[89]	R				0.000000	Internal	0	FALSE	RW	8600		0	1158				
+GVL_Ai|correction_offset[90]	R				0.000000	Internal	0	FALSE	RW	8618		0	1159				
+GVL_Ai|correction_offset[91]	R				0.000000	Internal	0	FALSE	RW	8636		0	1160				
+GVL_Ai|correction_offset[92]	R				0.000000	Internal	0	FALSE	RW	8654		0	1161				
+GVL_Ai|correction_offset[93]	R				0.000000	Internal	0	FALSE	RW	8672		0	1162				
+GVL_Ai|correction_offset[94]	R				0.000000	Internal	0	FALSE	RW	8690		0	1163				
+GVL_Ai|correction_offset[95]	R				0.000000	Internal	0	FALSE	RW	8708		0	1164				
+GVL_Ai|correction_offset[96]	R				0.000000	Internal	0	FALSE	RW	8726		0	1165				
+GVL_Ai|State	A	1..96	I			Internal		FALSE	RW								Состояние Аи канала
+GVL_Ai|State[1]	I				0	Internal	0	FALSE	RW	0		0	1166				
+GVL_Ai|State[2]	I				0	Internal	0	FALSE	RW	0		0	1167				
+GVL_Ai|State[3]	I				0	Internal	0	FALSE	RW	0		0	1344				
+GVL_Ai|State[4]	I				0	Internal	0	FALSE	RW	0		0	1345				
+GVL_Ai|State[5]	I				0	Internal	0	FALSE	RW	0		0	1346				
+GVL_Ai|State[6]	I				0	Internal	0	FALSE	RW	0		0	1347				
+GVL_Ai|State[7]	I				0	Internal	0	FALSE	RW	0		0	1348				
+GVL_Ai|State[8]	I				0	Internal	0	FALSE	RW	0		0	1349				
+GVL_Ai|State[9]	I				0	Internal	0	FALSE	RW	0		0	1350				
+GVL_Ai|State[10]	I				0	Internal	0	FALSE	RW	0		0	1351				
+GVL_Ai|State[11]	I				0	Internal	0	FALSE	RW	0		0	1352				
+GVL_Ai|State[12]	I				0	Internal	0	FALSE	RW	0		0	1353				
+GVL_Ai|State[13]	I				0	Internal	0	FALSE	RW	0		0	1354				
+GVL_Ai|State[14]	I				0	Internal	0	FALSE	RW	0		0	1355				
+GVL_Ai|State[15]	I				0	Internal	0	FALSE	RW	0		0	1356				
+GVL_Ai|State[16]	I				0	Internal	0	FALSE	RW	0		0	1357				
+GVL_Ai|State[17]	I				0	Internal	0	FALSE	RW	0		0	1358				
+GVL_Ai|State[18]	I				0	Internal	0	FALSE	RW	0		0	1359				
+GVL_Ai|State[19]	I				0	Internal	0	FALSE	RW	0		0	1360				
+GVL_Ai|State[20]	I				0	Internal	0	FALSE	RW	0		0	1361				
+GVL_Ai|State[21]	I				0	Internal	0	FALSE	RW	0		0	1362				
+GVL_Ai|State[22]	I				0	Internal	0	FALSE	RW	0		0	1363				
+GVL_Ai|State[23]	I				0	Internal	0	FALSE	RW	0		0	1364				
+GVL_Ai|State[24]	I				0	Internal	0	FALSE	RW	0		0	1365				
+GVL_Ai|State[25]	I				0	Internal	0	FALSE	RW	0		0	1366				
+GVL_Ai|State[26]	I				0	Internal	0	FALSE	RW	0		0	1367				
+GVL_Ai|State[27]	I				0	Internal	0	FALSE	RW	0		0	1368				
+GVL_Ai|State[28]	I				0	Internal	0	FALSE	RW	0		0	1369				
+GVL_Ai|State[29]	I				0	Internal	0	FALSE	RW	0		0	1370				
+GVL_Ai|State[30]	I				0	Internal	0	FALSE	RW	0		0	1371				
+GVL_Ai|State[31]	I				0	Internal	0	FALSE	RW	0		0	1372				
+GVL_Ai|State[32]	I				0	Internal	0	FALSE	RW	0		0	1373				
+GVL_Ai|State[33]	I				0	Internal	0	FALSE	RW	0		0	1374				
+GVL_Ai|State[34]	I				0	Internal	0	FALSE	RW	0		0	1375				
+GVL_Ai|State[35]	I				0	Internal	0	FALSE	RW	0		0	1376				
+GVL_Ai|State[36]	I				0	Internal	0	FALSE	RW	0		0	1377				
+GVL_Ai|State[37]	I				0	Internal	0	FALSE	RW	0		0	1378				
+GVL_Ai|State[38]	I				0	Internal	0	FALSE	RW	0		0	1379				
+GVL_Ai|State[39]	I				0	Internal	0	FALSE	RW	0		0	1380				
+GVL_Ai|State[40]	I				0	Internal	0	FALSE	RW	0		0	1381				
+GVL_Ai|State[41]	I				0	Internal	0	FALSE	RW	0		0	1382				
+GVL_Ai|State[42]	I				0	Internal	0	FALSE	RW	0		0	1383				
+GVL_Ai|State[43]	I				0	Internal	0	FALSE	RW	0		0	1384				
+GVL_Ai|State[44]	I				0	Internal	0	FALSE	RW	0		0	1385				
+GVL_Ai|State[45]	I				0	Internal	0	FALSE	RW	0		0	1386				
+GVL_Ai|State[46]	I				0	Internal	0	FALSE	RW	0		0	1387				
+GVL_Ai|State[47]	I				0	Internal	0	FALSE	RW	0		0	1388				
+GVL_Ai|State[48]	I				0	Internal	0	FALSE	RW	0		0	1389				
+GVL_Ai|State[49]	I				0	Internal	0	FALSE	RW	0		0	1390				
+GVL_Ai|State[50]	I				0	Internal	0	FALSE	RW	0		0	1391				
+GVL_Ai|State[51]	I				0	Internal	0	FALSE	RW	0		0	1392				
+GVL_Ai|State[52]	I				0	Internal	0	FALSE	RW	0		0	1393				
+GVL_Ai|State[53]	I				0	Internal	0	FALSE	RW	0		0	1394				
+GVL_Ai|State[54]	I				0	Internal	0	FALSE	RW	0		0	1395				
+GVL_Ai|State[55]	I				0	Internal	0	FALSE	RW	0		0	1396				
+GVL_Ai|State[56]	I				0	Internal	0	FALSE	RW	0		0	1397				
+GVL_Ai|State[57]	I				0	Internal	0	FALSE	RW	0		0	1398				
+GVL_Ai|State[58]	I				0	Internal	0	FALSE	RW	0		0	1399				
+GVL_Ai|State[59]	I				0	Internal	0	FALSE	RW	0		0	1400				
+GVL_Ai|State[60]	I				0	Internal	0	FALSE	RW	0		0	1401				
+GVL_Ai|State[61]	I				0	Internal	0	FALSE	RW	0		0	1402				
+GVL_Ai|State[62]	I				0	Internal	0	FALSE	RW	0		0	1403				
+GVL_Ai|State[63]	I				0	Internal	0	FALSE	RW	0		0	1404				
+GVL_Ai|State[64]	I				0	Internal	0	FALSE	RW	0		0	1405				
+GVL_Ai|State[65]	I				0	Internal	0	FALSE	RW	0		0	1406				
+GVL_Ai|State[66]	I				0	Internal	0	FALSE	RW	0		0	1407				
+GVL_Ai|State[67]	I				0	Internal	0	FALSE	RW	0		0	1408				
+GVL_Ai|State[68]	I				0	Internal	0	FALSE	RW	0		0	1409				
+GVL_Ai|State[69]	I				0	Internal	0	FALSE	RW	0		0	1410				
+GVL_Ai|State[70]	I				0	Internal	0	FALSE	RW	0		0	1411				
+GVL_Ai|State[71]	I				0	Internal	0	FALSE	RW	0		0	1412				
+GVL_Ai|State[72]	I				0	Internal	0	FALSE	RW	0		0	1413				
+GVL_Ai|State[73]	I				0	Internal	0	FALSE	RW	0		0	1414				
+GVL_Ai|State[74]	I				0	Internal	0	FALSE	RW	0		0	1415				
+GVL_Ai|State[75]	I				0	Internal	0	FALSE	RW	0		0	1416				
+GVL_Ai|State[76]	I				0	Internal	0	FALSE	RW	0		0	1417				
+GVL_Ai|State[77]	I				0	Internal	0	FALSE	RW	0		0	1418				
+GVL_Ai|State[78]	I				0	Internal	0	FALSE	RW	0		0	1419				
+GVL_Ai|State[79]	I				0	Internal	0	FALSE	RW	0		0	1420				
+GVL_Ai|State[80]	I				0	Internal	0	FALSE	RW	0		0	1421				
+GVL_Ai|State[81]	I				0	Internal	0	FALSE	RW	0		0	1422				
+GVL_Ai|State[82]	I				0	Internal	0	FALSE	RW	0		0	1423				
+GVL_Ai|State[83]	I				0	Internal	0	FALSE	RW	0		0	1424				
+GVL_Ai|State[84]	I				0	Internal	0	FALSE	RW	0		0	1425				
+GVL_Ai|State[85]	I				0	Internal	0	FALSE	RW	0		0	1426				
+GVL_Ai|State[86]	I				0	Internal	0	FALSE	RW	0		0	1427				
+GVL_Ai|State[87]	I				0	Internal	0	FALSE	RW	0		0	1428				
+GVL_Ai|State[88]	I				0	Internal	0	FALSE	RW	0		0	1429				
+GVL_Ai|State[89]	I				0	Internal	0	FALSE	RW	0		0	1430				
+GVL_Ai|State[90]	I				0	Internal	0	FALSE	RW	0		0	1431				
+GVL_Ai|State[91]	I				0	Internal	0	FALSE	RW	0		0	1432				
+GVL_Ai|State[92]	I				0	Internal	0	FALSE	RW	0		0	1433				
+GVL_Ai|State[93]	I				0	Internal	0	FALSE	RW	0		0	1434				
+GVL_Ai|State[94]	I				0	Internal	0	FALSE	RW	0		0	1435				
+GVL_Ai|State[95]	I				0	Internal	0	FALSE	RW	0		0	1436				
+GVL_Ai|State[96]	I				0	Internal	0	FALSE	RW	0		0	1437				
+AiM1_555A	MOD2	1										0					
+Статистика (#1)	DBLK					RREQ		FALSE	RW	0							
+Work_Time	I				0	R	0	FALSE	RW	0	Work_Time	0	1474				Время наработки, сек
+Line1_Err	I				0	R	0	FALSE	RW	0	Line1_Err	0	1475				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	R	0	FALSE	RW	0	Line2_Err	0	1476				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	R	0	FALSE	RW	0	Reset_code	0	1477				Код сброса
+Stbus_line1_err	B				FALSE	R	0	FALSE	RW	0		0	86				Ошибки связи с мастером (линия 1)
+Stbus_line2_err	B				FALSE	R	0	FALSE	RW	0		0	87				Ошибки связи с мастером (линия 2)
+Err_sequence	B				FALSE	R	0	FALSE	RW	0		0	88				Нарушение последовательности STBUS
+Mod_power_low	B				FALSE	R	0	FALSE	RW	0		0	89				Питание модуля ниже нормы
+CH_power_low	B				FALSE	R	0	FALSE	RW	0		0	90				Питание каналов ниже нормы
+CH_power_high	B				FALSE	R	0	FALSE	RW	0		0	91				Питание каналов выше нормы
+Overheat	B				FALSE	R	0	FALSE	RW	0		0	92				Перегрев группы питания каналов
+Overload_power1	B				FALSE	R	0	FALSE	RW	0		0	93				Перегрузка питания внешних цепей 1 гр.
+Overload_power2	B				FALSE	R	0	FALSE	RW	0		0	94				Перегрузка питания внешних цепей 2 гр.
+Overload_power3	B				FALSE	R	0	FALSE	RW	0		0	95				Перегрузка питания внешних цепей 3 гр.
+Overload_power4	B				FALSE	R	0	FALSE	RW	0		0	96				Перегрузка питания внешних цепей 4 гр.
+Overload_power5	B				FALSE	R	0	FALSE	RW	0		0	97				Перегрузка питания внешних цепей 5 гр.
+Overload_power6	B				FALSE	R	0	FALSE	RW	0		0	98				Перегрузка питания внешних цепей 6 гр.
+Overload_power7	B				FALSE	R	0	FALSE	RW	0		0	99				Перегрузка питания внешних цепей 7 гр.
+Overload_power8	B				FALSE	R	0	FALSE	RW	0		0	100				Перегрузка питания внешних цепей 8 гр.
+Metro_CH_01	I				0	R	0	FALSE	RW	0	Metro_CH_01	0	1478				Флаги метрологии, канал  1
+Metro_CH_02	I				0	R	0	FALSE	RW	0	Metro_CH_02	0	1479				Флаги метрологии, канал  2
+Metro_CH_03	I				0	R	0	FALSE	RW	0	Metro_CH_03	0	1480				Флаги метрологии, канал  3
+Metro_CH_04	I				0	R	0	FALSE	RW	0	Metro_CH_04	0	1481				Флаги метрологии, канал  4
+Metro_CH_05	I				0	R	0	FALSE	RW	0	Metro_CH_05	0	1482				Флаги метрологии, канал  5
+Metro_CH_06	I				0	R	0	FALSE	RW	0	Metro_CH_06	0	1483				Флаги метрологии, канал  6
+Metro_CH_07	I				0	R	0	FALSE	RW	0	Metro_CH_07	0	1484				Флаги метрологии, канал  7
+Metro_CH_08	I				0	R	0	FALSE	RW	0	Metro_CH_08	0	1485				Флаги метрологии, канал  8
+Metro_CH_09	I				0	R	0	FALSE	RW	0	Metro_CH_09	0	1486				Флаги метрологии, канал  9
+Metro_CH_10	I				0	R	0	FALSE	RW	0	Metro_CH_10	0	1487				Флаги метрологии, канал 10
+Metro_CH_11	I				0	R	0	FALSE	RW	0	Metro_CH_11	0	1488				Флаги метрологии, канал 11
+Metro_CH_12	I				0	R	0	FALSE	RW	0	Metro_CH_12	0	1489				Флаги метрологии, канал 12
+Metro_CH_13	I				0	R	0	FALSE	RW	0	Metro_CH_13	0	1490				Флаги метрологии, канал 13
+Metro_CH_14	I				0	R	0	FALSE	RW	0	Metro_CH_14	0	1491				Флаги метрологии, канал 14
+Metro_CH_15	I				0	R	0	FALSE	RW	0	Metro_CH_15	0	1492				Флаги метрологии, канал 15
+Metro_CH_16	I				0	R	0	FALSE	RW	0	Metro_CH_16	0	1493				Флаги метрологии, канал 16
+Metro_CH_17	I				0	R	0	FALSE	RW	0	Metro_CH_17	0	1494				Флаги метрологии, канал 17
+Metro_CH_18	I				0	R	0	FALSE	RW	0	Metro_CH_18	0	1495				Флаги метрологии, канал 18
+Metro_CH_19	I				0	R	0	FALSE	RW	0	Metro_CH_19	0	1496				Флаги метрологии, канал 19
+Metro_CH_20	I				0	R	0	FALSE	RW	0	Metro_CH_20	0	1497				Флаги метрологии, канал 20
+Metro_CH_21	I				0	R	0	FALSE	RW	0	Metro_CH_21	0	1498				Флаги метрологии, канал 21
+Metro_CH_22	I				0	R	0	FALSE	RW	0	Metro_CH_22	0	1499				Флаги метрологии, канал 22
+Metro_CH_23	I				0	R	0	FALSE	RW	0	Metro_CH_23	0	1500				Флаги метрологии, канал 23
+Metro_CH_24	I				0	R	0	FALSE	RW	0	Metro_CH_24	0	1501				Флаги метрологии, канал 24
+Metro_CH_25	I				0	R	0	FALSE	RW	0	Metro_CH_25	0	1502				Флаги метрологии, канал 25
+Metro_CH_26	I				0	R	0	FALSE	RW	0	Metro_CH_26	0	1503				Флаги метрологии, канал 26
+Metro_CH_27	I				0	R	0	FALSE	RW	0	Metro_CH_27	0	1504				Флаги метрологии, канал 27
+Metro_CH_28	I				0	R	0	FALSE	RW	0	Metro_CH_28	0	1505				Флаги метрологии, канал 28
+Metro_CH_29	I				0	R	0	FALSE	RW	0	Metro_CH_29	0	1506				Флаги метрологии, канал 29
+Metro_CH_30	I				0	R	0	FALSE	RW	0	Metro_CH_30	0	1507				Флаги метрологии, канал 30
+Metro_CH_31	I				0	R	0	FALSE	RW	0	Metro_CH_31	0	1508				Флаги метрологии, канал 31
+Metro_CH_32	I				0	R	0	FALSE	RW	0	Metro_CH_32	0	1509				Флаги метрологии, канал 32
+/
+Режим работы (#3)	DBLK					REQ		FALSE	RW	0							
+Mode_CH_01	I				0	W	0	FALSE	RW	0	Mode_CH_01	0	1510				Режим работы, канал  1
+Mode_CH_02	I				0	W	0	FALSE	RW	0	Mode_CH_02	0	1511				Режим работы, канал  2
+Mode_CH_03	I				0	W	0	FALSE	RW	0	Mode_CH_03	0	1512				Режим работы, канал  3
+Mode_CH_04	I				0	W	0	FALSE	RW	0	Mode_CH_04	0	1513				Режим работы, канал  4
+Mode_CH_05	I				0	W	0	FALSE	RW	0	Mode_CH_05	0	1514				Режим работы, канал  5
+Mode_CH_06	I				0	W	0	FALSE	RW	0	Mode_CH_06	0	1515				Режим работы, канал  6
+Mode_CH_07	I				0	W	0	FALSE	RW	0	Mode_CH_07	0	1516				Режим работы, канал  7
+Mode_CH_08	I				0	W	0	FALSE	RW	0	Mode_CH_08	0	1517				Режим работы, канал  8
+Mode_CH_09	I				0	W	0	FALSE	RW	0	Mode_CH_09	0	1518				Режим работы, канал  9
+Mode_CH_10	I				0	W	0	FALSE	RW	0	Mode_CH_10	0	1519				Режим работы, канал 10
+Mode_CH_11	I				0	W	0	FALSE	RW	0	Mode_CH_11	0	1520				Режим работы, канал 11
+Mode_CH_12	I				0	W	0	FALSE	RW	0	Mode_CH_12	0	1521				Режим работы, канал 12
+Mode_CH_13	I				0	W	0	FALSE	RW	0	Mode_CH_13	0	1522				Режим работы, канал 13
+Mode_CH_14	I				0	W	0	FALSE	RW	0	Mode_CH_14	0	1523				Режим работы, канал 14
+Mode_CH_15	I				0	W	0	FALSE	RW	0	Mode_CH_15	0	1524				Режим работы, канал 15
+Mode_CH_16	I				0	W	0	FALSE	RW	0	Mode_CH_16	0	1525				Режим работы, канал 16
+Mode_CH_17	I				0	W	0	FALSE	RW	0	Mode_CH_17	0	1526				Режим работы, канал 17
+Mode_CH_18	I				0	W	0	FALSE	RW	0	Mode_CH_18	0	1527				Режим работы, канал 18
+Mode_CH_19	I				0	W	0	FALSE	RW	0	Mode_CH_19	0	1528				Режим работы, канал 19
+Mode_CH_20	I				0	W	0	FALSE	RW	0	Mode_CH_20	0	1529				Режим работы, канал 20
+Mode_CH_21	I				0	W	0	FALSE	RW	0	Mode_CH_21	0	1530				Режим работы, канал 21
+Mode_CH_22	I				0	W	0	FALSE	RW	0	Mode_CH_22	0	1531				Режим работы, канал 22
+Mode_CH_23	I				0	W	0	FALSE	RW	0	Mode_CH_23	0	1532				Режим работы, канал 23
+Mode_CH_24	I				0	W	0	FALSE	RW	0	Mode_CH_24	0	1533				Режим работы, канал 24
+Mode_CH_25	I				0	W	0	FALSE	RW	0	Mode_CH_25	0	1534				Режим работы, канал 25
+Mode_CH_26	I				0	W	0	FALSE	RW	0	Mode_CH_26	0	1535				Режим работы, канал 26
+Mode_CH_27	I				0	W	0	FALSE	RW	0	Mode_CH_27	0	1536				Режим работы, канал 27
+Mode_CH_28	I				0	W	0	FALSE	RW	0	Mode_CH_28	0	1537				Режим работы, канал 28
+Mode_CH_29	I				0	W	0	FALSE	RW	0	Mode_CH_29	0	1538				Режим работы, канал 29
+Mode_CH_30	I				0	W	0	FALSE	RW	0	Mode_CH_30	0	1539				Режим работы, канал 30
+Mode_CH_31	I				0	W	0	FALSE	RW	0	Mode_CH_31	0	1540				Режим работы, канал 31
+Mode_CH_32	I				0	W	0	FALSE	RW	0	Mode_CH_32	0	1541				Режим работы, канал 32
+/
+Общие параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Filter	I				0	W	0	FALSE	RW	0	Filter	0	1542				Управление фильтром преобразований
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	1543				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	101				Нет параметров
+Err_hard	B				FALSE	R	0	FALSE	RW	0		0	102				Аппаратная ошибка
+Err_ext_con	B				FALSE	R	0	FALSE	RW	0		0	103				Ошибка внешних подключений
+Err_stbus	B				FALSE	R	0	FALSE	RW	0		0	104				Ошибки связи STBUS
+Err_mod_power	B				FALSE	R	0	FALSE	RW	0		0	105				Ошибка питания модуля
+Err_CH_power	B				FALSE	R	0	FALSE	RW	0		0	106				Ошибка питания каналов
+/
+Каналы (#4)	DBLK					R		FALSE	RW	0							
+CH_01	R				0.000000	R	0	FALSE	RW	0	CH_01	0	1544				Значение канала  1
+CH_02	R				0.000000	R	0	FALSE	RW	0	CH_02	0	1545				Значение канала  2
+CH_03	R				0.000000	R	0	FALSE	RW	0	CH_03	0	1546				Значение канала  3
+CH_04	R				0.000000	R	0	FALSE	RW	0	CH_04	0	1547				Значение канала  4
+CH_05	R				0.000000	R	0	FALSE	RW	0	CH_05	0	1548				Значение канала  5
+CH_06	R				0.000000	R	0	FALSE	RW	0	CH_06	0	1549				Значение канала  6
+CH_07	R				0.000000	R	0	FALSE	RW	0	CH_07	0	1550				Значение канала  7
+CH_08	R				0.000000	R	0	FALSE	RW	0	CH_08	0	1551				Значение канала  8
+CH_09	R				0.000000	R	0	FALSE	RW	0	CH_09	0	1552				Значение канала  9
+CH_10	R				0.000000	R	0	FALSE	RW	0	CH_10	0	1553				Значение канала 10
+CH_11	R				0.000000	R	0	FALSE	RW	0	CH_11	0	1554				Значение канала 11
+CH_12	R				0.000000	R	0	FALSE	RW	0	CH_12	0	1555				Значение канала 12
+CH_13	R				0.000000	R	0	FALSE	RW	0	CH_13	0	1556				Значение канала 13
+CH_14	R				0.000000	R	0	FALSE	RW	0	CH_14	0	1557				Значение канала 14
+CH_15	R				0.000000	R	0	FALSE	RW	0	CH_15	0	1558				Значение канала 15
+CH_16	R				0.000000	R	0	FALSE	RW	0	CH_16	0	1559				Значение канала 16
+CH_17	R				0.000000	R	0	FALSE	RW	0	CH_17	0	1560				Значение канала 17
+CH_18	R				0.000000	R	0	FALSE	RW	0	CH_18	0	1561				Значение канала 18
+CH_19	R				0.000000	R	0	FALSE	RW	0	CH_19	0	1562				Значение канала 19
+CH_20	R				0.000000	R	0	FALSE	RW	0	CH_20	0	1563				Значение канала 20
+CH_21	R				0.000000	R	0	FALSE	RW	0	CH_21	0	1564				Значение канала 21
+CH_22	R				0.000000	R	0	FALSE	RW	0	CH_22	0	1565				Значение канала 22
+CH_23	R				0.000000	R	0	FALSE	RW	0	CH_23	0	1566				Значение канала 23
+CH_24	R				0.000000	R	0	FALSE	RW	0	CH_24	0	1567				Значение канала 24
+CH_25	R				0.000000	R	0	FALSE	RW	0	CH_25	0	1568				Значение канала 25
+CH_26	R				0.000000	R	0	FALSE	RW	0	CH_26	0	1569				Значение канала 26
+CH_27	R				0.000000	R	0	FALSE	RW	0	CH_27	0	1570				Значение канала 27
+CH_28	R				0.000000	R	0	FALSE	RW	0	CH_28	0	1571				Значение канала 28
+CH_29	R				0.000000	R	0	FALSE	RW	0	CH_29	0	1572				Значение канала 29
+CH_30	R				0.000000	R	0	FALSE	RW	0	CH_30	0	1573				Значение канала 30
+CH_31	R				0.000000	R	0	FALSE	RW	0	CH_31	0	1574				Значение канала 31
+CH_32	R				0.000000	R	0	FALSE	RW	0	CH_32	0	1575				Значение канала 32
+/
+Поканальная диагностика (#4)	DBLK					R		FALSE	RW	0							
+Err_CH_01	I				0	R	0	FALSE	RW	0	Err_CH_01	0	1576				Ошибки, канал  1
+Err_CH_02	I				0	R	0	FALSE	RW	0	Err_CH_02	0	1577				Ошибки, канал  2
+Err_CH_03	I				0	R	0	FALSE	RW	0	Err_CH_03	0	1578				Ошибки, канал  3
+Err_CH_04	I				0	R	0	FALSE	RW	0	Err_CH_04	0	1579				Ошибки, канал  4
+Err_CH_05	I				0	R	0	FALSE	RW	0	Err_CH_05	0	1580				Ошибки, канал  5
+Err_CH_06	I				0	R	0	FALSE	RW	0	Err_CH_06	0	1581				Ошибки, канал  6
+Err_CH_07	I				0	R	0	FALSE	RW	0	Err_CH_07	0	1582				Ошибки, канал  7
+Err_CH_08	I				0	R	0	FALSE	RW	0	Err_CH_08	0	1583				Ошибки, канал  8
+Err_CH_09	I				0	R	0	FALSE	RW	0	Err_CH_09	0	1584				Ошибки, канал  9
+Err_CH_10	I				0	R	0	FALSE	RW	0	Err_CH_10	0	1585				Ошибки, канал 10
+Err_CH_11	I				0	R	0	FALSE	RW	0	Err_CH_11	0	1586				Ошибки, канал 11
+Err_CH_12	I				0	R	0	FALSE	RW	0	Err_CH_12	0	1587				Ошибки, канал 12
+Err_CH_13	I				0	R	0	FALSE	RW	0	Err_CH_13	0	1588				Ошибки, канал 13
+Err_CH_14	I				0	R	0	FALSE	RW	0	Err_CH_14	0	1589				Ошибки, канал 14
+Err_CH_15	I				0	R	0	FALSE	RW	0	Err_CH_15	0	1590				Ошибки, канал 15
+Err_CH_16	I				0	R	0	FALSE	RW	0	Err_CH_16	0	1591				Ошибки, канал 16
+Err_CH_17	I				0	R	0	FALSE	RW	0	Err_CH_17	0	1592				Ошибки, канал 17
+Err_CH_18	I				0	R	0	FALSE	RW	0	Err_CH_18	0	1593				Ошибки, канал 18
+Err_CH_19	I				0	R	0	FALSE	RW	0	Err_CH_19	0	1594				Ошибки, канал 19
+Err_CH_20	I				0	R	0	FALSE	RW	0	Err_CH_20	0	1595				Ошибки, канал 20
+Err_CH_21	I				0	R	0	FALSE	RW	0	Err_CH_21	0	1596				Ошибки, канал 21
+Err_CH_22	I				0	R	0	FALSE	RW	0	Err_CH_22	0	1597				Ошибки, канал 22
+Err_CH_23	I				0	R	0	FALSE	RW	0	Err_CH_23	0	1598				Ошибки, канал 23
+Err_CH_24	I				0	R	0	FALSE	RW	0	Err_CH_24	0	1599				Ошибки, канал 24
+Err_CH_25	I				0	R	0	FALSE	RW	0	Err_CH_25	0	1600				Ошибки, канал 25
+Err_CH_26	I				0	R	0	FALSE	RW	0	Err_CH_26	0	1601				Ошибки, канал 26
+Err_CH_27	I				0	R	0	FALSE	RW	0	Err_CH_27	0	1602				Ошибки, канал 27
+Err_CH_28	I				0	R	0	FALSE	RW	0	Err_CH_28	0	1603				Ошибки, канал 28
+Err_CH_29	I				0	R	0	FALSE	RW	0	Err_CH_29	0	1604				Ошибки, канал 29
+Err_CH_30	I				0	R	0	FALSE	RW	0	Err_CH_30	0	1605				Ошибки, канал 30
+Err_CH_31	I				0	R	0	FALSE	RW	0	Err_CH_31	0	1606				Ошибки, канал 31
+Err_CH_32	I				0	R	0	FALSE	RW	0	Err_CH_32	0	1607				Ошибки, канал 32
+Err_CH_PWR_1	B				FALSE	R	0	FALSE	RW	0		0	107				Перегрузка питания внешних цепей 1 гр.
+Err_CH_PWR_2	B				FALSE	R	0	FALSE	RW	0		0	108				Перегрузка питания внешних цепей 2 гр.
+Err_CH_PWR_3	B				FALSE	R	0	FALSE	RW	0		0	109				Перегрузка питания внешних цепей 3 гр.
+Err_CH_PWR_4	B				FALSE	R	0	FALSE	RW	0		0	110				Перегрузка питания внешних цепей 4 гр.
+Err_CH_PWR_5	B				FALSE	R	0	FALSE	RW	0		0	111				Перегрузка питания внешних цепей 5 гр.
+Err_CH_PWR_6	B				FALSE	R	0	FALSE	RW	0		0	112				Перегрузка питания внешних цепей 6 гр.
+Err_CH_PWR_7	B				FALSE	R	0	FALSE	RW	0		0	113				Перегрузка питания внешних цепей 7 гр.
+Err_CH_PWR_8	B				FALSE	R	0	FALSE	RW	0		0	114				Перегрузка питания внешних цепей 8 гр.
+/
+/
+AiM2_555A	MOD2	2										0					
+Статистика (#1)	DBLK					RREQ		FALSE	RW	0							
+Work_Time	I				0	R	0	FALSE	RW	0	Work_Time	0	1633				Время наработки, сек
+Line1_Err	I				0	R	0	FALSE	RW	0	Line1_Err	0	1634				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	R	0	FALSE	RW	0	Line2_Err	0	1635				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	R	0	FALSE	RW	0	Reset_code	0	1636				Код сброса
+Stbus_line1_err	B				FALSE	R	0	FALSE	RW	0		0	119				Ошибки связи с мастером (линия 1)
+Stbus_line2_err	B				FALSE	R	0	FALSE	RW	0		0	120				Ошибки связи с мастером (линия 2)
+Err_sequence	B				FALSE	R	0	FALSE	RW	0		0	121				Нарушение последовательности STBUS
+Mod_power_low	B				FALSE	R	0	FALSE	RW	0		0	122				Питание модуля ниже нормы
+CH_power_low	B				FALSE	R	0	FALSE	RW	0		0	123				Питание каналов ниже нормы
+CH_power_high	B				FALSE	R	0	FALSE	RW	0		0	124				Питание каналов выше нормы
+Overheat	B				FALSE	R	0	FALSE	RW	0		0	125				Перегрев группы питания каналов
+Overload_power1	B				FALSE	R	0	FALSE	RW	0		0	126				Перегрузка питания внешних цепей 1 гр.
+Overload_power2	B				FALSE	R	0	FALSE	RW	0		0	127				Перегрузка питания внешних цепей 2 гр.
+Overload_power3	B				FALSE	R	0	FALSE	RW	0		0	128				Перегрузка питания внешних цепей 3 гр.
+Overload_power4	B				FALSE	R	0	FALSE	RW	0		0	129				Перегрузка питания внешних цепей 4 гр.
+Overload_power5	B				FALSE	R	0	FALSE	RW	0		0	130				Перегрузка питания внешних цепей 5 гр.
+Overload_power6	B				FALSE	R	0	FALSE	RW	0		0	131				Перегрузка питания внешних цепей 6 гр.
+Overload_power7	B				FALSE	R	0	FALSE	RW	0		0	132				Перегрузка питания внешних цепей 7 гр.
+Overload_power8	B				FALSE	R	0	FALSE	RW	0		0	133				Перегрузка питания внешних цепей 8 гр.
+Metro_CH_01	I				0	R	0	FALSE	RW	0	Metro_CH_01	0	1637				Флаги метрологии, канал  1
+Metro_CH_02	I				0	R	0	FALSE	RW	0	Metro_CH_02	0	1638				Флаги метрологии, канал  2
+Metro_CH_03	I				0	R	0	FALSE	RW	0	Metro_CH_03	0	1639				Флаги метрологии, канал  3
+Metro_CH_04	I				0	R	0	FALSE	RW	0	Metro_CH_04	0	1640				Флаги метрологии, канал  4
+Metro_CH_05	I				0	R	0	FALSE	RW	0	Metro_CH_05	0	1641				Флаги метрологии, канал  5
+Metro_CH_06	I				0	R	0	FALSE	RW	0	Metro_CH_06	0	1642				Флаги метрологии, канал  6
+Metro_CH_07	I				0	R	0	FALSE	RW	0	Metro_CH_07	0	1643				Флаги метрологии, канал  7
+Metro_CH_08	I				0	R	0	FALSE	RW	0	Metro_CH_08	0	1644				Флаги метрологии, канал  8
+Metro_CH_09	I				0	R	0	FALSE	RW	0	Metro_CH_09	0	1645				Флаги метрологии, канал  9
+Metro_CH_10	I				0	R	0	FALSE	RW	0	Metro_CH_10	0	1646				Флаги метрологии, канал 10
+Metro_CH_11	I				0	R	0	FALSE	RW	0	Metro_CH_11	0	1647				Флаги метрологии, канал 11
+Metro_CH_12	I				0	R	0	FALSE	RW	0	Metro_CH_12	0	1648				Флаги метрологии, канал 12
+Metro_CH_13	I				0	R	0	FALSE	RW	0	Metro_CH_13	0	1649				Флаги метрологии, канал 13
+Metro_CH_14	I				0	R	0	FALSE	RW	0	Metro_CH_14	0	1650				Флаги метрологии, канал 14
+Metro_CH_15	I				0	R	0	FALSE	RW	0	Metro_CH_15	0	1651				Флаги метрологии, канал 15
+Metro_CH_16	I				0	R	0	FALSE	RW	0	Metro_CH_16	0	1652				Флаги метрологии, канал 16
+Metro_CH_17	I				0	R	0	FALSE	RW	0	Metro_CH_17	0	1653				Флаги метрологии, канал 17
+Metro_CH_18	I				0	R	0	FALSE	RW	0	Metro_CH_18	0	1654				Флаги метрологии, канал 18
+Metro_CH_19	I				0	R	0	FALSE	RW	0	Metro_CH_19	0	1655				Флаги метрологии, канал 19
+Metro_CH_20	I				0	R	0	FALSE	RW	0	Metro_CH_20	0	1656				Флаги метрологии, канал 20
+Metro_CH_21	I				0	R	0	FALSE	RW	0	Metro_CH_21	0	1657				Флаги метрологии, канал 21
+Metro_CH_22	I				0	R	0	FALSE	RW	0	Metro_CH_22	0	1658				Флаги метрологии, канал 22
+Metro_CH_23	I				0	R	0	FALSE	RW	0	Metro_CH_23	0	1659				Флаги метрологии, канал 23
+Metro_CH_24	I				0	R	0	FALSE	RW	0	Metro_CH_24	0	1660				Флаги метрологии, канал 24
+Metro_CH_25	I				0	R	0	FALSE	RW	0	Metro_CH_25	0	1661				Флаги метрологии, канал 25
+Metro_CH_26	I				0	R	0	FALSE	RW	0	Metro_CH_26	0	1662				Флаги метрологии, канал 26
+Metro_CH_27	I				0	R	0	FALSE	RW	0	Metro_CH_27	0	1663				Флаги метрологии, канал 27
+Metro_CH_28	I				0	R	0	FALSE	RW	0	Metro_CH_28	0	1664				Флаги метрологии, канал 28
+Metro_CH_29	I				0	R	0	FALSE	RW	0	Metro_CH_29	0	1665				Флаги метрологии, канал 29
+Metro_CH_30	I				0	R	0	FALSE	RW	0	Metro_CH_30	0	1666				Флаги метрологии, канал 30
+Metro_CH_31	I				0	R	0	FALSE	RW	0	Metro_CH_31	0	1667				Флаги метрологии, канал 31
+Metro_CH_32	I				0	R	0	FALSE	RW	0	Metro_CH_32	0	1668				Флаги метрологии, канал 32
+/
+Режим работы (#3)	DBLK					REQ		FALSE	RW	0							
+Mode_CH_01	I				0	W	0	FALSE	RW	0	Mode_CH_01	0	1669				Режим работы, канал  1
+Mode_CH_02	I				0	W	0	FALSE	RW	0	Mode_CH_02	0	1670				Режим работы, канал  2
+Mode_CH_03	I				0	W	0	FALSE	RW	0	Mode_CH_03	0	1671				Режим работы, канал  3
+Mode_CH_04	I				0	W	0	FALSE	RW	0	Mode_CH_04	0	1672				Режим работы, канал  4
+Mode_CH_05	I				0	W	0	FALSE	RW	0	Mode_CH_05	0	1673				Режим работы, канал  5
+Mode_CH_06	I				0	W	0	FALSE	RW	0	Mode_CH_06	0	1674				Режим работы, канал  6
+Mode_CH_07	I				0	W	0	FALSE	RW	0	Mode_CH_07	0	1675				Режим работы, канал  7
+Mode_CH_08	I				0	W	0	FALSE	RW	0	Mode_CH_08	0	1676				Режим работы, канал  8
+Mode_CH_09	I				0	W	0	FALSE	RW	0	Mode_CH_09	0	1677				Режим работы, канал  9
+Mode_CH_10	I				0	W	0	FALSE	RW	0	Mode_CH_10	0	1678				Режим работы, канал 10
+Mode_CH_11	I				0	W	0	FALSE	RW	0	Mode_CH_11	0	1679				Режим работы, канал 11
+Mode_CH_12	I				0	W	0	FALSE	RW	0	Mode_CH_12	0	1680				Режим работы, канал 12
+Mode_CH_13	I				0	W	0	FALSE	RW	0	Mode_CH_13	0	1681				Режим работы, канал 13
+Mode_CH_14	I				0	W	0	FALSE	RW	0	Mode_CH_14	0	1682				Режим работы, канал 14
+Mode_CH_15	I				0	W	0	FALSE	RW	0	Mode_CH_15	0	1683				Режим работы, канал 15
+Mode_CH_16	I				0	W	0	FALSE	RW	0	Mode_CH_16	0	1684				Режим работы, канал 16
+Mode_CH_17	I				0	W	0	FALSE	RW	0	Mode_CH_17	0	1685				Режим работы, канал 17
+Mode_CH_18	I				0	W	0	FALSE	RW	0	Mode_CH_18	0	1686				Режим работы, канал 18
+Mode_CH_19	I				0	W	0	FALSE	RW	0	Mode_CH_19	0	1687				Режим работы, канал 19
+Mode_CH_20	I				0	W	0	FALSE	RW	0	Mode_CH_20	0	1688				Режим работы, канал 20
+Mode_CH_21	I				0	W	0	FALSE	RW	0	Mode_CH_21	0	1689				Режим работы, канал 21
+Mode_CH_22	I				0	W	0	FALSE	RW	0	Mode_CH_22	0	1690				Режим работы, канал 22
+Mode_CH_23	I				0	W	0	FALSE	RW	0	Mode_CH_23	0	1691				Режим работы, канал 23
+Mode_CH_24	I				0	W	0	FALSE	RW	0	Mode_CH_24	0	1692				Режим работы, канал 24
+Mode_CH_25	I				0	W	0	FALSE	RW	0	Mode_CH_25	0	1693				Режим работы, канал 25
+Mode_CH_26	I				0	W	0	FALSE	RW	0	Mode_CH_26	0	1694				Режим работы, канал 26
+Mode_CH_27	I				0	W	0	FALSE	RW	0	Mode_CH_27	0	1695				Режим работы, канал 27
+Mode_CH_28	I				0	W	0	FALSE	RW	0	Mode_CH_28	0	1696				Режим работы, канал 28
+Mode_CH_29	I				0	W	0	FALSE	RW	0	Mode_CH_29	0	1697				Режим работы, канал 29
+Mode_CH_30	I				0	W	0	FALSE	RW	0	Mode_CH_30	0	1698				Режим работы, канал 30
+Mode_CH_31	I				0	W	0	FALSE	RW	0	Mode_CH_31	0	1699				Режим работы, канал 31
+Mode_CH_32	I				0	W	0	FALSE	RW	0	Mode_CH_32	0	1700				Режим работы, канал 32
+/
+Общие параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Filter	I				0	W	0	FALSE	RW	0	Filter	0	1701				Управление фильтром преобразований
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	1702				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	134				Нет параметров
+Err_hard	B				FALSE	R	0	FALSE	RW	0		0	135				Аппаратная ошибка
+Err_ext_con	B				FALSE	R	0	FALSE	RW	0		0	136				Ошибка внешних подключений
+Err_stbus	B				FALSE	R	0	FALSE	RW	0		0	137				Ошибки связи STBUS
+Err_mod_power	B				FALSE	R	0	FALSE	RW	0		0	138				Ошибка питания модуля
+Err_CH_power	B				FALSE	R	0	FALSE	RW	0		0	139				Ошибка питания каналов
+/
+Каналы (#4)	DBLK					R		FALSE	RW	0							
+CH_01	R				0.000000	R	0	FALSE	RW	0	CH_01	0	1703				Значение канала  1
+CH_02	R				0.000000	R	0	FALSE	RW	0	CH_02	0	1704				Значение канала  2
+CH_03	R				0.000000	R	0	FALSE	RW	0	CH_03	0	1705				Значение канала  3
+CH_04	R				0.000000	R	0	FALSE	RW	0	CH_04	0	1706				Значение канала  4
+CH_05	R				0.000000	R	0	FALSE	RW	0	CH_05	0	1707				Значение канала  5
+CH_06	R				0.000000	R	0	FALSE	RW	0	CH_06	0	1708				Значение канала  6
+CH_07	R				0.000000	R	0	FALSE	RW	0	CH_07	0	1709				Значение канала  7
+CH_08	R				0.000000	R	0	FALSE	RW	0	CH_08	0	1710				Значение канала  8
+CH_09	R				0.000000	R	0	FALSE	RW	0	CH_09	0	1711				Значение канала  9
+CH_10	R				0.000000	R	0	FALSE	RW	0	CH_10	0	1712				Значение канала 10
+CH_11	R				0.000000	R	0	FALSE	RW	0	CH_11	0	1713				Значение канала 11
+CH_12	R				0.000000	R	0	FALSE	RW	0	CH_12	0	1714				Значение канала 12
+CH_13	R				0.000000	R	0	FALSE	RW	0	CH_13	0	1715				Значение канала 13
+CH_14	R				0.000000	R	0	FALSE	RW	0	CH_14	0	1716				Значение канала 14
+CH_15	R				0.000000	R	0	FALSE	RW	0	CH_15	0	1717				Значение канала 15
+CH_16	R				0.000000	R	0	FALSE	RW	0	CH_16	0	1718				Значение канала 16
+CH_17	R				0.000000	R	0	FALSE	RW	0	CH_17	0	1719				Значение канала 17
+CH_18	R				0.000000	R	0	FALSE	RW	0	CH_18	0	1720				Значение канала 18
+CH_19	R				0.000000	R	0	FALSE	RW	0	CH_19	0	1721				Значение канала 19
+CH_20	R				0.000000	R	0	FALSE	RW	0	CH_20	0	1722				Значение канала 20
+CH_21	R				0.000000	R	0	FALSE	RW	0	CH_21	0	1723				Значение канала 21
+CH_22	R				0.000000	R	0	FALSE	RW	0	CH_22	0	1724				Значение канала 22
+CH_23	R				0.000000	R	0	FALSE	RW	0	CH_23	0	1725				Значение канала 23
+CH_24	R				0.000000	R	0	FALSE	RW	0	CH_24	0	1726				Значение канала 24
+CH_25	R				0.000000	R	0	FALSE	RW	0	CH_25	0	1727				Значение канала 25
+CH_26	R				0.000000	R	0	FALSE	RW	0	CH_26	0	1728				Значение канала 26
+CH_27	R				0.000000	R	0	FALSE	RW	0	CH_27	0	1729				Значение канала 27
+CH_28	R				0.000000	R	0	FALSE	RW	0	CH_28	0	1730				Значение канала 28
+CH_29	R				0.000000	R	0	FALSE	RW	0	CH_29	0	1731				Значение канала 29
+CH_30	R				0.000000	R	0	FALSE	RW	0	CH_30	0	1732				Значение канала 30
+CH_31	R				0.000000	R	0	FALSE	RW	0	CH_31	0	1733				Значение канала 31
+CH_32	R				0.000000	R	0	FALSE	RW	0	CH_32	0	1734				Значение канала 32
+/
+Поканальная диагностика (#4)	DBLK					R		FALSE	RW	0							
+Err_CH_01	I				0	R	0	FALSE	RW	0	Err_CH_01	0	1735				Ошибки, канал  1
+Err_CH_02	I				0	R	0	FALSE	RW	0	Err_CH_02	0	1736				Ошибки, канал  2
+Err_CH_03	I				0	R	0	FALSE	RW	0	Err_CH_03	0	1737				Ошибки, канал  3
+Err_CH_04	I				0	R	0	FALSE	RW	0	Err_CH_04	0	1738				Ошибки, канал  4
+Err_CH_05	I				0	R	0	FALSE	RW	0	Err_CH_05	0	1739				Ошибки, канал  5
+Err_CH_06	I				0	R	0	FALSE	RW	0	Err_CH_06	0	1740				Ошибки, канал  6
+Err_CH_07	I				0	R	0	FALSE	RW	0	Err_CH_07	0	1741				Ошибки, канал  7
+Err_CH_08	I				0	R	0	FALSE	RW	0	Err_CH_08	0	1742				Ошибки, канал  8
+Err_CH_09	I				0	R	0	FALSE	RW	0	Err_CH_09	0	1743				Ошибки, канал  9
+Err_CH_10	I				0	R	0	FALSE	RW	0	Err_CH_10	0	1744				Ошибки, канал 10
+Err_CH_11	I				0	R	0	FALSE	RW	0	Err_CH_11	0	1745				Ошибки, канал 11
+Err_CH_12	I				0	R	0	FALSE	RW	0	Err_CH_12	0	1746				Ошибки, канал 12
+Err_CH_13	I				0	R	0	FALSE	RW	0	Err_CH_13	0	1747				Ошибки, канал 13
+Err_CH_14	I				0	R	0	FALSE	RW	0	Err_CH_14	0	1748				Ошибки, канал 14
+Err_CH_15	I				0	R	0	FALSE	RW	0	Err_CH_15	0	1749				Ошибки, канал 15
+Err_CH_16	I				0	R	0	FALSE	RW	0	Err_CH_16	0	1750				Ошибки, канал 16
+Err_CH_17	I				0	R	0	FALSE	RW	0	Err_CH_17	0	1751				Ошибки, канал 17
+Err_CH_18	I				0	R	0	FALSE	RW	0	Err_CH_18	0	1752				Ошибки, канал 18
+Err_CH_19	I				0	R	0	FALSE	RW	0	Err_CH_19	0	1753				Ошибки, канал 19
+Err_CH_20	I				0	R	0	FALSE	RW	0	Err_CH_20	0	1754				Ошибки, канал 20
+Err_CH_21	I				0	R	0	FALSE	RW	0	Err_CH_21	0	1755				Ошибки, канал 21
+Err_CH_22	I				0	R	0	FALSE	RW	0	Err_CH_22	0	1756				Ошибки, канал 22
+Err_CH_23	I				0	R	0	FALSE	RW	0	Err_CH_23	0	1757				Ошибки, канал 23
+Err_CH_24	I				0	R	0	FALSE	RW	0	Err_CH_24	0	1758				Ошибки, канал 24
+Err_CH_25	I				0	R	0	FALSE	RW	0	Err_CH_25	0	1759				Ошибки, канал 25
+Err_CH_26	I				0	R	0	FALSE	RW	0	Err_CH_26	0	1760				Ошибки, канал 26
+Err_CH_27	I				0	R	0	FALSE	RW	0	Err_CH_27	0	1761				Ошибки, канал 27
+Err_CH_28	I				0	R	0	FALSE	RW	0	Err_CH_28	0	1762				Ошибки, канал 28
+Err_CH_29	I				0	R	0	FALSE	RW	0	Err_CH_29	0	1763				Ошибки, канал 29
+Err_CH_30	I				0	R	0	FALSE	RW	0	Err_CH_30	0	1764				Ошибки, канал 30
+Err_CH_31	I				0	R	0	FALSE	RW	0	Err_CH_31	0	1771				Ошибки, канал 31
+Err_CH_32	I				0	R	0	FALSE	RW	0	Err_CH_32	0	1772				Ошибки, канал 32
+Err_CH_PWR_1	B				FALSE	R	0	FALSE	RW	0		0	140				Перегрузка питания внешних цепей 1 гр.
+Err_CH_PWR_2	B				FALSE	R	0	FALSE	RW	0		0	141				Перегрузка питания внешних цепей 2 гр.
+Err_CH_PWR_3	B				FALSE	R	0	FALSE	RW	0		0	142				Перегрузка питания внешних цепей 3 гр.
+Err_CH_PWR_4	B				FALSE	R	0	FALSE	RW	0		0	143				Перегрузка питания внешних цепей 4 гр.
+Err_CH_PWR_5	B				FALSE	R	0	FALSE	RW	0		0	144				Перегрузка питания внешних цепей 5 гр.
+Err_CH_PWR_6	B				FALSE	R	0	FALSE	RW	0		0	146				Перегрузка питания внешних цепей 6 гр.
+Err_CH_PWR_7	B				FALSE	R	0	FALSE	RW	0		0	176				Перегрузка питания внешних цепей 7 гр.
+Err_CH_PWR_8	B				FALSE	R	0	FALSE	RW	0		0	177				Перегрузка питания внешних цепей 8 гр.
+/
+/
+AiM3_555A	MOD2	3										0					
+Статистика (#1)	DBLK					RREQ		FALSE	RW	0							
+Work_Time	I				0	R	0	FALSE	RW	0	Work_Time	0	1798				Время наработки, сек
+Line1_Err	I				0	R	0	FALSE	RW	0	Line1_Err	0	1799				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	R	0	FALSE	RW	0	Line2_Err	0	1800				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	R	0	FALSE	RW	0	Reset_code	0	1801				Код сброса
+Stbus_line1_err	B				FALSE	R	0	FALSE	RW	0		0	207				Ошибки связи с мастером (линия 1)
+Stbus_line2_err	B				FALSE	R	0	FALSE	RW	0		0	208				Ошибки связи с мастером (линия 2)
+Err_sequence	B				FALSE	R	0	FALSE	RW	0		0	209				Нарушение последовательности STBUS
+Mod_power_low	B				FALSE	R	0	FALSE	RW	0		0	210				Питание модуля ниже нормы
+CH_power_low	B				FALSE	R	0	FALSE	RW	0		0	211				Питание каналов ниже нормы
+CH_power_high	B				FALSE	R	0	FALSE	RW	0		0	212				Питание каналов выше нормы
+Overheat	B				FALSE	R	0	FALSE	RW	0		0	213				Перегрев группы питания каналов
+Overload_power1	B				FALSE	R	0	FALSE	RW	0		0	214				Перегрузка питания внешних цепей 1 гр.
+Overload_power2	B				FALSE	R	0	FALSE	RW	0		0	215				Перегрузка питания внешних цепей 2 гр.
+Overload_power3	B				FALSE	R	0	FALSE	RW	0		0	216				Перегрузка питания внешних цепей 3 гр.
+Overload_power4	B				FALSE	R	0	FALSE	RW	0		0	217				Перегрузка питания внешних цепей 4 гр.
+Overload_power5	B				FALSE	R	0	FALSE	RW	0		0	218				Перегрузка питания внешних цепей 5 гр.
+Overload_power6	B				FALSE	R	0	FALSE	RW	0		0	219				Перегрузка питания внешних цепей 6 гр.
+Overload_power7	B				FALSE	R	0	FALSE	RW	0		0	220				Перегрузка питания внешних цепей 7 гр.
+Overload_power8	B				FALSE	R	0	FALSE	RW	0		0	221				Перегрузка питания внешних цепей 8 гр.
+Metro_CH_01	I				0	R	0	FALSE	RW	0	Metro_CH_01	0	1802				Флаги метрологии, канал  1
+Metro_CH_02	I				0	R	0	FALSE	RW	0	Metro_CH_02	0	1803				Флаги метрологии, канал  2
+Metro_CH_03	I				0	R	0	FALSE	RW	0	Metro_CH_03	0	1804				Флаги метрологии, канал  3
+Metro_CH_04	I				0	R	0	FALSE	RW	0	Metro_CH_04	0	1805				Флаги метрологии, канал  4
+Metro_CH_05	I				0	R	0	FALSE	RW	0	Metro_CH_05	0	1806				Флаги метрологии, канал  5
+Metro_CH_06	I				0	R	0	FALSE	RW	0	Metro_CH_06	0	1807				Флаги метрологии, канал  6
+Metro_CH_07	I				0	R	0	FALSE	RW	0	Metro_CH_07	0	1808				Флаги метрологии, канал  7
+Metro_CH_08	I				0	R	0	FALSE	RW	0	Metro_CH_08	0	1809				Флаги метрологии, канал  8
+Metro_CH_09	I				0	R	0	FALSE	RW	0	Metro_CH_09	0	1810				Флаги метрологии, канал  9
+Metro_CH_10	I				0	R	0	FALSE	RW	0	Metro_CH_10	0	1811				Флаги метрологии, канал 10
+Metro_CH_11	I				0	R	0	FALSE	RW	0	Metro_CH_11	0	1812				Флаги метрологии, канал 11
+Metro_CH_12	I				0	R	0	FALSE	RW	0	Metro_CH_12	0	1813				Флаги метрологии, канал 12
+Metro_CH_13	I				0	R	0	FALSE	RW	0	Metro_CH_13	0	1814				Флаги метрологии, канал 13
+Metro_CH_14	I				0	R	0	FALSE	RW	0	Metro_CH_14	0	1815				Флаги метрологии, канал 14
+Metro_CH_15	I				0	R	0	FALSE	RW	0	Metro_CH_15	0	1816				Флаги метрологии, канал 15
+Metro_CH_16	I				0	R	0	FALSE	RW	0	Metro_CH_16	0	1817				Флаги метрологии, канал 16
+Metro_CH_17	I				0	R	0	FALSE	RW	0	Metro_CH_17	0	1818				Флаги метрологии, канал 17
+Metro_CH_18	I				0	R	0	FALSE	RW	0	Metro_CH_18	0	1819				Флаги метрологии, канал 18
+Metro_CH_19	I				0	R	0	FALSE	RW	0	Metro_CH_19	0	1820				Флаги метрологии, канал 19
+Metro_CH_20	I				0	R	0	FALSE	RW	0	Metro_CH_20	0	1821				Флаги метрологии, канал 20
+Metro_CH_21	I				0	R	0	FALSE	RW	0	Metro_CH_21	0	1822				Флаги метрологии, канал 21
+Metro_CH_22	I				0	R	0	FALSE	RW	0	Metro_CH_22	0	1823				Флаги метрологии, канал 22
+Metro_CH_23	I				0	R	0	FALSE	RW	0	Metro_CH_23	0	1824				Флаги метрологии, канал 23
+Metro_CH_24	I				0	R	0	FALSE	RW	0	Metro_CH_24	0	1825				Флаги метрологии, канал 24
+Metro_CH_25	I				0	R	0	FALSE	RW	0	Metro_CH_25	0	1826				Флаги метрологии, канал 25
+Metro_CH_26	I				0	R	0	FALSE	RW	0	Metro_CH_26	0	1827				Флаги метрологии, канал 26
+Metro_CH_27	I				0	R	0	FALSE	RW	0	Metro_CH_27	0	1828				Флаги метрологии, канал 27
+Metro_CH_28	I				0	R	0	FALSE	RW	0	Metro_CH_28	0	1829				Флаги метрологии, канал 28
+Metro_CH_29	I				0	R	0	FALSE	RW	0	Metro_CH_29	0	1830				Флаги метрологии, канал 29
+Metro_CH_30	I				0	R	0	FALSE	RW	0	Metro_CH_30	0	1831				Флаги метрологии, канал 30
+Metro_CH_31	I				0	R	0	FALSE	RW	0	Metro_CH_31	0	1832				Флаги метрологии, канал 31
+Metro_CH_32	I				0	R	0	FALSE	RW	0	Metro_CH_32	0	1833				Флаги метрологии, канал 32
+/
+Режим работы (#3)	DBLK					REQ		FALSE	RW	0							
+Mode_CH_01	I				0	W	0	FALSE	RW	0	Mode_CH_01	0	1834				Режим работы, канал  1
+Mode_CH_02	I				0	W	0	FALSE	RW	0	Mode_CH_02	0	1835				Режим работы, канал  2
+Mode_CH_03	I				0	W	0	FALSE	RW	0	Mode_CH_03	0	1836				Режим работы, канал  3
+Mode_CH_04	I				0	W	0	FALSE	RW	0	Mode_CH_04	0	1837				Режим работы, канал  4
+Mode_CH_05	I				0	W	0	FALSE	RW	0	Mode_CH_05	0	1838				Режим работы, канал  5
+Mode_CH_06	I				0	W	0	FALSE	RW	0	Mode_CH_06	0	1839				Режим работы, канал  6
+Mode_CH_07	I				0	W	0	FALSE	RW	0	Mode_CH_07	0	1840				Режим работы, канал  7
+Mode_CH_08	I				0	W	0	FALSE	RW	0	Mode_CH_08	0	1841				Режим работы, канал  8
+Mode_CH_09	I				0	W	0	FALSE	RW	0	Mode_CH_09	0	1842				Режим работы, канал  9
+Mode_CH_10	I				0	W	0	FALSE	RW	0	Mode_CH_10	0	1843				Режим работы, канал 10
+Mode_CH_11	I				0	W	0	FALSE	RW	0	Mode_CH_11	0	1844				Режим работы, канал 11
+Mode_CH_12	I				0	W	0	FALSE	RW	0	Mode_CH_12	0	1845				Режим работы, канал 12
+Mode_CH_13	I				0	W	0	FALSE	RW	0	Mode_CH_13	0	1846				Режим работы, канал 13
+Mode_CH_14	I				0	W	0	FALSE	RW	0	Mode_CH_14	0	1847				Режим работы, канал 14
+Mode_CH_15	I				0	W	0	FALSE	RW	0	Mode_CH_15	0	1848				Режим работы, канал 15
+Mode_CH_16	I				0	W	0	FALSE	RW	0	Mode_CH_16	0	1849				Режим работы, канал 16
+Mode_CH_17	I				0	W	0	FALSE	RW	0	Mode_CH_17	0	1850				Режим работы, канал 17
+Mode_CH_18	I				0	W	0	FALSE	RW	0	Mode_CH_18	0	1851				Режим работы, канал 18
+Mode_CH_19	I				0	W	0	FALSE	RW	0	Mode_CH_19	0	1852				Режим работы, канал 19
+Mode_CH_20	I				0	W	0	FALSE	RW	0	Mode_CH_20	0	1853				Режим работы, канал 20
+Mode_CH_21	I				0	W	0	FALSE	RW	0	Mode_CH_21	0	1854				Режим работы, канал 21
+Mode_CH_22	I				0	W	0	FALSE	RW	0	Mode_CH_22	0	1855				Режим работы, канал 22
+Mode_CH_23	I				0	W	0	FALSE	RW	0	Mode_CH_23	0	1856				Режим работы, канал 23
+Mode_CH_24	I				0	W	0	FALSE	RW	0	Mode_CH_24	0	1857				Режим работы, канал 24
+Mode_CH_25	I				0	W	0	FALSE	RW	0	Mode_CH_25	0	1858				Режим работы, канал 25
+Mode_CH_26	I				0	W	0	FALSE	RW	0	Mode_CH_26	0	1859				Режим работы, канал 26
+Mode_CH_27	I				0	W	0	FALSE	RW	0	Mode_CH_27	0	1860				Режим работы, канал 27
+Mode_CH_28	I				0	W	0	FALSE	RW	0	Mode_CH_28	0	1861				Режим работы, канал 28
+Mode_CH_29	I				0	W	0	FALSE	RW	0	Mode_CH_29	0	1862				Режим работы, канал 29
+Mode_CH_30	I				0	W	0	FALSE	RW	0	Mode_CH_30	0	1863				Режим работы, канал 30
+Mode_CH_31	I				0	W	0	FALSE	RW	0	Mode_CH_31	0	1864				Режим работы, канал 31
+Mode_CH_32	I				0	W	0	FALSE	RW	0	Mode_CH_32	0	1865				Режим работы, канал 32
+/
+Общие параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Filter	I				0	W	0	FALSE	RW	0	Filter	0	1866				Управление фильтром преобразований
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	1867				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	222				Нет параметров
+Err_hard	B				FALSE	R	0	FALSE	RW	0		0	223				Аппаратная ошибка
+Err_ext_con	B				FALSE	R	0	FALSE	RW	0		0	224				Ошибка внешних подключений
+Err_stbus	B				FALSE	R	0	FALSE	RW	0		0	225				Ошибки связи STBUS
+Err_mod_power	B				FALSE	R	0	FALSE	RW	0		0	226				Ошибка питания модуля
+Err_CH_power	B				FALSE	R	0	FALSE	RW	0		0	227				Ошибка питания каналов
+/
+Каналы (#4)	DBLK					R		FALSE	RW	0							
+CH_01	R				0.000000	R	0	FALSE	RW	0	CH_01	0	1868				Значение канала  1
+CH_02	R				0.000000	R	0	FALSE	RW	0	CH_02	0	1869				Значение канала  2
+CH_03	R				0.000000	R	0	FALSE	RW	0	CH_03	0	1870				Значение канала  3
+CH_04	R				0.000000	R	0	FALSE	RW	0	CH_04	0	1871				Значение канала  4
+CH_05	R				0.000000	R	0	FALSE	RW	0	CH_05	0	1872				Значение канала  5
+CH_06	R				0.000000	R	0	FALSE	RW	0	CH_06	0	1873				Значение канала  6
+CH_07	R				0.000000	R	0	FALSE	RW	0	CH_07	0	1874				Значение канала  7
+CH_08	R				0.000000	R	0	FALSE	RW	0	CH_08	0	1875				Значение канала  8
+CH_09	R				0.000000	R	0	FALSE	RW	0	CH_09	0	1876				Значение канала  9
+CH_10	R				0.000000	R	0	FALSE	RW	0	CH_10	0	1877				Значение канала 10
+CH_11	R				0.000000	R	0	FALSE	RW	0	CH_11	0	1878				Значение канала 11
+CH_12	R				0.000000	R	0	FALSE	RW	0	CH_12	0	1879				Значение канала 12
+CH_13	R				0.000000	R	0	FALSE	RW	0	CH_13	0	1880				Значение канала 13
+CH_14	R				0.000000	R	0	FALSE	RW	0	CH_14	0	1881				Значение канала 14
+CH_15	R				0.000000	R	0	FALSE	RW	0	CH_15	0	1882				Значение канала 15
+CH_16	R				0.000000	R	0	FALSE	RW	0	CH_16	0	1883				Значение канала 16
+CH_17	R				0.000000	R	0	FALSE	RW	0	CH_17	0	1884				Значение канала 17
+CH_18	R				0.000000	R	0	FALSE	RW	0	CH_18	0	1885				Значение канала 18
+CH_19	R				0.000000	R	0	FALSE	RW	0	CH_19	0	1886				Значение канала 19
+CH_20	R				0.000000	R	0	FALSE	RW	0	CH_20	0	1887				Значение канала 20
+CH_21	R				0.000000	R	0	FALSE	RW	0	CH_21	0	1888				Значение канала 21
+CH_22	R				0.000000	R	0	FALSE	RW	0	CH_22	0	1889				Значение канала 22
+CH_23	R				0.000000	R	0	FALSE	RW	0	CH_23	0	1890				Значение канала 23
+CH_24	R				0.000000	R	0	FALSE	RW	0	CH_24	0	1891				Значение канала 24
+CH_25	R				0.000000	R	0	FALSE	RW	0	CH_25	0	1892				Значение канала 25
+CH_26	R				0.000000	R	0	FALSE	RW	0	CH_26	0	1893				Значение канала 26
+CH_27	R				0.000000	R	0	FALSE	RW	0	CH_27	0	1894				Значение канала 27
+CH_28	R				0.000000	R	0	FALSE	RW	0	CH_28	0	1895				Значение канала 28
+CH_29	R				0.000000	R	0	FALSE	RW	0	CH_29	0	1896				Значение канала 29
+CH_30	R				0.000000	R	0	FALSE	RW	0	CH_30	0	1897				Значение канала 30
+CH_31	R				0.000000	R	0	FALSE	RW	0	CH_31	0	1898				Значение канала 31
+CH_32	R				0.000000	R	0	FALSE	RW	0	CH_32	0	1899				Значение канала 32
+/
+Поканальная диагностика (#4)	DBLK					R		FALSE	RW	0							
+Err_CH_01	I				0	R	0	FALSE	RW	0	Err_CH_01	0	1900				Ошибки, канал  1
+Err_CH_02	I				0	R	0	FALSE	RW	0	Err_CH_02	0	1901				Ошибки, канал  2
+Err_CH_03	I				0	R	0	FALSE	RW	0	Err_CH_03	0	1902				Ошибки, канал  3
+Err_CH_04	I				0	R	0	FALSE	RW	0	Err_CH_04	0	1903				Ошибки, канал  4
+Err_CH_05	I				0	R	0	FALSE	RW	0	Err_CH_05	0	1904				Ошибки, канал  5
+Err_CH_06	I				0	R	0	FALSE	RW	0	Err_CH_06	0	1905				Ошибки, канал  6
+Err_CH_07	I				0	R	0	FALSE	RW	0	Err_CH_07	0	1906				Ошибки, канал  7
+Err_CH_08	I				0	R	0	FALSE	RW	0	Err_CH_08	0	1907				Ошибки, канал  8
+Err_CH_09	I				0	R	0	FALSE	RW	0	Err_CH_09	0	1908				Ошибки, канал  9
+Err_CH_10	I				0	R	0	FALSE	RW	0	Err_CH_10	0	1909				Ошибки, канал 10
+Err_CH_11	I				0	R	0	FALSE	RW	0	Err_CH_11	0	1910				Ошибки, канал 11
+Err_CH_12	I				0	R	0	FALSE	RW	0	Err_CH_12	0	1911				Ошибки, канал 12
+Err_CH_13	I				0	R	0	FALSE	RW	0	Err_CH_13	0	1912				Ошибки, канал 13
+Err_CH_14	I				0	R	0	FALSE	RW	0	Err_CH_14	0	1913				Ошибки, канал 14
+Err_CH_15	I				0	R	0	FALSE	RW	0	Err_CH_15	0	1914				Ошибки, канал 15
+Err_CH_16	I				0	R	0	FALSE	RW	0	Err_CH_16	0	1915				Ошибки, канал 16
+Err_CH_17	I				0	R	0	FALSE	RW	0	Err_CH_17	0	1916				Ошибки, канал 17
+Err_CH_18	I				0	R	0	FALSE	RW	0	Err_CH_18	0	1917				Ошибки, канал 18
+Err_CH_19	I				0	R	0	FALSE	RW	0	Err_CH_19	0	1918				Ошибки, канал 19
+Err_CH_20	I				0	R	0	FALSE	RW	0	Err_CH_20	0	1919				Ошибки, канал 20
+Err_CH_21	I				0	R	0	FALSE	RW	0	Err_CH_21	0	1920				Ошибки, канал 21
+Err_CH_22	I				0	R	0	FALSE	RW	0	Err_CH_22	0	1921				Ошибки, канал 22
+Err_CH_23	I				0	R	0	FALSE	RW	0	Err_CH_23	0	1922				Ошибки, канал 23
+Err_CH_24	I				0	R	0	FALSE	RW	0	Err_CH_24	0	1923				Ошибки, канал 24
+Err_CH_25	I				0	R	0	FALSE	RW	0	Err_CH_25	0	1970				Ошибки, канал 25
+Err_CH_26	I				0	R	0	FALSE	RW	0	Err_CH_26	0	1971				Ошибки, канал 26
+Err_CH_27	I				0	R	0	FALSE	RW	0	Err_CH_27	0	1972				Ошибки, канал 27
+Err_CH_28	I				0	R	0	FALSE	RW	0	Err_CH_28	0	1973				Ошибки, канал 28
+Err_CH_29	I				0	R	0	FALSE	RW	0	Err_CH_29	0	1974				Ошибки, канал 29
+Err_CH_30	I				0	R	0	FALSE	RW	0	Err_CH_30	0	1975				Ошибки, канал 30
+Err_CH_31	I				0	R	0	FALSE	RW	0	Err_CH_31	0	2025				Ошибки, канал 31
+Err_CH_32	I				0	R	0	FALSE	RW	0	Err_CH_32	0	2026				Ошибки, канал 32
+Err_CH_PWR_1	B				FALSE	R	0	FALSE	RW	0		0	228				Перегрузка питания внешних цепей 1 гр.
+Err_CH_PWR_2	B				FALSE	R	0	FALSE	RW	0		0	229				Перегрузка питания внешних цепей 2 гр.
+Err_CH_PWR_3	B				FALSE	R	0	FALSE	RW	0		0	230				Перегрузка питания внешних цепей 3 гр.
+Err_CH_PWR_4	B				FALSE	R	0	FALSE	RW	0		0	231				Перегрузка питания внешних цепей 4 гр.
+Err_CH_PWR_5	B				FALSE	R	0	FALSE	RW	0		0	232				Перегрузка питания внешних цепей 5 гр.
+Err_CH_PWR_6	B				FALSE	R	0	FALSE	RW	0		0	233				Перегрузка питания внешних цепей 6 гр.
+Err_CH_PWR_7	B				FALSE	R	0	FALSE	RW	0		0	234				Перегрузка питания внешних цепей 7 гр.
+Err_CH_PWR_8	B				FALSE	R	0	FALSE	RW	0		0	235				Перегрузка питания внешних цепей 8 гр.
+/
+/
+AoM1_534V	MOD2	4										0					
+Статистика (#1)	DBLK					RREQ		FALSE	RW	0							
+Work_Time	I				0	R	0	FALSE	RW	0	Work_Time	0	2102				Время наработки, сек
+Line1_Err	I				0	R	0	FALSE	RW	0	Line1_Err	0	2103				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	R	0	FALSE	RW	0	Line2_Err	0	2104				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	R	0	FALSE	RW	0	Reset_code	0	2105				Код сброса
+Mod_temp	I				0	R	0	FALSE	RW	0	Mod_temp	0	2106				Температура модуля
+Stbus_line1_err	B				FALSE	R	0	FALSE	RW	0		0	269				Ошибки связи с мастером (линия 1)
+Stbus_line2_err	B				FALSE	R	0	FALSE	RW	0		0	270				Ошибки связи с мастером (линия 2)
+Err_sequence	B				FALSE	R	0	FALSE	RW	0		0	271				Нарушение последовательности STBUS
+Mod_power_low	B				FALSE	R	0	FALSE	RW	0		0	272				Питание ниже нормы
+Mod_power_high	B				FALSE	R	0	FALSE	RW	0		0	273				Питание выше нормы
+Metro_CH_01	I				0	R	0	FALSE	RW	0	Metro_CH_01	0	2107				Флаги метрологии, канал  1
+Metro_CH_02	I				0	R	0	FALSE	RW	0	Metro_CH_02	0	2108				Флаги метрологии, канал  2
+Metro_CH_03	I				0	R	0	FALSE	RW	0	Metro_CH_03	0	2109				Флаги метрологии, канал  3
+Metro_CH_04	I				0	R	0	FALSE	RW	0	Metro_CH_04	0	2110				Флаги метрологии, канал  4
+Metro_CH_05	I				0	R	0	FALSE	RW	0	Metro_CH_05	0	2111				Флаги метрологии, канал  5
+Metro_CH_06	I				0	R	0	FALSE	RW	0	Metro_CH_06	0	2112				Флаги метрологии, канал  6
+Metro_CH_07	I				0	R	0	FALSE	RW	0	Metro_CH_07	0	2113				Флаги метрологии, канал  7
+Metro_CH_08	I				0	R	0	FALSE	RW	0	Metro_CH_08	0	2114				Флаги метрологии, канал  8
+/
+Режим работы (#3)	DBLK					REQ		FALSE	RW	0							
+Mode_CH_01	I				0	W	0	FALSE	RW	0	Mode_CH_01	0	2115				Режим работы, канал 1
+Mode_CH_02	I				0	W	0	FALSE	RW	0	Mode_CH_02	0	2116				Режим работы, канал 2
+Mode_CH_03	I				0	W	0	FALSE	RW	0	Mode_CH_03	0	2118				Режим работы, канал 3
+Mode_CH_04	I				0	W	0	FALSE	RW	0	Mode_CH_04	0	2119				Режим работы, канал 4
+Mode_CH_05	I				0	W	0	FALSE	RW	0	Mode_CH_05	0	2120				Режим работы, канал 5
+Mode_CH_06	I				0	W	0	FALSE	RW	0	Mode_CH_06	0	2121				Режим работы, канал 6
+Mode_CH_07	I				0	W	0	FALSE	RW	0	Mode_CH_07	0	2122				Режим работы, канал 7
+Mode_CH_08	I				0	W	0	FALSE	RW	0	Mode_CH_08	0	2123				Режим работы, канал 8
+/
+Значения выходов при обрыве связи (#3)	DBLK					REQ		FALSE	RW	0							
+Default_CH_01	R				0.000000	W	0	FALSE	RW	0	Default_CH_01	0	2124				Значение при обрыве связи, канал 1
+Default_CH_02	R				0.000000	W	0	FALSE	RW	0	Default_CH_02	0	2125				Значение при обрыве связи, канал 2
+Default_CH_03	R				0.000000	W	0	FALSE	RW	0	Default_CH_03	0	2126				Значение при обрыве связи, канал 3
+Default_CH_04	R				0.000000	W	0	FALSE	RW	0	Default_CH_04	0	2127				Значение при обрыве связи, канал 4
+Default_CH_05	R				0.000000	W	0	FALSE	RW	0	Default_CH_05	0	2128				Значение при обрыве связи, канал 5
+Default_CH_06	R				0.000000	W	0	FALSE	RW	0	Default_CH_06	0	2129				Значение при обрыве связи, канал 6
+Default_CH_07	R				0.000000	W	0	FALSE	RW	0	Default_CH_07	0	2130				Значение при обрыве связи, канал 7
+Default_CH_08	R				0.000000	W	0	FALSE	RW	0	Default_CH_08	0	2131				Значение при обрыве связи, канал 8
+/
+Общие параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	2132				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	274				Нет параметров
+Err_hard	B				FALSE	R	0	FALSE	RW	0		0	275				Аппаратная ошибка
+Err_ext_con	B				FALSE	R	0	FALSE	RW	0		0	276				Ошибка внешних подключений
+Err_stbus	B				FALSE	R	0	FALSE	RW	0		0	277				Ошибки связи STBUS
+Err_mod_power	B				FALSE	R	0	FALSE	RW	0		0	278				Ошибка питания модуля
+Err_CH_power	B				FALSE	R	0	FALSE	RW	0		0	279				Ошибка питания каналов
+/
+Поканальная диагностика (#4)	DBLK					R		FALSE	RW	0							
+Err_CH_01	I				0	R	0	FALSE	RW	0	Err_CH_01	0	2133				Ошибки, канал 1
+Err_CH_02	I				0	R	0	FALSE	RW	0	Err_CH_02	0	2134				Ошибки, канал 2
+Err_CH_03	I				0	R	0	FALSE	RW	0	Err_CH_03	0	2135				Ошибки, канал 3
+Err_CH_04	I				0	R	0	FALSE	RW	0	Err_CH_04	0	2136				Ошибки, канал 4
+Err_CH_05	I				0	R	0	FALSE	RW	0	Err_CH_05	0	2137				Ошибки, канал 5
+Err_CH_06	I				0	R	0	FALSE	RW	0	Err_CH_06	0	2138				Ошибки, канал 6
+Err_CH_07	I				0	R	0	FALSE	RW	0	Err_CH_07	0	2139				Ошибки, канал 7
+Err_CH_08	I				0	R	0	FALSE	RW	0	Err_CH_08	0	2140				Ошибки, канал 8
+/
+Выходные каналы (#8)	DBLK					W		FALSE	RW	0							
+CH_01	R				0.000000	W	0	FALSE	RW	0	CH_01	0	2141				Выход, канал  1
+CH_02	R				0.000000	W	0	FALSE	RW	0	CH_02	0	2142				Выход, канал  2
+CH_03	R				0.000000	W	0	FALSE	RW	0	CH_03	0	2143				Выход, канал  3
+CH_04	R				0.000000	W	0	FALSE	RW	0	CH_04	0	2144				Выход, канал  4
+CH_05	R				0.000000	W	0	FALSE	RW	0	CH_05	0	2145				Выход, канал  5
+CH_06	R				0.000000	W	0	FALSE	RW	0	CH_06	0	2146				Выход, канал  6
+CH_07	R				0.000000	W	0	FALSE	RW	0	CH_07	0	2147				Выход, канал  7
+CH_08	R				0.000000	W	0	FALSE	RW	0	CH_08	0	2265				Выход, канал  8
+/
+/
+AoM2_534V	MOD2	5										0					
+Статистика (#1)	DBLK					RREQ		FALSE	RW	0							
+Work_Time	I				0	R	0	FALSE	RW	0	Work_Time	0	2295				Время наработки, сек
+Line1_Err	I				0	R	0	FALSE	RW	0	Line1_Err	0	2296				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	R	0	FALSE	RW	0	Line2_Err	0	2297				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	R	0	FALSE	RW	0	Reset_code	0	2298				Код сброса
+Mod_temp	I				0	R	0	FALSE	RW	0	Mod_temp	0	2299				Температура модуля
+Stbus_line1_err	B				FALSE	R	0	FALSE	RW	0		0	345				Ошибки связи с мастером (линия 1)
+Stbus_line2_err	B				FALSE	R	0	FALSE	RW	0		0	346				Ошибки связи с мастером (линия 2)
+Err_sequence	B				FALSE	R	0	FALSE	RW	0		0	347				Нарушение последовательности STBUS
+Mod_power_low	B				FALSE	R	0	FALSE	RW	0		0	348				Питание ниже нормы
+Mod_power_high	B				FALSE	R	0	FALSE	RW	0		0	349				Питание выше нормы
+Metro_CH_01	I				0	R	0	FALSE	RW	0	Metro_CH_01	0	2300				Флаги метрологии, канал  1
+Metro_CH_02	I				0	R	0	FALSE	RW	0	Metro_CH_02	0	2301				Флаги метрологии, канал  2
+Metro_CH_03	I				0	R	0	FALSE	RW	0	Metro_CH_03	0	2302				Флаги метрологии, канал  3
+Metro_CH_04	I				0	R	0	FALSE	RW	0	Metro_CH_04	0	2303				Флаги метрологии, канал  4
+Metro_CH_05	I				0	R	0	FALSE	RW	0	Metro_CH_05	0	2304				Флаги метрологии, канал  5
+Metro_CH_06	I				0	R	0	FALSE	RW	0	Metro_CH_06	0	2305				Флаги метрологии, канал  6
+Metro_CH_07	I				0	R	0	FALSE	RW	0	Metro_CH_07	0	2306				Флаги метрологии, канал  7
+Metro_CH_08	I				0	R	0	FALSE	RW	0	Metro_CH_08	0	2307				Флаги метрологии, канал  8
+/
+Режим работы (#3)	DBLK					REQ		FALSE	RW	0							
+Mode_CH_01	I				0	W	0	FALSE	RW	0	Mode_CH_01	0	2308				Режим работы, канал 1
+Mode_CH_02	I				0	W	0	FALSE	RW	0	Mode_CH_02	0	2309				Режим работы, канал 2
+Mode_CH_03	I				0	W	0	FALSE	RW	0	Mode_CH_03	0	2310				Режим работы, канал 3
+Mode_CH_04	I				0	W	0	FALSE	RW	0	Mode_CH_04	0	2311				Режим работы, канал 4
+Mode_CH_05	I				0	W	0	FALSE	RW	0	Mode_CH_05	0	2312				Режим работы, канал 5
+Mode_CH_06	I				0	W	0	FALSE	RW	0	Mode_CH_06	0	2313				Режим работы, канал 6
+Mode_CH_07	I				0	W	0	FALSE	RW	0	Mode_CH_07	0	2314				Режим работы, канал 7
+Mode_CH_08	I				0	W	0	FALSE	RW	0	Mode_CH_08	0	2315				Режим работы, канал 8
+/
+Значения выходов при обрыве связи (#3)	DBLK					REQ		FALSE	RW	0							
+Default_CH_01	R				0.000000	W	0	FALSE	RW	0	Default_CH_01	0	2316				Значение при обрыве связи, канал 1
+Default_CH_02	R				0.000000	W	0	FALSE	RW	0	Default_CH_02	0	2317				Значение при обрыве связи, канал 2
+Default_CH_03	R				0.000000	W	0	FALSE	RW	0	Default_CH_03	0	2318				Значение при обрыве связи, канал 3
+Default_CH_04	R				0.000000	W	0	FALSE	RW	0	Default_CH_04	0	2319				Значение при обрыве связи, канал 4
+Default_CH_05	R				0.000000	W	0	FALSE	RW	0	Default_CH_05	0	2320				Значение при обрыве связи, канал 5
+Default_CH_06	R				0.000000	W	0	FALSE	RW	0	Default_CH_06	0	2325				Значение при обрыве связи, канал 6
+Default_CH_07	R				0.000000	W	0	FALSE	RW	0	Default_CH_07	0	2326				Значение при обрыве связи, канал 7
+Default_CH_08	R				0.000000	W	0	FALSE	RW	0	Default_CH_08	0	2327				Значение при обрыве связи, канал 8
+/
+Общие параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	2328				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	350				Нет параметров
+Err_hard	B				FALSE	R	0	FALSE	RW	0		0	351				Аппаратная ошибка
+Err_ext_con	B				FALSE	R	0	FALSE	RW	0		0	352				Ошибка внешних подключений
+Err_stbus	B				FALSE	R	0	FALSE	RW	0		0	353				Ошибки связи STBUS
+Err_mod_power	B				FALSE	R	0	FALSE	RW	0		0	354				Ошибка питания модуля
+Err_CH_power	B				FALSE	R	0	FALSE	RW	0		0	355				Ошибка питания каналов
+/
+Поканальная диагностика (#4)	DBLK					R		FALSE	RW	0							
+Err_CH_01	I				0	R	0	FALSE	RW	0	Err_CH_01	0	2329				Ошибки, канал 1
+Err_CH_02	I				0	R	0	FALSE	RW	0	Err_CH_02	0	2330				Ошибки, канал 2
+Err_CH_03	I				0	R	0	FALSE	RW	0	Err_CH_03	0	2331				Ошибки, канал 3
+Err_CH_04	I				0	R	0	FALSE	RW	0	Err_CH_04	0	2332				Ошибки, канал 4
+Err_CH_05	I				0	R	0	FALSE	RW	0	Err_CH_05	0	2333				Ошибки, канал 5
+Err_CH_06	I				0	R	0	FALSE	RW	0	Err_CH_06	0	2334				Ошибки, канал 6
+Err_CH_07	I				0	R	0	FALSE	RW	0	Err_CH_07	0	2335				Ошибки, канал 7
+Err_CH_08	I				0	R	0	FALSE	RW	0	Err_CH_08	0	2336				Ошибки, канал 8
+/
+Выходные каналы (#8)	DBLK					W		FALSE	RW	0							
+CH_01	R				0.000000	W	0	FALSE	RW	0	CH_01	0	2407				Выход, канал  1
+CH_02	R				0.000000	W	0	FALSE	RW	0	CH_02	0	2408				Выход, канал  2
+CH_03	R				0.000000	W	0	FALSE	RW	0	CH_03	0	2409				Выход, канал  3
+CH_04	R				0.000000	W	0	FALSE	RW	0	CH_04	0	2410				Выход, канал  4
+CH_05	R				0.000000	W	0	FALSE	RW	0	CH_05	0	2411				Выход, канал  5
+CH_06	R				0.000000	W	0	FALSE	RW	0	CH_06	0	2412				Выход, канал  6
+CH_07	R				0.000000	W	0	FALSE	RW	0	CH_07	0	2413				Выход, канал  7
+CH_08	R				0.000000	W	0	FALSE	RW	0	CH_08	0	2484				Выход, канал  8
+/
+/
+DiM1_551D	MOD2	6										0					
+Статистика (#1)	DBLK					RREQ		FALSE	RW	0							
+Work_Time	I				0	R	0	FALSE	RW	0	Work_Time	0	2512				Время наработки, сек
+Line1_Err	I				0	R	0	FALSE	RW	0	Line1_Err	0	2513				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	R	0	FALSE	RW	0	Line2_Err	0	2514				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	R	0	FALSE	RW	0	Reset_code	0	2515				Код сброса
+Mod_temp	I				0	R	0	FALSE	RW	0	Mod_temp	0	2516				Температура модуля
+Stbus_line1_err	B				FALSE	R	0	FALSE	RW	0		0	462				Ошибки связи с мастером (линия 1)
+Stbus_line2_err	B				FALSE	R	0	FALSE	RW	0		0	463				Ошибки связи с мастером (линия 2)
+Err_sequence	B				FALSE	R	0	FALSE	RW	0		0	464				Нарушение последовательности STBUS
+Mod_power_low	B				FALSE	R	0	FALSE	RW	0		0	465				Питание модуля ниже нормы
+CH_power_low	B				FALSE	R	0	FALSE	RW	0		0	466				Питание каналов ниже нормы
+CH_power_high	B				FALSE	R	0	FALSE	RW	0		0	467				Питание каналов выше нормы
+Overheat	B				FALSE	R	0	FALSE	RW	0		0	468				Перегрев группы питания каналов
+Overload_power1	B				FALSE	R	0	FALSE	RW	0		0	469				Перегрузка питания внешних цепей 1 гр.
+Overload_power2	B				FALSE	R	0	FALSE	RW	0		0	470				Перегрузка питания внешних цепей 2 гр.
+Overload_power3	B				FALSE	R	0	FALSE	RW	0		0	471				Перегрузка питания внешних цепей 3 гр.
+Overload_power4	B				FALSE	R	0	FALSE	RW	0		0	472				Перегрузка питания внешних цепей 4 гр.
+Overload_power5	B				FALSE	R	0	FALSE	RW	0		0	473				Перегрузка питания внешних цепей 5 гр.
+Overload_power6	B				FALSE	R	0	FALSE	RW	0		0	474				Перегрузка питания внешних цепей 6 гр.
+Overload_power7	B				FALSE	R	0	FALSE	RW	0		0	475				Перегрузка питания внешних цепей 7 гр.
+Overload_power8	B				FALSE	R	0	FALSE	RW	0		0	476				Перегрузка питания внешних цепей 8 гр.
+/
+Время фильтрации 0 - 1 (#3)	DBLK					REQ		FALSE	RW	0							
+Filter01_C01	I				0	W	0	FALSE	RW	0	Filter01_C01	0	2517				Время фильтрации 0 - 1, мс, канал  1
+Filter01_C02	I				0	W	0	FALSE	RW	0	Filter01_C02	0	2518				Время фильтрации 0 - 1, мс, канал  2
+Filter01_C03	I				0	W	0	FALSE	RW	0	Filter01_C03	0	2519				Время фильтрации 0 - 1, мс, канал  3
+Filter01_C04	I				0	W	0	FALSE	RW	0	Filter01_C04	0	2520				Время фильтрации 0 - 1, мс, канал  4
+Filter01_C05	I				0	W	0	FALSE	RW	0	Filter01_C05	0	2521				Время фильтрации 0 - 1, мс, канал  5
+Filter01_C06	I				0	W	0	FALSE	RW	0	Filter01_C06	0	2522				Время фильтрации 0 - 1, мс, канал  6
+Filter01_C07	I				0	W	0	FALSE	RW	0	Filter01_C07	0	2523				Время фильтрации 0 - 1, мс, канал  7
+Filter01_C08	I				0	W	0	FALSE	RW	0	Filter01_C08	0	2524				Время фильтрации 0 - 1, мс, канал  8
+Filter01_C09	I				0	W	0	FALSE	RW	0	Filter01_C09	0	2525				Время фильтрации 0 - 1, мс, канал  9
+Filter01_C10	I				0	W	0	FALSE	RW	0	Filter01_C10	0	2526				Время фильтрации 0 - 1, мс, канал 10
+Filter01_C11	I				0	W	0	FALSE	RW	0	Filter01_C11	0	2527				Время фильтрации 0 - 1, мс, канал 11
+Filter01_C12	I				0	W	0	FALSE	RW	0	Filter01_C12	0	2528				Время фильтрации 0 - 1, мс, канал 12
+Filter01_C13	I				0	W	0	FALSE	RW	0	Filter01_C13	0	2534				Время фильтрации 0 - 1, мс, канал 13
+Filter01_C14	I				0	W	0	FALSE	RW	0	Filter01_C14	0	2535				Время фильтрации 0 - 1, мс, канал 14
+Filter01_C15	I				0	W	0	FALSE	RW	0	Filter01_C15	0	2536				Время фильтрации 0 - 1, мс, канал 15
+Filter01_C16	I				0	W	0	FALSE	RW	0	Filter01_C16	0	2537				Время фильтрации 0 - 1, мс, канал 16
+Filter01_C17	I				0	W	0	FALSE	RW	0	Filter01_C17	0	2538				Время фильтрации 0 - 1, мс, канал 17
+Filter01_C18	I				0	W	0	FALSE	RW	0	Filter01_C18	0	2539				Время фильтрации 0 - 1, мс, канал 18
+Filter01_C19	I				0	W	0	FALSE	RW	0	Filter01_C19	0	2540				Время фильтрации 0 - 1, мс, канал 19
+Filter01_C20	I				0	W	0	FALSE	RW	0	Filter01_C20	0	2541				Время фильтрации 0 - 1, мс, канал 20
+Filter01_C21	I				0	W	0	FALSE	RW	0	Filter01_C21	0	2542				Время фильтрации 0 - 1, мс, канал 21
+Filter01_C22	I				0	W	0	FALSE	RW	0	Filter01_C22	0	2543				Время фильтрации 0 - 1, мс, канал 22
+Filter01_C23	I				0	W	0	FALSE	RW	0	Filter01_C23	0	2544				Время фильтрации 0 - 1, мс, канал 23
+Filter01_C24	I				0	W	0	FALSE	RW	0	Filter01_C24	0	2545				Время фильтрации 0 - 1, мс, канал 24
+Filter01_C25	I				0	W	0	FALSE	RW	0	Filter01_C25	0	2546				Время фильтрации 0 - 1, мс, канал 25
+Filter01_C26	I				0	W	0	FALSE	RW	0	Filter01_C26	0	2547				Время фильтрации 0 - 1, мс, канал 26
+Filter01_C27	I				0	W	0	FALSE	RW	0	Filter01_C27	0	2548				Время фильтрации 0 - 1, мс, канал 27
+Filter01_C28	I				0	W	0	FALSE	RW	0	Filter01_C28	0	2549				Время фильтрации 0 - 1, мс, канал 28
+Filter01_C29	I				0	W	0	FALSE	RW	0	Filter01_C29	0	2550				Время фильтрации 0 - 1, мс, канал 29
+Filter01_C30	I				0	W	0	FALSE	RW	0	Filter01_C30	0	2551				Время фильтрации 0 - 1, мс, канал 30
+Filter01_C31	I				0	W	0	FALSE	RW	0	Filter01_C31	0	2552				Время фильтрации 0 - 1, мс, канал 31
+Filter01_C32	I				0	W	0	FALSE	RW	0	Filter01_C32	0	2553				Время фильтрации 0 - 1, мс, канал 32
+/
+Время фильтрации 1 - 0 (#3)	DBLK					REQ		FALSE	RW	0							
+Filter10_C01	I				0	W	0	FALSE	RW	0	Filter10_C01	0	2554				Время фильтрации 1 - 0, мс, канал  1
+Filter10_C02	I				0	W	0	FALSE	RW	0	Filter10_C02	0	2555				Время фильтрации 1 - 0, мс, канал  2
+Filter10_C03	I				0	W	0	FALSE	RW	0	Filter10_C03	0	2556				Время фильтрации 1 - 0, мс, канал  3
+Filter10_C04	I				0	W	0	FALSE	RW	0	Filter10_C04	0	2557				Время фильтрации 1 - 0, мс, канал  4
+Filter10_C05	I				0	W	0	FALSE	RW	0	Filter10_C05	0	2558				Время фильтрации 1 - 0, мс, канал  5
+Filter10_C06	I				0	W	0	FALSE	RW	0	Filter10_C06	0	2559				Время фильтрации 1 - 0, мс, канал  6
+Filter10_C07	I				0	W	0	FALSE	RW	0	Filter10_C07	0	2560				Время фильтрации 1 - 0, мс, канал  7
+Filter10_C08	I				0	W	0	FALSE	RW	0	Filter10_C08	0	2561				Время фильтрации 1 - 0, мс, канал  8
+Filter10_C09	I				0	W	0	FALSE	RW	0	Filter10_C09	0	2562				Время фильтрации 1 - 0, мс, канал  9
+Filter10_C10	I				0	W	0	FALSE	RW	0	Filter10_C10	0	2563				Время фильтрации 1 - 0, мс, канал 10
+Filter10_C11	I				0	W	0	FALSE	RW	0	Filter10_C11	0	2564				Время фильтрации 1 - 0, мс, канал 11
+Filter10_C12	I				0	W	0	FALSE	RW	0	Filter10_C12	0	2565				Время фильтрации 1 - 0, мс, канал 12
+Filter10_C13	I				0	W	0	FALSE	RW	0	Filter10_C13	0	2566				Время фильтрации 1 - 0, мс, канал 13
+Filter10_C14	I				0	W	0	FALSE	RW	0	Filter10_C14	0	2567				Время фильтрации 1 - 0, мс, канал 14
+Filter10_C15	I				0	W	0	FALSE	RW	0	Filter10_C15	0	2568				Время фильтрации 1 - 0, мс, канал 15
+Filter10_C16	I				0	W	0	FALSE	RW	0	Filter10_C16	0	2569				Время фильтрации 1 - 0, мс, канал 16
+Filter10_C17	I				0	W	0	FALSE	RW	0	Filter10_C17	0	2570				Время фильтрации 1 - 0, мс, канал 17
+Filter10_C18	I				0	W	0	FALSE	RW	0	Filter10_C18	0	2571				Время фильтрации 1 - 0, мс, канал 18
+Filter10_C19	I				0	W	0	FALSE	RW	0	Filter10_C19	0	2572				Время фильтрации 1 - 0, мс, канал 19
+Filter10_C20	I				0	W	0	FALSE	RW	0	Filter10_C20	0	2573				Время фильтрации 1 - 0, мс, канал 20
+Filter10_C21	I				0	W	0	FALSE	RW	0	Filter10_C21	0	2574				Время фильтрации 1 - 0, мс, канал 21
+Filter10_C22	I				0	W	0	FALSE	RW	0	Filter10_C22	0	2575				Время фильтрации 1 - 0, мс, канал 22
+Filter10_C23	I				0	W	0	FALSE	RW	0	Filter10_C23	0	2576				Время фильтрации 1 - 0, мс, канал 23
+Filter10_C24	I				0	W	0	FALSE	RW	0	Filter10_C24	0	2577				Время фильтрации 1 - 0, мс, канал 24
+Filter10_C25	I				0	W	0	FALSE	RW	0	Filter10_C25	0	2578				Время фильтрации 1 - 0, мс, канал 25
+Filter10_C26	I				0	W	0	FALSE	RW	0	Filter10_C26	0	2579				Время фильтрации 1 - 0, мс, канал 26
+Filter10_C27	I				0	W	0	FALSE	RW	0	Filter10_C27	0	2580				Время фильтрации 1 - 0, мс, канал 27
+Filter10_C28	I				0	W	0	FALSE	RW	0	Filter10_C28	0	2581				Время фильтрации 1 - 0, мс, канал 28
+Filter10_C29	I				0	W	0	FALSE	RW	0	Filter10_C29	0	2582				Время фильтрации 1 - 0, мс, канал 29
+Filter10_C30	I				0	W	0	FALSE	RW	0	Filter10_C30	0	2583				Время фильтрации 1 - 0, мс, канал 30
+Filter10_C31	I				0	W	0	FALSE	RW	0	Filter10_C31	0	2584				Время фильтрации 1 - 0, мс, канал 31
+Filter10_C32	I				0	W	0	FALSE	RW	0	Filter10_C32	0	2655				Время фильтрации 1 - 0, мс, канал 32
+/
+Общие параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	2656				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	477				Нет параметров
+Err_hard	B				FALSE	R	0	FALSE	RW	0		0	478				Аппаратная ошибка
+Err_ext_con	B				FALSE	R	0	FALSE	RW	0		0	479				Ошибка внешних подключений
+Err_stbus	B				FALSE	R	0	FALSE	RW	0		0	480				Ошибки связи STBUS
+Err_mod_power	B				FALSE	R	0	FALSE	RW	0		0	481				Ошибка питания модуля
+Err_CH_power	B				FALSE	R	0	FALSE	RW	0		0	482				Ошибка питания каналов
+/
+Каналы (#4)	DBLK					R		FALSE	RW	0							
+CH_01	B				FALSE	R	0	FALSE	RW	0		0	483				Значение канала  1
+CH_02	B				FALSE	R	0	FALSE	RW	0		0	484				Значение канала  2
+CH_03	B				FALSE	R	0	FALSE	RW	0		0	485				Значение канала  3
+CH_04	B				FALSE	R	0	FALSE	RW	0		0	486				Значение канала  4
+CH_05	B				FALSE	R	0	FALSE	RW	0		0	487				Значение канала  5
+CH_06	B				FALSE	R	0	FALSE	RW	0		0	488				Значение канала  6
+CH_07	B				FALSE	R	0	FALSE	RW	0		0	489				Значение канала  7
+CH_08	B				FALSE	R	0	FALSE	RW	0		0	490				Значение канала  8
+CH_09	B				FALSE	R	0	FALSE	RW	0		0	491				Значение канала  9
+CH_10	B				FALSE	R	0	FALSE	RW	0		0	492				Значение канала 10
+CH_11	B				FALSE	R	0	FALSE	RW	0		0	565				Значение канала 11
+CH_12	B				FALSE	R	0	FALSE	RW	0		0	566				Значение канала 12
+CH_13	B				FALSE	R	0	FALSE	RW	0		0	567				Значение канала 13
+CH_14	B				FALSE	R	0	FALSE	RW	0		0	568				Значение канала 14
+CH_15	B				FALSE	R	0	FALSE	RW	0		0	569				Значение канала 15
+CH_16	B				FALSE	R	0	FALSE	RW	0		0	570				Значение канала 16
+CH_17	B				FALSE	R	0	FALSE	RW	0		0	571				Значение канала 17
+CH_18	B				FALSE	R	0	FALSE	RW	0		0	572				Значение канала 18
+CH_19	B				FALSE	R	0	FALSE	RW	0		0	573				Значение канала 19
+CH_20	B				FALSE	R	0	FALSE	RW	0		0	574				Значение канала 20
+CH_21	B				FALSE	R	0	FALSE	RW	0		0	575				Значение канала 21
+CH_22	B				FALSE	R	0	FALSE	RW	0		0	576				Значение канала 22
+CH_23	B				FALSE	R	0	FALSE	RW	0		0	577				Значение канала 23
+CH_24	B				FALSE	R	0	FALSE	RW	0		0	578				Значение канала 24
+CH_25	B				FALSE	R	0	FALSE	RW	0		0	579				Значение канала 25
+CH_26	B				FALSE	R	0	FALSE	RW	0		0	580				Значение канала 26
+CH_27	B				FALSE	R	0	FALSE	RW	0		0	581				Значение канала 27
+CH_28	B				FALSE	R	0	FALSE	RW	0		0	582				Значение канала 28
+CH_29	B				FALSE	R	0	FALSE	RW	0		0	583				Значение канала 29
+CH_30	B				FALSE	R	0	FALSE	RW	0		0	584				Значение канала 30
+CH_31	B				FALSE	R	0	FALSE	RW	0		0	585				Значение канала 31
+CH_32	B				FALSE	R	0	FALSE	RW	0		0	586				Значение канала 32
+/
+/
+DiM2_551D	MOD2	7										0					
+Статистика (#1)	DBLK					RREQ		FALSE	RW	0							
+Work_Time	I				0	R	0	FALSE	RW	0	Work_Time	0	2678				Время наработки, сек
+Line1_Err	I				0	R	0	FALSE	RW	0	Line1_Err	0	2679				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	R	0	FALSE	RW	0	Line2_Err	0	2680				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	R	0	FALSE	RW	0	Reset_code	0	2681				Код сброса
+Mod_temp	I				0	R	0	FALSE	RW	0	Mod_temp	0	2682				Температура модуля
+Stbus_line1_err	B				FALSE	R	0	FALSE	RW	0		0	712				Ошибки связи с мастером (линия 1)
+Stbus_line2_err	B				FALSE	R	0	FALSE	RW	0		0	713				Ошибки связи с мастером (линия 2)
+Err_sequence	B				FALSE	R	0	FALSE	RW	0		0	714				Нарушение последовательности STBUS
+Mod_power_low	B				FALSE	R	0	FALSE	RW	0		0	715				Питание модуля ниже нормы
+CH_power_low	B				FALSE	R	0	FALSE	RW	0		0	716				Питание каналов ниже нормы
+CH_power_high	B				FALSE	R	0	FALSE	RW	0		0	717				Питание каналов выше нормы
+Overheat	B				FALSE	R	0	FALSE	RW	0		0	718				Перегрев группы питания каналов
+Overload_power1	B				FALSE	R	0	FALSE	RW	0		0	719				Перегрузка питания внешних цепей 1 гр.
+Overload_power2	B				FALSE	R	0	FALSE	RW	0		0	720				Перегрузка питания внешних цепей 2 гр.
+Overload_power3	B				FALSE	R	0	FALSE	RW	0		0	721				Перегрузка питания внешних цепей 3 гр.
+Overload_power4	B				FALSE	R	0	FALSE	RW	0		0	722				Перегрузка питания внешних цепей 4 гр.
+Overload_power5	B				FALSE	R	0	FALSE	RW	0		0	723				Перегрузка питания внешних цепей 5 гр.
+Overload_power6	B				FALSE	R	0	FALSE	RW	0		0	724				Перегрузка питания внешних цепей 6 гр.
+Overload_power7	B				FALSE	R	0	FALSE	RW	0		0	725				Перегрузка питания внешних цепей 7 гр.
+Overload_power8	B				FALSE	R	0	FALSE	RW	0		0	726				Перегрузка питания внешних цепей 8 гр.
+/
+Время фильтрации 0 - 1 (#3)	DBLK					REQ		FALSE	RW	0							
+Filter01_C01	I				0	W	0	FALSE	RW	0	Filter01_C01	0	2683				Время фильтрации 0 - 1, мс, канал  1
+Filter01_C02	I				0	W	0	FALSE	RW	0	Filter01_C02	0	2684				Время фильтрации 0 - 1, мс, канал  2
+Filter01_C03	I				0	W	0	FALSE	RW	0	Filter01_C03	0	2685				Время фильтрации 0 - 1, мс, канал  3
+Filter01_C04	I				0	W	0	FALSE	RW	0	Filter01_C04	0	2686				Время фильтрации 0 - 1, мс, канал  4
+Filter01_C05	I				0	W	0	FALSE	RW	0	Filter01_C05	0	2687				Время фильтрации 0 - 1, мс, канал  5
+Filter01_C06	I				0	W	0	FALSE	RW	0	Filter01_C06	0	2688				Время фильтрации 0 - 1, мс, канал  6
+Filter01_C07	I				0	W	0	FALSE	RW	0	Filter01_C07	0	2689				Время фильтрации 0 - 1, мс, канал  7
+Filter01_C08	I				0	W	0	FALSE	RW	0	Filter01_C08	0	2690				Время фильтрации 0 - 1, мс, канал  8
+Filter01_C09	I				0	W	0	FALSE	RW	0	Filter01_C09	0	2691				Время фильтрации 0 - 1, мс, канал  9
+Filter01_C10	I				0	W	0	FALSE	RW	0	Filter01_C10	0	2692				Время фильтрации 0 - 1, мс, канал 10
+Filter01_C11	I				0	W	0	FALSE	RW	0	Filter01_C11	0	2693				Время фильтрации 0 - 1, мс, канал 11
+Filter01_C12	I				0	W	0	FALSE	RW	0	Filter01_C12	0	2694				Время фильтрации 0 - 1, мс, канал 12
+Filter01_C13	I				0	W	0	FALSE	RW	0	Filter01_C13	0	2695				Время фильтрации 0 - 1, мс, канал 13
+Filter01_C14	I				0	W	0	FALSE	RW	0	Filter01_C14	0	2696				Время фильтрации 0 - 1, мс, канал 14
+Filter01_C15	I				0	W	0	FALSE	RW	0	Filter01_C15	0	2697				Время фильтрации 0 - 1, мс, канал 15
+Filter01_C16	I				0	W	0	FALSE	RW	0	Filter01_C16	0	2698				Время фильтрации 0 - 1, мс, канал 16
+Filter01_C17	I				0	W	0	FALSE	RW	0	Filter01_C17	0	2699				Время фильтрации 0 - 1, мс, канал 17
+Filter01_C18	I				0	W	0	FALSE	RW	0	Filter01_C18	0	2700				Время фильтрации 0 - 1, мс, канал 18
+Filter01_C19	I				0	W	0	FALSE	RW	0	Filter01_C19	0	2701				Время фильтрации 0 - 1, мс, канал 19
+Filter01_C20	I				0	W	0	FALSE	RW	0	Filter01_C20	0	2702				Время фильтрации 0 - 1, мс, канал 20
+Filter01_C21	I				0	W	0	FALSE	RW	0	Filter01_C21	0	2703				Время фильтрации 0 - 1, мс, канал 21
+Filter01_C22	I				0	W	0	FALSE	RW	0	Filter01_C22	0	2704				Время фильтрации 0 - 1, мс, канал 22
+Filter01_C23	I				0	W	0	FALSE	RW	0	Filter01_C23	0	2705				Время фильтрации 0 - 1, мс, канал 23
+Filter01_C24	I				0	W	0	FALSE	RW	0	Filter01_C24	0	2706				Время фильтрации 0 - 1, мс, канал 24
+Filter01_C25	I				0	W	0	FALSE	RW	0	Filter01_C25	0	2707				Время фильтрации 0 - 1, мс, канал 25
+Filter01_C26	I				0	W	0	FALSE	RW	0	Filter01_C26	0	2708				Время фильтрации 0 - 1, мс, канал 26
+Filter01_C27	I				0	W	0	FALSE	RW	0	Filter01_C27	0	2709				Время фильтрации 0 - 1, мс, канал 27
+Filter01_C28	I				0	W	0	FALSE	RW	0	Filter01_C28	0	2710				Время фильтрации 0 - 1, мс, канал 28
+Filter01_C29	I				0	W	0	FALSE	RW	0	Filter01_C29	0	2711				Время фильтрации 0 - 1, мс, канал 29
+Filter01_C30	I				0	W	0	FALSE	RW	0	Filter01_C30	0	2712				Время фильтрации 0 - 1, мс, канал 30
+Filter01_C31	I				0	W	0	FALSE	RW	0	Filter01_C31	0	2713				Время фильтрации 0 - 1, мс, канал 31
+Filter01_C32	I				0	W	0	FALSE	RW	0	Filter01_C32	0	2714				Время фильтрации 0 - 1, мс, канал 32
+/
+Время фильтрации 1 - 0 (#3)	DBLK					REQ		FALSE	RW	0							
+Filter10_C01	I				0	W	0	FALSE	RW	0	Filter10_C01	0	2715				Время фильтрации 1 - 0, мс, канал  1
+Filter10_C02	I				0	W	0	FALSE	RW	0	Filter10_C02	0	2716				Время фильтрации 1 - 0, мс, канал  2
+Filter10_C03	I				0	W	0	FALSE	RW	0	Filter10_C03	0	2717				Время фильтрации 1 - 0, мс, канал  3
+Filter10_C04	I				0	W	0	FALSE	RW	0	Filter10_C04	0	2718				Время фильтрации 1 - 0, мс, канал  4
+Filter10_C05	I				0	W	0	FALSE	RW	0	Filter10_C05	0	2719				Время фильтрации 1 - 0, мс, канал  5
+Filter10_C06	I				0	W	0	FALSE	RW	0	Filter10_C06	0	2720				Время фильтрации 1 - 0, мс, канал  6
+Filter10_C07	I				0	W	0	FALSE	RW	0	Filter10_C07	0	2721				Время фильтрации 1 - 0, мс, канал  7
+Filter10_C08	I				0	W	0	FALSE	RW	0	Filter10_C08	0	2722				Время фильтрации 1 - 0, мс, канал  8
+Filter10_C09	I				0	W	0	FALSE	RW	0	Filter10_C09	0	2723				Время фильтрации 1 - 0, мс, канал  9
+Filter10_C10	I				0	W	0	FALSE	RW	0	Filter10_C10	0	2724				Время фильтрации 1 - 0, мс, канал 10
+Filter10_C11	I				0	W	0	FALSE	RW	0	Filter10_C11	0	2725				Время фильтрации 1 - 0, мс, канал 11
+Filter10_C12	I				0	W	0	FALSE	RW	0	Filter10_C12	0	2726				Время фильтрации 1 - 0, мс, канал 12
+Filter10_C13	I				0	W	0	FALSE	RW	0	Filter10_C13	0	2727				Время фильтрации 1 - 0, мс, канал 13
+Filter10_C14	I				0	W	0	FALSE	RW	0	Filter10_C14	0	2728				Время фильтрации 1 - 0, мс, канал 14
+Filter10_C15	I				0	W	0	FALSE	RW	0	Filter10_C15	0	2729				Время фильтрации 1 - 0, мс, канал 15
+Filter10_C16	I				0	W	0	FALSE	RW	0	Filter10_C16	0	2730				Время фильтрации 1 - 0, мс, канал 16
+Filter10_C17	I				0	W	0	FALSE	RW	0	Filter10_C17	0	2731				Время фильтрации 1 - 0, мс, канал 17
+Filter10_C18	I				0	W	0	FALSE	RW	0	Filter10_C18	0	2732				Время фильтрации 1 - 0, мс, канал 18
+Filter10_C19	I				0	W	0	FALSE	RW	0	Filter10_C19	0	2733				Время фильтрации 1 - 0, мс, канал 19
+Filter10_C20	I				0	W	0	FALSE	RW	0	Filter10_C20	0	2734				Время фильтрации 1 - 0, мс, канал 20
+Filter10_C21	I				0	W	0	FALSE	RW	0	Filter10_C21	0	2735				Время фильтрации 1 - 0, мс, канал 21
+Filter10_C22	I				0	W	0	FALSE	RW	0	Filter10_C22	0	2736				Время фильтрации 1 - 0, мс, канал 22
+Filter10_C23	I				0	W	0	FALSE	RW	0	Filter10_C23	0	2737				Время фильтрации 1 - 0, мс, канал 23
+Filter10_C24	I				0	W	0	FALSE	RW	0	Filter10_C24	0	2738				Время фильтрации 1 - 0, мс, канал 24
+Filter10_C25	I				0	W	0	FALSE	RW	0	Filter10_C25	0	2739				Время фильтрации 1 - 0, мс, канал 25
+Filter10_C26	I				0	W	0	FALSE	RW	0	Filter10_C26	0	2740				Время фильтрации 1 - 0, мс, канал 26
+Filter10_C27	I				0	W	0	FALSE	RW	0	Filter10_C27	0	2741				Время фильтрации 1 - 0, мс, канал 27
+Filter10_C28	I				0	W	0	FALSE	RW	0	Filter10_C28	0	2742				Время фильтрации 1 - 0, мс, канал 28
+Filter10_C29	I				0	W	0	FALSE	RW	0	Filter10_C29	0	2743				Время фильтрации 1 - 0, мс, канал 29
+Filter10_C30	I				0	W	0	FALSE	RW	0	Filter10_C30	0	2744				Время фильтрации 1 - 0, мс, канал 30
+Filter10_C31	I				0	W	0	FALSE	RW	0	Filter10_C31	0	2745				Время фильтрации 1 - 0, мс, канал 31
+Filter10_C32	I				0	W	0	FALSE	RW	0	Filter10_C32	0	2751				Время фильтрации 1 - 0, мс, канал 32
+/
+Общие параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	2752				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	727				Нет параметров
+Err_hard	B				FALSE	R	0	FALSE	RW	0		0	728				Аппаратная ошибка
+Err_ext_con	B				FALSE	R	0	FALSE	RW	0		0	729				Ошибка внешних подключений
+Err_stbus	B				FALSE	R	0	FALSE	RW	0		0	730				Ошибки связи STBUS
+Err_mod_power	B				FALSE	R	0	FALSE	RW	0		0	731				Ошибка питания модуля
+Err_CH_power	B				FALSE	R	0	FALSE	RW	0		0	732				Ошибка питания каналов
+/
+Каналы (#4)	DBLK					R		FALSE	RW	0							
+CH_01	B				FALSE	R	0	FALSE	RW	0		0	733				Значение канала  1
+CH_02	B				FALSE	R	0	FALSE	RW	0		0	734				Значение канала  2
+CH_03	B				FALSE	R	0	FALSE	RW	0		0	735				Значение канала  3
+CH_04	B				FALSE	R	0	FALSE	RW	0		0	736				Значение канала  4
+CH_05	B				FALSE	R	0	FALSE	RW	0		0	737				Значение канала  5
+CH_06	B				FALSE	R	0	FALSE	RW	0		0	738				Значение канала  6
+CH_07	B				FALSE	R	0	FALSE	RW	0		0	739				Значение канала  7
+CH_08	B				FALSE	R	0	FALSE	RW	0		0	740				Значение канала  8
+CH_09	B				FALSE	R	0	FALSE	RW	0		0	741				Значение канала  9
+CH_10	B				FALSE	R	0	FALSE	RW	0		0	742				Значение канала 10
+CH_11	B				FALSE	R	0	FALSE	RW	0		0	743				Значение канала 11
+CH_12	B				FALSE	R	0	FALSE	RW	0		0	744				Значение канала 12
+CH_13	B				FALSE	R	0	FALSE	RW	0		0	745				Значение канала 13
+CH_14	B				FALSE	R	0	FALSE	RW	0		0	746				Значение канала 14
+CH_15	B				FALSE	R	0	FALSE	RW	0		0	747				Значение канала 15
+CH_16	B				FALSE	R	0	FALSE	RW	0		0	748				Значение канала 16
+CH_17	B				FALSE	R	0	FALSE	RW	0		0	749				Значение канала 17
+CH_18	B				FALSE	R	0	FALSE	RW	0		0	750				Значение канала 18
+CH_19	B				FALSE	R	0	FALSE	RW	0		0	751				Значение канала 19
+CH_20	B				FALSE	R	0	FALSE	RW	0		0	752				Значение канала 20
+CH_21	B				FALSE	R	0	FALSE	RW	0		0	753				Значение канала 21
+CH_22	B				FALSE	R	0	FALSE	RW	0		0	754				Значение канала 22
+CH_23	B				FALSE	R	0	FALSE	RW	0		0	755				Значение канала 23
+CH_24	B				FALSE	R	0	FALSE	RW	0		0	756				Значение канала 24
+CH_25	B				FALSE	R	0	FALSE	RW	0		0	757				Значение канала 25
+CH_26	B				FALSE	R	0	FALSE	RW	0		0	758				Значение канала 26
+CH_27	B				FALSE	R	0	FALSE	RW	0		0	759				Значение канала 27
+CH_28	B				FALSE	R	0	FALSE	RW	0		0	760				Значение канала 28
+CH_29	B				FALSE	R	0	FALSE	RW	0		0	761				Значение канала 29
+CH_30	B				FALSE	R	0	FALSE	RW	0		0	762				Значение канала 30
+CH_31	B				FALSE	R	0	FALSE	RW	0		0	763				Значение канала 31
+CH_32	B				FALSE	R	0	FALSE	RW	0		0	764				Значение канала 32
+/
+/
+DoM1_552O	MOD2	8										0					
+Статистика (#1)	DBLK					REQ		FALSE	RW	0							
+Work_Time	I				0	W	0	FALSE	RW	0	Work_Time	0	2774				Время наработки, сек
+Line1_Err	I				0	W	0	FALSE	RW	0	Line1_Err	0	2775				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	W	0	FALSE	RW	0	Line2_Err	0	2776				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	W	0	FALSE	RW	0	Reset_code	0	2782				Код сброса
+/
+Параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Default_Canal_01	B				FALSE	W	0	FALSE	RW	0		0	837				Значение при обрыве связи, канал  1
+Default_Canal_02	B				FALSE	W	0	FALSE	RW	0		0	838				Значение при обрыве связи, канал  2
+Default_Canal_03	B				FALSE	W	0	FALSE	RW	0		0	839				Значение при обрыве связи, канал  3
+Default_Canal_04	B				FALSE	W	0	FALSE	RW	0		0	840				Значение при обрыве связи, канал  4
+Default_Canal_05	B				FALSE	W	0	FALSE	RW	0		0	841				Значение при обрыве связи, канал  5
+Default_Canal_06	B				FALSE	W	0	FALSE	RW	0		0	842				Значение при обрыве связи, канал  6
+Default_Canal_07	B				FALSE	W	0	FALSE	RW	0		0	843				Значение при обрыве связи, канал  7
+Default_Canal_08	B				FALSE	W	0	FALSE	RW	0		0	844				Значение при обрыве связи, канал  8
+Default_Canal_09	B				FALSE	W	0	FALSE	RW	0		0	845				Значение при обрыве связи, канал  9
+Default_Canal_10	B				FALSE	W	0	FALSE	RW	0		0	846				Значение при обрыве связи, канал 10
+Default_Canal_11	B				FALSE	W	0	FALSE	RW	0		0	847				Значение при обрыве связи, канал 11
+Default_Canal_12	B				FALSE	W	0	FALSE	RW	0		0	848				Значение при обрыве связи, канал 12
+Default_Canal_13	B				FALSE	W	0	FALSE	RW	0		0	849				Значение при обрыве связи, канал 13
+Default_Canal_14	B				FALSE	W	0	FALSE	RW	0		0	850				Значение при обрыве связи, канал 14
+Default_Canal_15	B				FALSE	W	0	FALSE	RW	0		0	851				Значение при обрыве связи, канал 15
+Default_Canal_16	B				FALSE	W	0	FALSE	RW	0		0	852				Значение при обрыве связи, канал 16
+Default_Canal_17	B				FALSE	W	0	FALSE	RW	0		0	853				Значение при обрыве связи, канал 17
+Default_Canal_18	B				FALSE	W	0	FALSE	RW	0		0	854				Значение при обрыве связи, канал 18
+Default_Canal_19	B				FALSE	W	0	FALSE	RW	0		0	855				Значение при обрыве связи, канал 19
+Default_Canal_20	B				FALSE	W	0	FALSE	RW	0		0	856				Значение при обрыве связи, канал 20
+Default_Canal_21	B				FALSE	W	0	FALSE	RW	0		0	857				Значение при обрыве связи, канал 21
+Default_Canal_22	B				FALSE	W	0	FALSE	RW	0		0	858				Значение при обрыве связи, канал 22
+Default_Canal_23	B				FALSE	W	0	FALSE	RW	0		0	859				Значение при обрыве связи, канал 23
+Default_Canal_24	B				FALSE	W	0	FALSE	RW	0		0	860				Значение при обрыве связи, канал 24
+Default_Canal_25	B				FALSE	W	0	FALSE	RW	0		0	861				Значение при обрыве связи, канал 25
+Default_Canal_26	B				FALSE	W	0	FALSE	RW	0		0	862				Значение при обрыве связи, канал 26
+Default_Canal_27	B				FALSE	W	0	FALSE	RW	0		0	863				Значение при обрыве связи, канал 27
+Default_Canal_28	B				FALSE	W	0	FALSE	RW	0		0	864				Значение при обрыве связи, канал 28
+Default_Canal_29	B				FALSE	W	0	FALSE	RW	0		0	865				Значение при обрыве связи, канал 29
+Default_Canal_30	B				FALSE	W	0	FALSE	RW	0		0	866				Значение при обрыве связи, канал 30
+Default_Canal_31	B				FALSE	W	0	FALSE	RW	0		0	867				Значение при обрыве связи, канал 31
+Default_Canal_32	B				FALSE	W	0	FALSE	RW	0		0	868				Значение при обрыве связи, канал 32
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	2783				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	869				Нет параметров
+No_power1	B				FALSE	R	0	FALSE	RW	0		0	870				Нет питания 1
+No_power2	B				FALSE	R	0	FALSE	RW	0		0	871				Нет питания 2
+Err_line1	B				FALSE	R	0	FALSE	RW	0		0	872				Ошибки связи с мастером (линия 1)
+Err_line2	B				FALSE	R	0	FALSE	RW	0		0	873				Ошибки связи с мастером (линия 2)
+Peregruz	B				FALSE	R	0	FALSE	RW	0		0	874				Перегрузка по одному из каналов
+Peregrev	B				FALSE	R	0	FALSE	RW	0		0	875				Перегрев по одной из групп
+No_Canal_power	B				FALSE	R	0	FALSE	RW	0		0	876				Нет питания для выходных групп
+/
+Каналы (#8)	DBLK					W		FALSE	RW	0							
+Canal_01	B				FALSE	W	0	FALSE	RW	0		0	877				Значение канала  1
+Canal_02	B				FALSE	W	0	FALSE	RW	0		0	878				Значение канала  2
+Canal_03	B				FALSE	W	0	FALSE	RW	0		0	879				Значение канала  3
+Canal_04	B				FALSE	W	0	FALSE	RW	0		0	880				Значение канала  4
+Canal_05	B				FALSE	W	0	FALSE	RW	0		0	881				Значение канала  5
+Canal_06	B				FALSE	W	0	FALSE	RW	0		0	882				Значение канала  6
+Canal_07	B				FALSE	W	0	FALSE	RW	0		0	883				Значение канала  7
+Canal_08	B				FALSE	W	0	FALSE	RW	0		0	884				Значение канала  8
+Canal_09	B				FALSE	W	0	FALSE	RW	0		0	885				Значение канала  9
+Canal_10	B				FALSE	W	0	FALSE	RW	0		0	886				Значение канала 10
+Canal_11	B				FALSE	W	0	FALSE	RW	0		0	887				Значение канала 11
+Canal_12	B				FALSE	W	0	FALSE	RW	0		0	888				Значение канала 12
+Canal_13	B				FALSE	W	0	FALSE	RW	0		0	889				Значение канала 13
+Canal_14	B				FALSE	W	0	FALSE	RW	0		0	890				Значение канала 14
+Canal_15	B				FALSE	W	0	FALSE	RW	0		0	891				Значение канала 15
+Canal_16	B				FALSE	W	0	FALSE	RW	0		0	892				Значение канала 16
+Canal_17	B				FALSE	W	0	FALSE	RW	0		0	893				Значение канала 17
+Canal_18	B				FALSE	W	0	FALSE	RW	0		0	894				Значение канала 18
+Canal_19	B				FALSE	W	0	FALSE	RW	0		0	895				Значение канала 19
+Canal_20	B				FALSE	W	0	FALSE	RW	0		0	896				Значение канала 20
+Canal_21	B				FALSE	W	0	FALSE	RW	0		0	897				Значение канала 21
+Canal_22	B				FALSE	W	0	FALSE	RW	0		0	898				Значение канала 22
+Canal_23	B				FALSE	W	0	FALSE	RW	0		0	899				Значение канала 23
+Canal_24	B				FALSE	W	0	FALSE	RW	0		0	900				Значение канала 24
+Canal_25	B				FALSE	W	0	FALSE	RW	0		0	901				Значение канала 25
+Canal_26	B				FALSE	W	0	FALSE	RW	0		0	902				Значение канала 26
+Canal_27	B				FALSE	W	0	FALSE	RW	0		0	903				Значение канала 27
+Canal_28	B				FALSE	W	0	FALSE	RW	0		0	904				Значение канала 28
+Canal_29	B				FALSE	W	0	FALSE	RW	0		0	905				Значение канала 29
+Canal_30	B				FALSE	W	0	FALSE	RW	0		0	906				Значение канала 30
+Canal_31	B				FALSE	W	0	FALSE	RW	0		0	907				Значение канала 31
+Canal_32	B				FALSE	W	0	FALSE	RW	0		0	908				Значение канала 32
+/
+/
+DoM2_552O	MOD2	9										0					
+Статистика (#1)	DBLK					REQ		FALSE	RW	0							
+Work_Time	I				0	W	0	FALSE	RW	0	Work_Time	0	2805				Время наработки, сек
+Line1_Err	I				0	W	0	FALSE	RW	0	Line1_Err	0	2806				Счетчик ошибок STBUS по линии1
+Line2_Err	I				0	W	0	FALSE	RW	0	Line2_Err	0	2807				Счетчик ошибок STBUS по линии2
+Reset_code	I				0	W	0	FALSE	RW	0	Reset_code	0	2808				Код сброса
+/
+Параметры (#3)	DBLK					REQ		FALSE	RW	0							
+Default_Canal_01	B				FALSE	W	0	FALSE	RW	0		0	981				Значение при обрыве связи, канал  1
+Default_Canal_02	B				FALSE	W	0	FALSE	RW	0		0	982				Значение при обрыве связи, канал  2
+Default_Canal_03	B				FALSE	W	0	FALSE	RW	0		0	983				Значение при обрыве связи, канал  3
+Default_Canal_04	B				FALSE	W	0	FALSE	RW	0		0	984				Значение при обрыве связи, канал  4
+Default_Canal_05	B				FALSE	W	0	FALSE	RW	0		0	985				Значение при обрыве связи, канал  5
+Default_Canal_06	B				FALSE	W	0	FALSE	RW	0		0	986				Значение при обрыве связи, канал  6
+Default_Canal_07	B				FALSE	W	0	FALSE	RW	0		0	987				Значение при обрыве связи, канал  7
+Default_Canal_08	B				FALSE	W	0	FALSE	RW	0		0	988				Значение при обрыве связи, канал  8
+Default_Canal_09	B				FALSE	W	0	FALSE	RW	0		0	989				Значение при обрыве связи, канал  9
+Default_Canal_10	B				FALSE	W	0	FALSE	RW	0		0	990				Значение при обрыве связи, канал 10
+Default_Canal_11	B				FALSE	W	0	FALSE	RW	0		0	991				Значение при обрыве связи, канал 11
+Default_Canal_12	B				FALSE	W	0	FALSE	RW	0		0	992				Значение при обрыве связи, канал 12
+Default_Canal_13	B				FALSE	W	0	FALSE	RW	0		0	993				Значение при обрыве связи, канал 13
+Default_Canal_14	B				FALSE	W	0	FALSE	RW	0		0	994				Значение при обрыве связи, канал 14
+Default_Canal_15	B				FALSE	W	0	FALSE	RW	0		0	995				Значение при обрыве связи, канал 15
+Default_Canal_16	B				FALSE	W	0	FALSE	RW	0		0	996				Значение при обрыве связи, канал 16
+Default_Canal_17	B				FALSE	W	0	FALSE	RW	0		0	997				Значение при обрыве связи, канал 17
+Default_Canal_18	B				FALSE	W	0	FALSE	RW	0		0	998				Значение при обрыве связи, канал 18
+Default_Canal_19	B				FALSE	W	0	FALSE	RW	0		0	999				Значение при обрыве связи, канал 19
+Default_Canal_20	B				FALSE	W	0	FALSE	RW	0		0	1000				Значение при обрыве связи, канал 20
+Default_Canal_21	B				FALSE	W	0	FALSE	RW	0		0	1001				Значение при обрыве связи, канал 21
+Default_Canal_22	B				FALSE	W	0	FALSE	RW	0		0	1002				Значение при обрыве связи, канал 22
+Default_Canal_23	B				FALSE	W	0	FALSE	RW	0		0	1003				Значение при обрыве связи, канал 23
+Default_Canal_24	B				FALSE	W	0	FALSE	RW	0		0	1004				Значение при обрыве связи, канал 24
+Default_Canal_25	B				FALSE	W	0	FALSE	RW	0		0	1005				Значение при обрыве связи, канал 25
+Default_Canal_26	B				FALSE	W	0	FALSE	RW	0		0	1006				Значение при обрыве связи, канал 26
+Default_Canal_27	B				FALSE	W	0	FALSE	RW	0		0	1007				Значение при обрыве связи, канал 27
+Default_Canal_28	B				FALSE	W	0	FALSE	RW	0		0	1008				Значение при обрыве связи, канал 28
+Default_Canal_29	B				FALSE	W	0	FALSE	RW	0		0	1009				Значение при обрыве связи, канал 29
+Default_Canal_30	B				FALSE	W	0	FALSE	RW	0		0	1010				Значение при обрыве связи, канал 30
+Default_Canal_31	B				FALSE	W	0	FALSE	RW	0		0	1011				Значение при обрыве связи, канал 31
+Default_Canal_32	B				FALSE	W	0	FALSE	RW	0		0	1012				Значение при обрыве связи, канал 32
+Timeout	I				0	W	0	FALSE	RW	0	Timeout	0	2809				Таймаут связи с мастером, мсек
+/
+Состояние (#4)	DBLK					R		FALSE	RW	0							
+No_param	B				FALSE	R	0	FALSE	RW	0		0	1013				Нет параметров
+No_power1	B				FALSE	R	0	FALSE	RW	0		0	1014				Нет питания 1
+No_power2	B				FALSE	R	0	FALSE	RW	0		0	1015				Нет питания 2
+Err_line1	B				FALSE	R	0	FALSE	RW	0		0	1016				Ошибки связи с мастером (линия 1)
+Err_line2	B				FALSE	R	0	FALSE	RW	0		0	1017				Ошибки связи с мастером (линия 2)
+Peregruz	B				FALSE	R	0	FALSE	RW	0		0	1018				Перегрузка по одному из каналов
+Peregrev	B				FALSE	R	0	FALSE	RW	0		0	1019				Перегрев по одной из групп
+No_Canal_power	B				FALSE	R	0	FALSE	RW	0		0	1020				Нет питания для выходных групп
+/
+Каналы (#8)	DBLK					W		FALSE	RW	0							
+Canal_01	B				FALSE	W	0	FALSE	RW	0		0	1021				Значение канала  1
+Canal_02	B				FALSE	W	0	FALSE	RW	0		0	1022				Значение канала  2
+Canal_03	B				FALSE	W	0	FALSE	RW	0		0	1023				Значение канала  3
+Canal_04	B				FALSE	W	0	FALSE	RW	0		0	1024				Значение канала  4
+Canal_05	B				FALSE	W	0	FALSE	RW	0		0	1025				Значение канала  5
+Canal_06	B				FALSE	W	0	FALSE	RW	0		0	1026				Значение канала  6
+Canal_07	B				FALSE	W	0	FALSE	RW	0		0	1027				Значение канала  7
+Canal_08	B				FALSE	W	0	FALSE	RW	0		0	1028				Значение канала  8
+Canal_09	B				FALSE	W	0	FALSE	RW	0		0	1029				Значение канала  9
+Canal_10	B				FALSE	W	0	FALSE	RW	0		0	1030				Значение канала 10
+Canal_11	B				FALSE	W	0	FALSE	RW	0		0	1031				Значение канала 11
+Canal_12	B				FALSE	W	0	FALSE	RW	0		0	1032				Значение канала 12
+Canal_13	B				FALSE	W	0	FALSE	RW	0		0	1033				Значение канала 13
+Canal_14	B				FALSE	W	0	FALSE	RW	0		0	1034				Значение канала 14
+Canal_15	B				FALSE	W	0	FALSE	RW	0		0	1035				Значение канала 15
+Canal_16	B				FALSE	W	0	FALSE	RW	0		0	1036				Значение канала 16
+Canal_17	B				FALSE	W	0	FALSE	RW	0		0	1037				Значение канала 17
+Canal_18	B				FALSE	W	0	FALSE	RW	0		0	1038				Значение канала 18
+Canal_19	B				FALSE	W	0	FALSE	RW	0		0	1039				Значение канала 19
+Canal_20	B				FALSE	W	0	FALSE	RW	0		0	1040				Значение канала 20
+Canal_21	B				FALSE	W	0	FALSE	RW	0		0	1041				Значение канала 21
+Canal_22	B				FALSE	W	0	FALSE	RW	0		0	1042				Значение канала 22
+Canal_23	B				FALSE	W	0	FALSE	RW	0		0	1043				Значение канала 23
+Canal_24	B				FALSE	W	0	FALSE	RW	0		0	1044				Значение канала 24
+Canal_25	B				FALSE	W	0	FALSE	RW	0		0	1045				Значение канала 25
+Canal_26	B				FALSE	W	0	FALSE	RW	0		0	1046				Значение канала 26
+Canal_27	B				FALSE	W	0	FALSE	RW	0		0	1047				Значение канала 27
+Canal_28	B				FALSE	W	0	FALSE	RW	0		0	1048				Значение канала 28
+Canal_29	B				FALSE	W	0	FALSE	RW	0		0	1049				Значение канала 29
+Canal_30	B				FALSE	W	0	FALSE	RW	0		0	1050				Значение канала 30
+Canal_31	B				FALSE	W	0	FALSE	RW	0		0	1051				Значение канала 31
+Canal_32	B				FALSE	W	0	FALSE	RW	0		0	1052				Значение канала 32
+/
+/

@@ -1,0 +1,101 @@
+#UNIMODFIL_1.1
+
+#PURPOSE=M915E
+#CHECKLOAD=1
+#HOTLOAD=0
+#NOTIFYOPC=1
+#CONNECT=ethernet\127.0.0\pcmaster
+#Mode=0
+#Parameters=
+#Cicle=0
+
+<MODULE>
+#MODADDRESS=0
+#MODTYPE=72
+#MODCOMMENT=Мастер-модуль M915E
+#COMPILE=31
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=1
+#MODTYPE=17428
+#MODCOMMENT=32-канальный аналоговый ввод тока
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=2
+#MODTYPE=17428
+#MODCOMMENT=32-канальный аналоговый ввод тока
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=3
+#MODTYPE=17428
+#MODCOMMENT=32-канальный аналоговый ввод тока
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=4
+#MODTYPE=16404
+#MODCOMMENT=8-канальный аналоговый вывод тока и напряжения изолированный
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=5
+#MODTYPE=16404
+#MODCOMMENT=8-канальный аналоговый вывод тока и напряжения изолированный
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=6
+#MODTYPE=6164
+#MODCOMMENT=32 канала дискретного ввода с общей точкой
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=7
+#MODTYPE=6164
+#MODCOMMENT=32 канала дискретного ввода с общей точкой
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=8
+#MODTYPE=276
+#MODCOMMENT=32-канальный дискретный вывод
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
+<MODULE>
+#MODADDRESS=9
+#MODTYPE=276
+#MODCOMMENT=32-канальный дискретный вывод
+#COMPILE=0
+#SIZEAPP=0
+#SUMMAPP=0
+</MODULE>
+
