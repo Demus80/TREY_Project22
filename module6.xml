@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<CONF type="6164" name="M552D" comment="32 канала дискретного ввода с общим плюсом"> <!--0x1814-->
+<CONF type="18452" name="M551D" comment="32 канала дискретного ввода с общим минусом"> <!--0x4814-->
   <PARAM name="Reaction Time" value="10" comment="Время реакции модуля (*10мкс)" hidden="dict"/>
 	<BLK num="0" attr="RREQ" name="Конфигурация блоков" hidden="dict" struct_name="configuration">
-		<VAR size="16" value="6164" comment="тип модуля"/>
+		<VAR size="16" value="18452" comment="тип модуля"/>
 		<VAR size="16"              comment="версия ПО"/>
 		<VAR size="16"              comment="версия аппаратной части"/>
-		<VAR size="16" value="5"    comment="версия конфигурации"/>
+		<VAR size="16" value="1"    comment="версия конфигурации"/>
 		<VAR size="16" value="8"    comment="кол-во блоков"/>
 		<VAR size="16" value="0"    comment="номер блока"/>
 		<VAR size="16" value="42"   comment="размер блока"/>

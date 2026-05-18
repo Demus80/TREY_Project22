@@ -14,8 +14,8 @@
 #MODTYPE=72
 #MODCOMMENT=Мастер-модуль M915E
 #COMPILE=33
-#SIZEAPP=78610
-#SUMMAPP=31227
+#SIZEAPP=0
+#SUMMAPP=0
 </MODULE>
 
 <MODULE>
@@ -65,8 +65,8 @@
 
 <MODULE>
 #MODADDRESS=6
-#MODTYPE=6164
-#MODCOMMENT=32 канала дискретного ввода с общей точкой
+#MODTYPE=18452
+#MODCOMMENT=32 канала дискретного ввода с общим минусом
 #COMPILE=0
 #SIZEAPP=0
 #SUMMAPP=0
@@ -74,8 +74,8 @@
 
 <MODULE>
 #MODADDRESS=7
-#MODTYPE=6164
-#MODCOMMENT=32 канала дискретного ввода с общей точкой
+#MODTYPE=18452
+#MODCOMMENT=32 канала дискретного ввода с общим минусом
 #COMPILE=0
 #SIZEAPP=0
 #SUMMAPP=0
@@ -83,8 +83,8 @@
 
 <MODULE>
 #MODADDRESS=8
-#MODTYPE=276
-#MODCOMMENT=32-канальный дискретный вывод
+#MODTYPE=18708
+#MODCOMMENT=32 канала дискретного вывода с общим плюсом
 #COMPILE=0
 #SIZEAPP=0
 #SUMMAPP=0
@@ -92,8 +92,8 @@
 
 <MODULE>
 #MODADDRESS=9
-#MODTYPE=276
-#MODCOMMENT=32-канальный дискретный вывод
+#MODTYPE=18708
+#MODCOMMENT=32 канала дискретного вывода с общим плюсом
 #COMPILE=0
 #SIZEAPP=0
 #SUMMAPP=0
