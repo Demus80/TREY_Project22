@@ -104,59 +104,60 @@ END_IF;
 (*Дискретный выход, чтение уставок *)
 FOR i := 1 TO GVL_QUANTITY_DO_CH DO   
   CASE i OF
-    1:  DoM1_552O.Canal_01 := DoGet(i, GVL_DO|_INDICATION_PUMP2);
-    2:  DoM1_552O.Canal_02 := DoGet(i, GVL_DO|_INDICATION_PUMP1);
-    3:  DoM1_552O.Canal_03 := DoGet(i, GVL_DO|_PUMP1_ON);
-    4:  DoM1_552O.Canal_04 := DoGet(i, GVL_DO|_PUMP2_ON);
+    1:  DoM1_552O.CH_01 := DoGet(i, GVL_DO|_INDICATION_PUMP2);
+    2:  DoM1_552O.CH_02 := DoGet(i, GVL_DO|_INDICATION_PUMP1);
+    3:  DoM1_552O.CH_03 := DoGet(i, GVL_DO|_PUMP1_ON);
+    4:  DoM1_552O.CH_04 := DoGet(i, GVL_DO|_PUMP2_ON);
 
-    5:  DoM1_552O.Canal_05 := DoGet(i, GVL_DO|_VALVE_XV_101_OPEN);
-    6:  DoM1_552O.Canal_06 := DoGet(i, GVL_DO|_VALVE_XV_101_CLOSE);
+    5:  DoM1_552O.CH_05 := DoGet(i, GVL_DO|_VALVE_XV_101_OPEN);
+    6:  DoM1_552O.CH_06 := DoGet(i, GVL_DO|_VALVE_XV_101_CLOSE);
 
-    7:  DoM1_552O.Canal_07 := DoGet(i, GVL_DO|_VALVE_XV_102_OPEN);
-    8:  DoM1_552O.Canal_08 := DoGet(i, GVL_DO|_VALVE_XV_102_CLOSE);
+    7:  DoM1_552O.CH_07 := DoGet(i, GVL_DO|_VALVE_XV_102_OPEN);
+    8:  DoM1_552O.CH_08 := DoGet(i, GVL_DO|_VALVE_XV_102_CLOSE);
 
-    9:  DoM1_552O.Canal_09 := DoGet(i, GVL_DO|_VALVE_XV_103_OPEN);
-    10: DoM1_552O.Canal_10 := DoGet(i, GVL_DO|_VALVE_XV_103_CLOSE);
+    9:  DoM1_552O.CH_09 := DoGet(i, GVL_DO|_VALVE_XV_103_OPEN);
+    10: DoM1_552O.CH_10 := DoGet(i, GVL_DO|_VALVE_XV_103_CLOSE);
 
-    11: DoM1_552O.Canal_11 := DoGet(i, GVL_DO|_VALVE_XV_104_OPEN);
-    12: DoM1_552O.Canal_12 := DoGet(i, GVL_DO|_VALVE_XV_104_CLOSE);
+    11: DoM1_552O.CH_11 := DoGet(i, GVL_DO|_VALVE_XV_104_OPEN);
+    12: DoM1_552O.CH_12 := DoGet(i, GVL_DO|_VALVE_XV_104_CLOSE);
 
-    13: DoM1_552O.Canal_13 := DoGet(i, GVL_DO|_VALVE_XV_106_OPEN);
-    14: DoM1_552O.Canal_14 := DoGet(i, GVL_DO|_VALVE_XV_106_CLOSE);
+    13: DoM1_552O.CH_13 := DoGet(i, GVL_DO|_VALVE_XV_106_OPEN);
+    14: DoM1_552O.CH_14 := DoGet(i, GVL_DO|_VALVE_XV_106_CLOSE);
 
-    15: DoM1_552O.Canal_15 := DoGet(i, GVL_DO|_VALVE_XV_107_OPEN);
-    16: DoM1_552O.Canal_16 := DoGet(i, GVL_DO|_VALVE_XV_107_CLOSE);
+    15: DoM1_552O.CH_15 := DoGet(i, GVL_DO|_VALVE_XV_107_OPEN);
+    16: DoM1_552O.CH_16 := DoGet(i, GVL_DO|_VALVE_XV_107_CLOSE);
 
-    17: DoM1_552O.Canal_17 := DoGet(i, GVL_DO|_VALVE_XV_108_OPEN);
-    18: DoM1_552O.Canal_18 := DoGet(i, GVL_DO|_VALVE_XV_108_CLOSE);
+    17: DoM1_552O.CH_17 := DoGet(i, GVL_DO|_VALVE_XV_108_OPEN);
+    18: DoM1_552O.CH_18 := DoGet(i, GVL_DO|_VALVE_XV_108_CLOSE);
 
-    19: DoM1_552O.Canal_19 := DoGet(i, GVL_DO|_VALVE_XV_109_OPEN);
-    20: DoM1_552O.Canal_20 := DoGet(i, GVL_DO|_VALVE_XV_109_CLOSE);
+    19: DoM1_552O.CH_19 := DoGet(i, GVL_DO|_VALVE_XV_109_OPEN);
+    20: DoM1_552O.CH_20 := DoGet(i, GVL_DO|_VALVE_XV_109_CLOSE);
 
     (* Второй моудль DO *)
 
-    21: DoM2_552O.Canal_01 := DoGet(i, GVL_DO2|_VALVE_XV_101_OPEN);
-    22: DoM2_552O.Canal_02 := DoGet(i, GVL_DO2|_VALVE_XV_101_CLOSE);
+    21: DoM2_552O.CH_01 := DoGet(i, GVL_DO2|_VALVE_XV_101_OPEN);
+    22: DoM2_552O.CH_02 := DoGet(i, GVL_DO2|_VALVE_XV_101_CLOSE);
 
-    23: DoM2_552O.Canal_03 := DoGet(i, GVL_DO2|_VALVE_XV_102_OPEN);
-    24: DoM2_552O.Canal_04 := DoGet(i, GVL_DO2|_VALVE_XV_102_CLOSE);
+    23: DoM2_552O.CH_03 := DoGet(i, GVL_DO2|_VALVE_XV_102_OPEN);
+    24: DoM2_552O.CH_04 := DoGet(i, GVL_DO2|_VALVE_XV_102_CLOSE);
 
-    25: DoM2_552O.Canal_05 := DoGet(i, GVL_DO2|_VALVE_XV_103_OPEN);
-    26: DoM2_552O.Canal_06 := DoGet(i, GVL_DO2|_VALVE_XV_103_CLOSE);
+    25: DoM2_552O.CH_05 := DoGet(i, GVL_DO2|_VALVE_XV_103_OPEN);
+    26: DoM2_552O.CH_06 := DoGet(i, GVL_DO2|_VALVE_XV_103_CLOSE);
 
-    27: DoM2_552O.Canal_07 := DoGet(i, GVL_DO2|_VALVE_XV_104_OPEN);
-    28: DoM2_552O.Canal_08 := DoGet(i, GVL_DO2|_VALVE_XV_104_CLOSE);
+    27: DoM2_552O.CH_07 := DoGet(i, GVL_DO2|_VALVE_XV_104_OPEN);
+    28: DoM2_552O.CH_08 := DoGet(i, GVL_DO2|_VALVE_XV_104_CLOSE);
 
-    29: DoM2_552O.Canal_09 := DoGet(i, GVL_DO2|_VALVE_XV_106_OPEN);
-    30: DoM2_552O.Canal_10 := DoGet(i, GVL_DO2|_VALVE_XV_106_CLOSE);
+    29: DoM2_552O.CH_09 := DoGet(i, GVL_DO2|_VALVE_XV_106_OPEN);
+    30: DoM2_552O.CH_10 := DoGet(i, GVL_DO2|_VALVE_XV_106_CLOSE);
 
-    31: DoM2_552O.Canal_11 := DoGet(i, GVL_DO2|_VALVE_XV_107_OPEN);
-    32: DoM2_552O.Canal_12 := DoGet(i, GVL_DO2|_VALVE_XV_107_CLOSE);
+    31: DoM2_552O.CH_11 := DoGet(i, GVL_DO2|_VALVE_XV_107_OPEN);
+    32: DoM2_552O.CH_12 := DoGet(i, GVL_DO2|_VALVE_XV_107_CLOSE);
 
-    33: DoM2_552O.Canal_13 := DoGet(i, GVL_DO2|_VALVE_XV_108_OPEN);
-    34: DoM2_552O.Canal_14 := DoGet(i, GVL_DO2|_VALVE_XV_108_CLOSE);
+    33: DoM2_552O.CH_13 := DoGet(i, GVL_DO2|_VALVE_XV_108_OPEN);
+    34: DoM2_552O.CH_14 := DoGet(i, GVL_DO2|_VALVE_XV_108_CLOSE);
 
-    35: DoM2_552O.Canal_15 := DoGet(i, GVL_DO2|_VALVE_XV_109_OPEN);
-    36: DoM2_552O.Canal_16 := DoGet(i, GVL_DO2|_VALVE_XV_109_CLOSE);
+    35: DoM2_552O.CH_15 := DoGet(i, GVL_DO2|_VALVE_XV_109_OPEN);
+    36: DoM2_552O.CH_16 := DoGet(i, GVL_DO2|_VALVE_XV_109_CLOSE);
+
   END_CASE;
 END_FOR;
