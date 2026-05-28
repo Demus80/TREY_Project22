@@ -46,7 +46,7 @@ GVL_DI2|_VALVE_PCV102_READY
 GVL_DI2|_VALVE_PCV102_FAULT
 GVL_DI2|_VALVE_PCV103_READY
 GVL_DI2|_VALVE_PCV103_FAULT
-GVL_DI2|_FIRE_FAULT
+GVL_DI2|_FIRE
 GVL_DO|_INDICATION_PUMP2
 GVL_DO|_INDICATION_PUMP1
 GVL_DO|_PUMP1_ON
@@ -1062,7 +1062,7 @@ DoM2_552O.CH_29
 DoM2_552O.CH_30
 DoM2_552O.CH_31
 DoM2_552O.CH_32
-
+Main.void
 
 
 
@@ -5850,9 +5850,9 @@ Main.HMI_MH_B_m_P2
 Main.HMI_MH_AftRep_m_P2
 Main.HMI_MH_LastSt_m_P2
 Main.TM_MH_AftRep_m_P1
-Main.fb_MH_AfterRepair_P2
-Main.fb_MH_Last_Start_P1
-Main.fb_MH_Last_Start_P2
+Main.fb_MH_AfterRepair_P2.Minute
+Main.fb_MH_Last_Start_P1.Minute
+Main.fb_MH_Last_Start_P2.Minute
 Main.fbAct_Pump1
 Main.fbAct_Pump2
 Main.fbAct_Fan1
@@ -5861,7 +5861,7 @@ Main.fbAct_Fan3
 Main.fbAct_Fan4
 Main.fMOV_2112
 Main.fMOV_2122
-Main.fbBIT_IN_INT
+Main.iRESET
 Main.TM_MH_LastSt_m_P1
 Main.PLC_prog_ver
 Main.HMI_MH_B_Sec_P1
@@ -5948,9 +5948,9 @@ Main.DELTA2_START_ON_MB
 Main.Valve1_ST
 Main.Valve2_ST
 Main.bitPosition
-
-
-
+Main.iON
+Main.fb_MH_Last_Start_P1.elapsedTime
+Main.fb_MH_Last_Start_P1.curSec
 Main.Valve1_CMD
 Main.Valve2_CMD
 Main.Valve3_CMD
@@ -5959,7 +5959,7 @@ Main.Delay_Valve1
 Main.Delay_Valve2
 Main.V1_fault
 Main.V2_fault
-
+Main.iOFF
 Main.i
 Main.j
 Main.FAN1_CMD
@@ -5969,23 +5969,23 @@ Main.FAN4_CMD
 Main.PUMP1_CMD
 Main.PUMP2_CMD
 Main.PUMP3_CMD
-
-
-
-
+Main.fb_MH_AfterRepair_P2.elapsedTime
+Main.fb_MH_AfterRepair_P2.curSec
+Main.fb_MH_Last_Start_P2.elapsedTime
+Main.fb_MH_Last_Start_P2.curSec
 Main.GAS_LEVEL2_Block_P1
 Main.GAS_LEVEL2_Block_P2
 Main.CbP1
 Main.CbP2
-Main.Timer_GASL1_CONC_MIN
-Main.Timer_GASL2_CONC_MIN
-Main.Timer_FIRE
-Main.Timer_FAULT_P1
-Main.Timer_FAULT_P2
-Main.Timer_FAULT_P3
-Main.Timer_FAULT_P_min
-
-
+Main.read
+Main.V1_ErCLOSES
+Main.V2_ErOPENES
+Main.V2_ErCLOSES
+Main.OPEN
+Main.CLOSE
+Main.RES_Fault
+Main.STOP
+Main.POS_RUN
 
 
 
@@ -6055,6 +6055,9 @@ Main.TM_Status_Fault_Valves
 Main.TM_FC1_SetFreq
 Main.TM_FC2_SetFreq
 /
+Main.fb_MH_Last_Start_P1.TON_m
+Main.fb_MH_AfterRepair_P2.TON_m
+Main.fb_MH_Last_Start_P2.TON_m
 
 
 
@@ -8873,7 +8876,6 @@ Main.TM_FC2_SetFreq
 
 
 
-Main.TimeBuff
 
 
 
@@ -9013,22 +9015,29 @@ Main.TimeBuff
 
 
 
-
+/
+/
+Main.Timer_FAULT_P1
 Main.T_set
-/
-/
+Main.TimeBuff
+Main.Timer_FAULT_P2
+Main.Timer_FAULT_P3
+Main.Timer_FAULT_P_min
+Main.Timer_FIRE
+Main.Timer_GASL1_CONC_MIN
+Main.Timer_GASL2_CONC_MIN
 /
 /
 
 /
-Main.read
-Main.V1_ErCLOSES
-Main.OPEN
-Main.V2_ErOPENES
-Main.CLOSE
-Main.V2_ErCLOSES
-Main.RES_Fault
-Main.STOP
-Main.POS_RUN
+
+
+
+
+
+
+
+
+
 
 /

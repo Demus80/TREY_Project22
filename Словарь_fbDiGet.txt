@@ -1,0 +1,6 @@
+Name	Type	ADDR_MOD	Library	Length	Value	Attribute	Save	Cold_start	Ar_count	Ar_period	Ar_filter	Comment
+BuffInt	I				0	Internal	FALSE	1				
+BuffBool	B				FALSE	Internal	FALSE	1				
+num_m	I				0	Internal	FALSE	1				
+M1	I				0	Constant	FALSE	1				
+M2	I				1	Constant	FALSE	1				

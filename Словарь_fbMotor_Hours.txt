@@ -1,0 +1,5 @@
+Name	Type	ADDR_MOD	Library	Length	Value	Save	Cold_start	Ar_count	Ar_period	Ar_filter	Comment
+TON_m	T				T#0ms	FALSE	1				
+Minute	I				0	FALSE	1				
+elapsedTime	I				0	FALSE	1				
+curSec	I				0	FALSE	1				

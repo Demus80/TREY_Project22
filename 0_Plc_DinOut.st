@@ -79,7 +79,7 @@ FOR i := 1 TO GVL_QUANTITY_DI_CH DO
     47: GVL_DI2|_VALVE_PCV103_READY := DiGet(i);
     48: GVL_DI2|_VALVE_PCV103_FAULT := DiGet(i);
 
-    49: GVL_DI2|_FIRE_FAULT := DiGet(i);
+    49: GVL_DI2|_FIRE := DiGet(i);
   END_CASE;
 END_FOR;
 
