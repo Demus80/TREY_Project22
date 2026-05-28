@@ -5875,8 +5875,8 @@ Main.HMI_MH_AftRep_m_P1
 Main.TM_MH_B_m_P2
 Main.TM_MH_AftRep_m_P2
 Main.TM_MH_LastSt_m_P2
-
-
+Main.WordBuff
+Main.cmd
 Main.FANS_BUTTON_ACTIVE
 Main.Motor_1_fault
 Main.PUMP1_LOC
@@ -5947,7 +5947,7 @@ Main.DELTA2_TYPE_FREQ
 Main.DELTA2_START_ON_MB
 Main.Valve1_ST
 Main.Valve2_ST
-
+Main.bitPosition
 
 
 
@@ -9030,4 +9030,5 @@ Main.V2_ErCLOSES
 Main.RES_Fault
 Main.STOP
 Main.POS_RUN
+
 /
