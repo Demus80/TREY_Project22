@@ -2847,7 +2847,7 @@ Main.toggle
 
 
 
-Main.HMI_block_ARR
+
 
 
 
@@ -3019,8 +3019,8 @@ Main.bOFF
 
 
 
-Main.TM_block_ARR_copy_val
-Main.TM_block_ARR
+
+
 
 Main.TM_copy_FC
 
@@ -3195,7 +3195,7 @@ GVL|REG_1263
 GVL|REG_1264
 GVL|REG_1265
 GVL|REG_1266
-GVL|_Status_device
+GVL|REG_1267
 GVL|REG_1268
 GVL|REG_1270
 GVL|REG_1272
@@ -5986,9 +5986,9 @@ Main.CLOSE
 Main.RES_Fault
 Main.STOP
 Main.POS_RUN
-
-
-
+Main.fb_MH_AfterRepair_P1.Minute
+Main.fb_MH_AfterRepair_P1.elapsedTime
+Main.fb_MH_AfterRepair_P1.curSec
 Main.Cur_connect_DF1
 Main.Cur_connect_DF2
 Main.cur_block
@@ -6000,34 +6000,34 @@ Main.fbPID_V2
 Main.P_kp_V2
 Main.I_tn_V2
 Main.D_tv_V2
-
+Main.HMI_block_ARR[1]
 Main.write_settingAi_to_HMI
 Main.read_settingAi_from_HMI
-
-
-
-
-
-
+Main.HMI_block_ARR[2]
+Main.HMI_block_ARR[3]
+Main.HMI_block_ARR[4]
+Main.HMI_block_ARR[5]
+Main.HMI_block_ARR[6]
+Main.TM_block_ARR_copy_val[1]
 Main.AI_ST_HH
 Main.AI_ST_LL
 Main.V1_ErOPENES
-
-
-
-
-
-
-
-
+Main.TM_block_ARR[1]
+Main.TM_block_ARR_copy_val[2]
+Main.TM_block_ARR_copy_val[3]
+Main.TM_block_ARR_copy_val[4]
+Main.TM_block_ARR_copy_val[5]
+Main.TM_block_ARR_copy_val[6]
+Main.TM_block_ARR[2]
+Main.TM_block_ARR[3]
 Main.Valve1
 Main.Valve2
 Main.Copy_Pump1_repair
 Main.Copy_Pump2_repair
-
+Main.TM_block_ARR[4]
 Main.Copy_PUMP1_LOC
 Main.Copy_PUMP2_LOC
-
+Main.TM_block_ARR[5]
 Main.TM_COMMAND_STATE
 Main.TM_copy_val
 Main.TM_ID_channel
@@ -6040,15 +6040,15 @@ Main.TM_L
 Main.TM_LL
 Main.TM_masking_value
 Main.TM_MH_B_m_P1
-
-
-
-
-
+Main.TM_block_ARR[6]
+GVL|REG_6021
+GVL|REG_6022
+GVL|REG_6023
+GVL|REG_6024
 Main.Tm_Pumps_repair
 Main.TM_status_blocks_p1
 Main.TM_status_blocks_p2
-
+GVL|REG_67
 
 Main.TM_Status_Fault_Valves
 
@@ -6058,9 +6058,9 @@ Main.TM_FC2_SetFreq
 Main.fb_MH_Last_Start_P1.TON_m
 Main.fb_MH_AfterRepair_P2.TON_m
 Main.fb_MH_Last_Start_P2.TON_m
-
-
-
+Main.TimeBuff
+Main.T_set
+Main.fb_MH_AfterRepair_P1.TON_m
 
 
 
@@ -9018,8 +9018,8 @@ Main.fb_MH_Last_Start_P2.TON_m
 /
 /
 Main.Timer_FAULT_P1
-Main.T_set
-Main.TimeBuff
+
+
 Main.Timer_FAULT_P2
 Main.Timer_FAULT_P3
 Main.Timer_FAULT_P_min

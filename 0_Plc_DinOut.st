@@ -2,18 +2,18 @@
 BuffBool := DiM1_551D.Err_stbus; //SYSTEM (34,6);
 IF (BuffBool = false) THEN //"0"-есть связь, Связь с модулем Ai1
 	Module_status := SETBIT(TRUE, M1, Module_status); 	       // для HMI, поднимаем 5-ый бит в слове Module_status
-	GVL|_Status_device := SETBIT(TRUE, 9, GVL|_Status_device); // для ТМ,  поднимаем 9 бит в слове TM|_Status_device
+	GVL|REG_1267 := SETBIT(TRUE, 9, GVL|REG_1267); // для ТМ,  поднимаем 9 бит в слове TM|REG_1267
 	ELSE 
 		Module_status := SETBIT(FALSE, M1, Module_status); 	        // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 9, GVL|_Status_device); // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 9, GVL|REG_1267); // для ТМ 
 END_IF; 
 BuffBool := DiM2_551D.Err_stbus; //SYSTEM (34,7);
 IF (BuffBool = false) THEN //"0"-есть связь, Связь с модулем Ai1
 	Module_status := SETBIT(TRUE, M2, Module_status); 	      
-	GVL|_Status_device := SETBIT(TRUE, 10, GVL|_Status_device);  
+	GVL|REG_1267 := SETBIT(TRUE, 10, GVL|REG_1267);  
 	ELSE 
 		Module_status := SETBIT(FALSE, M2, Module_status); 	         // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 10, GVL|_Status_device); // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 10, GVL|REG_1267); // для ТМ 
 END_IF; 
 
 (*Дискретный вход, чтение уставок *)
@@ -87,18 +87,18 @@ END_FOR;
 BuffInt := SYSTEM (34,8); //DoM1_552O.Err_stbus; 
 IF (BuffInt = 0) THEN //"0"-есть связь, Связь с модулем Ai1
 	Module_status := SETBIT(TRUE, Do_M1, Module_status); 	    // для HMI, поднимаем 7-ой бит в слове Module_status
-	GVL|_Status_device := SETBIT(TRUE, 11, GVL|_Status_device); // для ТМ,  поднимаем 11-ый бит в слове TM|_Status_device
+	GVL|REG_1267 := SETBIT(TRUE, 11, GVL|REG_1267); // для ТМ,  поднимаем 11-ый бит в слове TM|REG_1267
 	ELSE 
 		Module_status := SETBIT(FALSE, Do_M1, Module_status); 	     // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 11, GVL|_Status_device); // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 11, GVL|REG_1267); // для ТМ  
 END_IF; 
 BuffInt := SYSTEM (34,9);
 IF (BuffInt = 0) THEN //"0"-есть связь, Связь с модулем Ai1
 	Module_status := SETBIT(TRUE, Do_M2, Module_status); 	      
-	GVL|_Status_device := SETBIT(TRUE, 12, GVL|_Status_device);  
+	GVL|REG_1267 := SETBIT(TRUE, 12, GVL|REG_1267);  
 	ELSE 
 		Module_status := SETBIT(FALSE, Do_M2, Module_status); 	     // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 12, GVL|_Status_device); // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 12, GVL|REG_1267); // для ТМ 
 END_IF; 	
 
 (*Дискретный выход, чтение уставок *)

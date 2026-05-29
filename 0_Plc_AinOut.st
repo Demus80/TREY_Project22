@@ -2,28 +2,28 @@
 BuffBool := AiM1_555A.Err_stbus; //SYSTEM (34,1);
 IF (BuffBool = false) THEN //"0"-есть связь, Связь с модулем Ai1
 	Module_status := SETBIT(TRUE, M1, Module_status); 	       // для HMI, поднимаем 0-ой бит в слове GVL|_Ai_status
-	GVL|_Status_device := SETBIT(TRUE, 4, GVL|_Status_device); // для ТМ,  поднимаем 4-ый бит в слове GVL|_Status_device
+	GVL|REG_1267 := SETBIT(TRUE, 4, GVL|REG_1267); // для ТМ,  поднимаем 4-ый бит в слове GVL|REG_1267
 	ELSE 
 		Module_status := SETBIT(FALSE, M1, Module_status); 	        // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 4, GVL|_Status_device); // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 4, GVL|REG_1267); // для ТМ 
 END_IF; 
 
 BuffInt := SYSTEM (34,2); 
 IF (BuffInt = 0) THEN //"0"-есть связь, Связь с модулем Ai2
 	Module_status := SETBIT(TRUE, M2, Module_status); 	       // для HMI, поднимаем 1-ый бит в слове GVL|_Ai_status
-	GVL|_Status_device := SETBIT(TRUE, 5, GVL|_Status_device); // для ТМ,  поднимаем 5-ый бит в слове GVL|_Status_device
+	GVL|REG_1267 := SETBIT(TRUE, 5, GVL|REG_1267); // для ТМ,  поднимаем 5-ый бит в слове GVL|REG_1267
 	ELSE 
 		Module_status := SETBIT(FALSE, M2, Module_status); 	          // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 5, GVL|_Status_device);   // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 5, GVL|REG_1267);   // для ТМ 
 END_IF; 
 
 BuffInt := SYSTEM (34,3); 
 IF (BuffInt = 0) THEN //"0"-есть связь, Связь с модулем Ai3
 	Module_status := SETBIT(TRUE, M3, Module_status); 	       // для HMI, поднимаем 2-ой бит в слове GVL|_Ai_status
-	GVL|_Status_device := SETBIT(TRUE, 6, GVL|_Status_device); // для ТМ,  поднимаем 6-ой бит в слове GVL|_Status_device
+	GVL|REG_1267 := SETBIT(TRUE, 6, GVL|REG_1267); // для ТМ,  поднимаем 6-ой бит в слове GVL|REG_1267
 	ELSE 
 		Module_status := SETBIT(FALSE, M3, Module_status); 	          // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 6, GVL|_Status_device);   // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 6, GVL|REG_1267);   // для ТМ 
 END_IF;  
 
 // Аналоговый вход, чтение уставок и пересчёт тока в значение! Статусы Аи. 
@@ -203,17 +203,17 @@ END_FOR;
 BuffBool := AoM1_534V.Err_stbus; //SYSTEM (34,4);
 IF (BuffBool = false) THEN //"0"-есть связь, Связь с модулем Ao1
 	Module_status := SETBIT(TRUE, Ao_M1, Module_status); 	   // для HMI, поднимаем 0-ой бит в слове GVL|_Ai_status
-	GVL|_Status_device := SETBIT(TRUE, 7, GVL|_Status_device); // для ТМ,  поднимаем 7 бит в слове GVL|_Status_device
+	GVL|REG_1267 := SETBIT(TRUE, 7, GVL|REG_1267); // для ТМ,  поднимаем 7 бит в слове GVL|REG_1267
 	ELSE 
 		Module_status := SETBIT(FALSE, Ao_M1, Module_status); 	    // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 7, GVL|_Status_device); // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 7, GVL|REG_1267); // для ТМ 
 END_IF; 
 
 BuffInt := SYSTEM (34,5); 
 IF (BuffInt = 0) THEN //"0"-есть связь, Связь с модулем Ao2
 	Module_status := SETBIT(TRUE, Ao_M2, Module_status); 	   // для HMI, поднимаем 1-ый бит в слове GVL|_Ai_status
-	GVL|_Status_device := SETBIT(TRUE, 8, GVL|_Status_device); // для ТМ,  поднимаем 5-ый бит в слове GVL|_Status_device
+	GVL|REG_1267 := SETBIT(TRUE, 8, GVL|REG_1267); // для ТМ,  поднимаем 5-ый бит в слове GVL|REG_1267
 	ELSE 
 		Module_status := SETBIT(FALSE, Ao_M2, Module_status); 	      // для HMI
-		GVL|_Status_device := SETBIT(FALSE, 8, GVL|_Status_device);   // для ТМ 
+		GVL|REG_1267 := SETBIT(FALSE, 8, GVL|REG_1267);   // для ТМ 
 END_IF; 
