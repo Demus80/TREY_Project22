@@ -97,7 +97,7 @@ END_IF;
 // включаем насос Н-1 с поста
 IF (PUMP1_LOC = 1 AND GVL_DI|_PUMP1_LOCAL_BUTTON_START AND GVL_DI|_PUMP1_ON_WORKING = FALSE) THEN
 	   IF (GVL_DI2|_FIRE = FALSE  AND Pump_1_fault = 0 AND Pump1_repair = 0) THEN
-          IF (GAS_LEVEL2_Block_P1 = 1 OR GAS_LEVEL2_Block_P2 = 1) THEN (*если блокировка включена по порогу 2 газика*)
+          IF (GAS_LEVEL2_Block_P1 OR GAS_LEVEL2_Block_P2) THEN (*если блокировка включена по порогу 2 газика*)
              if (GAS_L2 = false) then
                 PUMP1_CMD := iON;
              end_if;
@@ -121,7 +121,7 @@ END_IF;
 // включаем насос Н-2 с поста
 IF (PUMP2_LOC = 1 AND GVL_DI|_PUMP2_LOCAL_BUTTON_START AND GVL_DI|_PUMP2_ON_WORKING = FALSE) THEN
 	   IF (GVL_DI2|_FIRE = FALSE  AND Pump_2_fault = 0 AND Pump2_repair = 0) THEN
-          IF (GAS_LEVEL2_Block_P1 = 1 OR GAS_LEVEL2_Block_P2 = 1) THEN (*если блокировка включена по порогу 2 газика*)
+          IF (GAS_LEVEL2_Block_P1 OR GAS_LEVEL2_Block_P2) THEN (*если блокировка включена по порогу 2 газика*)
              if (GAS_L2 = false) then
                 PUMP2_CMD := iON;
              end_if;
@@ -200,7 +200,7 @@ IF (cmd > 0) THEN
   (*Управление насосами*)
   (*пуск н1*)
    31,36: IF (GVL_DI2|_FIRE = FALSE AND PUMP1_LOC = iOFF AND Pump_1_fault = 0 AND Pump1_repair = 0) THEN
-          IF (GAS_LEVEL2_Block_P1 = 1 OR GAS_LEVEL2_Block_P2 = 1) THEN (*если блокировка включена по порогу 2 газика*)
+          IF (GAS_LEVEL2_Block_P1 OR GAS_LEVEL2_Block_P2) THEN (*если блокировка включена по порогу 2 газика*)
              if (GAS_L2 = false) then
                 PUMP1_CMD := iON;
              end_if;
@@ -228,7 +228,7 @@ IF (cmd > 0) THEN
    35: IF (Pump1_repair = 0) THEN PUMP1_LOC := 0; END_IF; Copy_PUMP1_LOC := PUMP1_LOC; GVL|REG_6070 := PUMP1_LOC;// GVL.DO_PUMP1_AUTO := bON; 
    (*пуск н2*)
    41,46: IF (GVL_DI2|_FIRE = FALSE AND PUMP2_LOC = iOFF AND Pump_2_fault = 0  AND Pump2_repair = 0) THEN
-          IF (GAS_LEVEL2_Block_P1 = 1 OR GAS_LEVEL2_Block_P2 = 1) THEN (*если блокировка включена по порогу 2 газика*)
+          IF (GAS_LEVEL2_Block_P1 OR GAS_LEVEL2_Block_P2) THEN (*если блокировка включена по порогу 2 газика*)
              if (GAS_L2 = false) then
                 PUMP2_CMD := iON;
              end_if;
@@ -389,4 +389,204 @@ IF (cmd > 0) THEN
    cmd := 0; GVL|REG_6056 := cmd; GVL|REG_14 := cmd;
 END_IF;
 
+(*//========================= Cбрасывает все уставки по умолчанию к заводским ======================/*)
+IF (ALL_default) THEN
+  Delay_Fan1 := 5;        GVL|REG_6306:= Delay_Fan1;	
+  FAN1_SET_WRK_TIME := 0; GVL|REG_6308:= FAN1_SET_WRK_TIME;
+  Delay_Fan2 := 5;        GVL|REG_6311:= Delay_Fan2;	
+  FAN2_SET_WRK_TIME := 0; GVL|REG_6313:= FAN2_SET_WRK_TIME;
+  //Delay_Fan3 := 5;        GVL|REG_6316:= Delay_Fan3;	
+  //Delay_Fan4 := 5;        GVL|REG_6321:= Delay_Fan4;
+  //Fan3_LOC := 1;          GVL|REG_6035:= Fan3_LOC;       // Вернуть после эмуляции 
+  //GVL.T_Cooling_ON_F3  := 30;  GVL|REG_6319:= GVL.T_Cooling_ON_F3;
+  //GVL.T_Cooling_OFF_F3 := 27;  GVL|REG_6320:= GVL.T_Cooling_OFF_F3;
+  //GVL.T_Cooling_ON_F4  := 30;  GVL|REG_6323:= GVL.T_Cooling_ON_F4;
+  //GVL.T_Cooling_OFF_F4 := 27;  GVL|REG_6324:= GVL.T_Cooling_OFF_F4;
+ 
+  Delay_PUMP1 := 25;
+  Delay_PUMP2 := 25;
+  //Delay_PUMP3 := 25;
+  TYPE_SIGNAL_PUMP_1 := 1;
+  TYPE_SIGNAL_PUMP_2 := 1;
+  //DELTA2_TYPE_COMMAND := 1;
+  //DELTA3_TYPE_COMMAND := 1;
+  DELTA1_TYPE_FREQ := 1;
+  //DELTA2_TYPE_FREQ := 1;
+  //DELTA3_TYPE_FREQ := 1;
+  
+  WordBuff := 15;        GVL|REG_8000:= WordBuff; GVL|REG_8001:= WordBuff;	
+  
+  Delay_Valve1 := 90;  GVL|REG_6248:= Delay_Valve1;
+  Delay_Valve2 := 91;  GVL|REG_6251:= Delay_Valve2;
+  Valve_1_Local := bON;  // Разрешить управление задвижкой 2112 через панель HMI или АРМ (ручной режим)
+  WordBuff := BOOL_TO_INT(Valve_1_Local);  
+  GVL|REG_6254:=WordBuff; GVL|REG_1265:=WordBuff;  
+  Valve_2_Local := bON;  // Разрешить управление задвижкой 2122 через панель HMI или АРМ (ручной режим)
+  WordBuff := BOOL_TO_INT(Valve_2_Local);  
+  GVL|REG_6255:=WordBuff; GVL|REG_1266:=WordBuff;    
+  
+  P_kp_V1 := 1.0;						//Константа пропорциональности
+  GVL|REG_6261:= P_kp_V1;	
+  GVL|REG_1268:= P_kp_V1;	
+  I_tn_V1 := 0.5;						//Постоянная интегрирования 
+  GVL|REG_6263:= I_tn_V1;
+  GVL|REG_1270:= I_tn_V1;		
+  D_tv_V1 := 0.4;                       //Постоянная дифференцирования 
+  GVL|REG_6265:= D_tv_V1;
+  GVL|REG_1272:= D_tv_V1;
+  
+  P_kp_V2 := 1.0;						//Константа пропорциональности
+  GVL|REG_6267:= P_kp_V2;	
+  GVL|REG_1274:= P_kp_V2;	
+  I_tn_V2 := 0.5;						//Постоянная интегрирования 
+  GVL|REG_6269:= I_tn_V2;	
+  GVL|REG_1276:= I_tn_V2;	
+  D_tv_V2 := 0.4;                       //Постоянная дифференцирования 
+  GVL|REG_6271:= D_tv_V2;
+  GVL|REG_1278:= D_tv_V2;
 
+  HMI_block_ARR[1] := 65535; TM_block_ARR[1] := 65535; (*заполняем все биты "1"*)
+  HMI_block_ARR[2] := 65535; TM_block_ARR[2] := 65535; (*заполняем все биты "1"*)
+  GVL|REG_6020 := HMI_block_ARR[1]; GVL|REG_6021 := HMI_block_ARR[2];	
+  GVL|REG_66   := TM_block_ARR[1]; GVL|REG_67   := TM_block_ARR[2];
+  ALL_default := FALSE;
+END_IF;
+
+(*//=================== Управление блокировками =============================//*)
+
+(*Кол-во слов (16-бит)*)
+HMI_block_ARR[1] := GVL|REG_6020; 		
+TM_block_ARR[1]  := GVL|REG_66; 
+IF (TM_block_ARR[1] <> TM_block_ARR_copy_val[1]) THEN
+    HMI_block_ARR[1] := TM_block_ARR[1];
+    TM_block_ARR_copy_val[1] := TM_block_ARR[1];
+	GVL|REG_6020 := HMI_block_ARR[1];
+END_IF;
+IF (HMI_block_ARR[1] <> TM_block_ARR_copy_val[1]) THEN
+    TM_block_ARR[1] := HMI_block_ARR[1];
+    TM_block_ARR_copy_val[1] := HMI_block_ARR[1];
+	GVL|REG_66 := TM_block_ARR[1];
+END_IF;
+
+HMI_block_ARR[2] := GVL|REG_6021; 		
+TM_block_ARR[2]  := GVL|REG_67; 
+IF (TM_block_ARR[2] <> TM_block_ARR_copy_val[2]) THEN
+    HMI_block_ARR[2] := TM_block_ARR[2];
+    TM_block_ARR_copy_val[2] := TM_block_ARR[2];
+	GVL|REG_6021 := HMI_block_ARR[2];
+END_IF;
+IF (HMI_block_ARR[2] <> TM_block_ARR_copy_val[2]) THEN
+    TM_block_ARR[2] := HMI_block_ARR[2];
+    TM_block_ARR_copy_val[2] := HMI_block_ARR[2];
+	GVL|REG_67 := TM_block_ARR[2];
+END_IF;
+(*Побитное разложение 16 битного числа*)
+FOR i := 0 TO 31 DO
+    Block_Pumps[i] := GETBIT(TM_block_ARR_copy_val[1], i); 
+END_FOR;
+
+//--------------   Здесь проверяем флаг аварий и флаг блокировок(разр-ие), по которому отключаем агрегаты --------------
+  //Примечание: DI_SHUN1_FAULT не заводим в блокировки т.к частотник при своей внутр. аварии мгновенно отключает насос
+  // поэтому добавлять этот сигнал в управляемые блокировки бессмысленно, сам же сигнал отображается в карте модбас как Di 
+GAS_LEVEL2_Block_P1 := Block_Pumps[1];
+GAS_LEVEL2_Block_P2 := Block_Pumps[17];
+//GAS_LEVEL2_Block_P3 := Block_Pumps[83];
+
+// Насос Н-1
+IF (GVL_DI|_PUMP1_ON_WORKING) THEN
+  (*CbP1 отправляем в ТМ номер сработавшей блокировки, описание каналов см.в Analog_inOut_default_init и так далее *)
+  (*IF (CbP1=0) - здесь проверяем, не сработал ли по другой блокировки, самый первый отработ-й индекс блок-и отправ-ем в ТМ*)
+  IF (GVL|AiState[VT11]  = AI_ST_HH AND Block_Pumps[2] = 1) THEN IF (CbP1=0) THEN CbP1 := 2;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[VT12]  = AI_ST_HH AND Block_Pumps[3] = 1) THEN IF (CbP1=0) THEN CbP1 := 3;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[VT13]  = AI_ST_HH AND Block_Pumps[4] = 1) THEN IF (CbP1=0) THEN CbP1 := 4;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[PGT11] = AI_ST_LL AND Block_Pumps[5] = 1) THEN IF (CbP1=0) THEN CbP1 := 5;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[PGT13] = AI_ST_LL AND Block_Pumps[6] = 1) THEN IF (CbP1=0) THEN CbP1 := 6;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF ((GVL|AiState[PGT14] = AI_ST_HH OR GVL|AiState[PGT14] = AI_ST_LL) AND Block_Pumps[7] = 1) THEN IF (CbP1=0) THEN CbP1 := 7;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[TT11] = AI_ST_HH  AND Block_Pumps[8] = 1) THEN IF (CbP1=0) THEN CbP1 := 8; END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[TT12] = AI_ST_HH  AND Block_Pumps[9] = 1) THEN IF (CbP1=0) THEN CbP1 := 9; END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[TT13] = AI_ST_HH  AND Block_Pumps[10] = 1) THEN IF (CbP1=0) THEN CbP1 := 10;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|DI_DRY_RUNNING_ALARM_P1 = bON AND Block_Pumps[11] = 1) THEN IF (CbP1=0) THEN CbP1 := 11;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|DI_TEMP_PROTECTION_STATOR_P1 = bON AND Block_Pumps[12] = 1) THEN IF (CbP1=0) THEN CbP1 := 12;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|DI_POS_PROT_COUPLING_P1 = bON AND Block_Pumps[13] = 1) THEN IF (CbP1=0) THEN CbP1 := 13;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GAS_L2 = TRUE AND Block_Pumps[1] = 1) THEN (*Отдельный флаг порога2 газика, что бы не трогать вентиляторы*)
+    IF (CbP1=0) THEN CbP1 := 1; END_IF;
+    Active_AlarmPumps := true;
+  END_IF;
+  IF (GAS_L2 = TRUE AND Block_Pumps[17] = 1) THEN (*Отдельный флаг порога2 газика, что бы не трогать вентиляторы*)
+    IF (CbP2=0) THEN CbP2 := 17; END_IF;
+    Active_AlarmPumps := true;
+  END_IF;  
+ 
+  IF (Active_AlarmPumps) THEN
+	IF (GVL|AiState[PGT14] = AI_ST_HH OR GVL|AiState[PGT14] = AI_ST_LL) THEN
+  		WordBuff := (GVL|REG_8000))*1000; 
+		IF (WordBuff < 0) THEN WordBuff := 3000; END_IF;
+		TimeBuff := WORD_TO_TIME(WordBuff);
+		Timer_FAULT_P1(IN := TRUE, PT := TimeBuff);
+	ELSE
+		Timer_FAULT_P1(IN := TRUE, PT := T#3S);
+	END_IF;
+    
+    if (Timer_FAULT_P1.Q) then  (*Истекло время таймера *)
+      Pump_1_fault := 1;
+      TM_status_blocks_p1 := CbP1;
+      if (Motor_1_fault = 0) then
+        PUMP1_CMD := iOFF;
+      end_if;
+    end_if;
+  else
+    Timer_FAULT_P1(IN := false, PT := T#3s);
+  end_if;
+  Active_AlarmPumps := false;
+END_IF; 
+
+  
+// Насос Н-2
+IF (GVL|DI_PUMP2_ON_WORKING) THEN
+  (*CbP1 отправляем в ТМ номер сработавшей блокировки, описание каналов см.в Analog_inOut_default_init и так далее *)
+  IF (GVL|AiState[VT21]  = AI_ST_HH AND Block_Pumps[18] = 1) THEN IF (CbP2=0) THEN CbP2 := 2;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[VT22]  = AI_ST_HH AND Block_Pumps[19] = 1) THEN IF (CbP2=0) THEN CbP2 := 3;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[VT23]  = AI_ST_HH AND Block_Pumps[20] = 1) THEN IF (CbP2=0) THEN CbP2 := 4;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[PGT21] = AI_ST_LL AND Block_Pumps[21] = 1) THEN IF (CbP2=0) THEN CbP2 := 5;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[PGT23] = AI_ST_HH AND Block_Pumps[22] = 1) THEN IF (CbP2=0) THEN CbP2 := 6;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF ((GVL|AiState[PGT24] = AI_ST_HH OR GVL|AiState[PGT24] = AI_ST_LL) AND Block_Pumps[23] = 1) THEN IF (CbP2=0) THEN CbP2 := 7;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[TT21] = AI_ST_HH  AND Block_Pumps[24] = 1) THEN IF (CbP2=0) THEN CbP2 := 8; END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[TT22] = AI_ST_HH  AND Block_Pumps[25] = 1) THEN IF (CbP2=0) THEN CbP2 := 9; END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|AiState[TT23] = AI_ST_LL  AND Block_Pumps[26] = 1) THEN IF (CbP2=0) THEN CbP2 := 10;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|DI_DRY_RUNNING_ALARM_P2 = bON AND Block_Pumps[27] = 1) THEN IF (CbP2=0) THEN CbP2 := 11;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|DI_TEMP_PROTECTION_STATOR_P2 = bON AND Block_Pumps[28] = 1) THEN IF (CbP2=0) THEN CbP2 := 12;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GVL|DI_POS_PROT_COUPLING_P2 = bON AND Block_Pumps[29] = 1) THEN IF (CbP1=0) THEN CbP1 := 13;END_IF; Active_AlarmPumps := TRUE; END_IF;
+  IF (GAS_L2 = TRUE AND Block_Pumps[1] = 1) THEN (*Отдельный флаг порога2 газика, что бы не трогать вентиляторы*)
+    IF (CbP1=0) THEN CbP1 := 1; END_IF;
+    Active_AlarmPumps := true;
+  END_IF;
+  IF (GAS_L2 = TRUE AND Block_Pumps[17] = 1) THEN (*Отдельный флаг порога2 газика, что бы не трогать вентиляторы*)
+    IF (CbP2=0) THEN CbP2 := 17; END_IF;
+    Active_AlarmPumps := true;
+  END_IF;
+ 
+  IF (Active_AlarmPumps) THEN
+	IF (GVL|AiState[PGT24] = AI_ST_HH OR GVL|AiState[PGT24] = AI_ST_LL) THEN
+  		WordBuff := (GVL|REG_8001))*1000; 
+		IF (WordBuff < 0) THEN WordBuff := 3000; END_IF;
+		TimeBuff := WORD_TO_TIME(WordBuff);
+		Timer_FAULT_P2(IN := TRUE, PT := TimeBuff);
+	ELSE
+		Timer_FAULT_P2(IN := TRUE, PT := T#3S);
+	END_IF;
+	  
+    IF (Timer_FAULT_P2.Q) THEN  (*Истекло время таймера *)
+      Pump_2_fault := 1;
+      TM_status_blocks_p2 := CbP2;
+      IF (Motor_2_fault = 0) THEN
+        PUMP2_CMD := iOFF;
+      end_if;
+    end_if;
+  else
+    Timer_FAULT_P2(IN := FALSE, PT := T#3S);
+  end_if;
+  Active_AlarmPumps := false;
+END_IF;
+
+GVL|REG_6083, Pump_1_fault);  
+GVL|REG_6084, Pump_2_fault); 
